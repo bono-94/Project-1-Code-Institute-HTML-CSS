@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tourney:wght@300&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -13,12 +12,7 @@ body {
     padding: 0;
     color: greenyellow;
 }
-#title-of-page {
-    font-family: Tourney, cursive;
-    font-weight: 300;
-    float: left;
-    font-size: 500%;
-}
+
 nav ul {
     list-style: none;
     background-color: #4a4a4f;
@@ -38,10 +32,6 @@ nav a {
     text-decoration: none;
     color: #fff;
     display: block;
-}
-nav a:hover {
-    background-color: #fff;
-    color:#4a4a4f;
 }
 .card {
     float: left;
@@ -70,6 +60,16 @@ h2 {
 p {
     font-family: Lato, sans-serif;
 }
+#title-of-page {
+    font-family: Tourney, cursive;
+    font-weight: 300;
+    float: left;
+    font-size: 500%;
+}
+#title-of-page h1:hover {
+    color: aqua;
+}
+
 #menu {
     font-size: 250%;
     letter-spacing: 4px;
@@ -78,4 +78,31 @@ p {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+#nav-logo {
+    float: left
+    
+}
+#title-of-page, #menu, #nav-logo {
+    line-height: 150px;
+}
+.active-nav-menu {
+    border-bottom: 1px solid #3a3a3a;
+    color: purple;
+    background-color: transparent;
+}
+/*home page-cover media only*/
+
+#cover-media {
+    height: 550px;
+    width: 100%;
+    background: url('../media/images/cover-media.png') no-repeat center center;
+    
 }
