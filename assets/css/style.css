@@ -8,8 +8,6 @@
 
 body {
     background-color:red;
-    margin:0;
-    padding: 0;
     color: greenyellow;
 }
 
@@ -43,17 +41,13 @@ nav a {
 }
 img {
     width: 100%;
-    height: 180px;
+    height: 100%;
 }
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px
 }
-h1 {
-    text-align: center;
-}
-
 h2 {
     text-align: center;
 }
@@ -64,7 +58,8 @@ p {
     font-family: Tourney, cursive;
     font-weight: 300;
     float: left;
-    font-size: 500%;
+    font-size: 300%;
+    text-align: center;
 }
 #title-of-page h1:hover {
     color: aqua;
@@ -87,11 +82,15 @@ p {
     border-bottom: 1px solid #3a3a3a;
 }
 #nav-logo {
-    float: left
-    
+    float: left;
+    max-width: 124px;
+    max-height: 124px; 
+    align-items: center;
+
 }
 #title-of-page, #menu, #nav-logo {
     line-height: 150px;
+    text-align: center;
 }
 .active-nav-menu {
     border-bottom: 1px solid #3a3a3a;
@@ -101,8 +100,28 @@ p {
 /*home page-cover media only*/
 
 #cover-media {
-    height: 550px;
+    height: 600px;
     width: 100%;
     background: url('../media/images/cover-media.png') no-repeat center center;
+    zoom: fit;
     
+}
+#cover-media-heading {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    animation-name: cover-media-zoom;
+    animation-duration:  10s;
+    animation-fill-mode: forwards;
+}
+/*animates zoom effect on loading page*/
+/*creates a level of zoom for cover media*/
+@keyframes cover-media-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
