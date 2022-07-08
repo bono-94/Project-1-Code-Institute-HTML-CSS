@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tourney:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     background-color:red;
     margin:0;
     padding: 0;
-    font-family:'Oswald', sans-serif;
+}
+#title-of-page {
+    font-family: Tourney, cursive;
+    font-weight: 300;
 }
 nav ul {
     list-style: none;
@@ -41,4 +53,7 @@ img {
 }
 h2 {
     text-align: center;
+}
+p {
+    font-family: Lato, sans-serif;
 }
