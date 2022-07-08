@@ -11,10 +11,13 @@ body {
     background-color:red;
     margin:0;
     padding: 0;
+    color: greenyellow;
 }
 #title-of-page {
     font-family: Tourney, cursive;
     font-weight: 300;
+    float: left;
+    font-size: 500%;
 }
 nav ul {
     list-style: none;
@@ -29,6 +32,7 @@ nav li {
     height: 40px;
     display: inline-block;
     margin: 2.5%;
+    
 }
 nav a {
     text-decoration: none;
@@ -51,9 +55,21 @@ img {
     width: 100%;
     height: 180px;
 }
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px
+}
+h1 {
+    text-align: center;
+}
+
 h2 {
     text-align: center;
 }
 p {
     font-family: Lato, sans-serif;
+}
+#navigation-buttons {
+    align-items: right;
 }
