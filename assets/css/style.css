@@ -70,6 +70,12 @@ h2 {
 p {
     font-family: Lato, sans-serif;
 }
-#navigation-buttons {
-    align-items: right;
+#menu {
+    font-size: 250%;
+    letter-spacing: 4px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
 }
