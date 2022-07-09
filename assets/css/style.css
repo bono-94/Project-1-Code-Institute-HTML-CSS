@@ -19,8 +19,8 @@ nav ul {
 }
 nav li {
     font-size: 1.2em;
-    line-height: 40px;
-    height: 40px;
+    line-height: 20px;
+    height: 20px;
     display: inline-block;
     margin: 2.5%;
     
@@ -57,8 +57,10 @@ p {
     font-family: Tourney, cursive;
     font-weight: 300;
     float: left;
-    font-size: 300%;
+    font-size: 400%;
     text-align: center;
+    margin-left:24px;
+    
 }
 #title-of-page h1:hover {
     color: aqua;
@@ -102,6 +104,7 @@ p {
     height: 600px;
     width: 100%;
     background: url('../media/images/cover-media.png') no-repeat center center;
+    background-size: cover;
     
     
 }
@@ -119,8 +122,8 @@ p {
     position: relative;
 
     animation-name: cover-media-zoom;
-    animation-duration:  10s;
-    animation-fill-mode: forwards;
+    animation-duration:  20s;
+    animation-fill-mode: both;
 }
 /*animates zoom effect on loading page*/
 /*creates a level of zoom for cover media*/
@@ -148,4 +151,28 @@ p {
     bottom: 30px;
     right: 150px;
     position: absolute;
+}
+/* (3x) Horizontal Square Blocks */
+
+#3-horizontal-square-divs {
+    height: 600px;
+}
+
+#left-div {
+    padding-top:30px;
+    width: 33%;
+    float: left;
+    background-color: orange;
+}
+#right-div {
+    padding-top:30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+#center-div {
+    padding-top:30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: blue;
 }
