@@ -1,26 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tourney:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
-* {
-    margin: 0px;
-    padding: 0px;
-    border: none;
+#navigation-bar {
+    background-color: rgba(0, 255, 149, 0.281);
+    height: 100px;
+}
+#title-of-page {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 40px;
+    float: left;
+    margin:10px;
+    border:10px;
+    padding: 10px;
+    width:30%
 }
 
-body {
-    background-color: rgba(0, 255, 191, 0.322);
+/* Title of page individual letters "LIFE COIN"*/
+
+#brown-l {
+    color: brown;
+    margin: -10px;
+}
+#green-i {
+    color: green;
+}
+#blue-f {
+    color: blue;
+    margin: -20px;
+}
+#skyblue-e {
+    color: skyblue;
+    margin: -30px;
+}
+#yellow-c {
+    color: yellow;
+}
+#red-o {
+    color: red;
+}
+#purple-i {
+    color: purple;
+    margin: -100px;
+}
+#black-n {
+    color: black;
 }
 
-header {
-    padding-bottom: 50px;
-    text-align: center;
+/* Title of page individual letters "LIFE COIN"*/
+
+#nav-logo {
+    max-width: 124px;
+    max-height: 124px; 
+    margin-top: -5px;
+    float: right;
+}
+
+#navigation-bar-2 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+#menu {
+    font-size: 250 px;
+    letter-spacing: 4px;
+    display: block;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+#menu a {
+    background-color: orange;
+    color: teal;
+}
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    background-color: teal;
+    color:orange
 }
 
 nav ul {
     list-style: none;
-    background-color: #4a4a4f;
     text-align: center;
     padding:0%;
     margin:0%;
+    float: none;
+    display: inline-block;
 }
 nav li {
     font-size: 1.2em;
@@ -31,50 +96,19 @@ nav li {
     
 }
 nav a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-}
-#title-of-page {
-    font-family: Tourney, cursive;
-    font-weight: 300;
-    float: left;
-    font-size: 400%;
-    text-align: center;
-    margin-left:24px;
-    
-}
-#title-of-page h1:hover {
-    color: aqua;
+    color: rgb(255, 255, 255);
+    display: inline-block;
 }
 
-#menu {
-    font-size: 250%;
-    letter-spacing: 4px;
-}
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
+/*Rename to title logo*/
 #nav-logo {
     float: left;
     max-width: 124px;
     max-height: 124px; 
     align-items: center;
+    margin-top: -5px;
+}
 
-}
-#title-of-page, #menu, #nav-logo {
-    line-height: 150px;
-    text-align: center;
-}
 .active-nav-menu {
     border-bottom: 1px solid #3a3a3a;
     color: purple;
@@ -97,6 +131,8 @@ h2 {
 p {
     font-family: Lato, sans-serif;
 }
+
+
 
 /* Building elements */
 
