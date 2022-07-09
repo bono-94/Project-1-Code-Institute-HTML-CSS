@@ -80,14 +80,8 @@ nav a {
     color: purple;
     background-color: transparent;
 }
-.card {
-    float: left;
-    width:20%;
-    margin-left:10%;
-}
-.card a {
-    text-align: center;
-}
+
+/* Building elements */
 img {
     width: 100%;
     height: 100%;
@@ -104,15 +98,15 @@ p {
     font-family: Lato, sans-serif;
 }
 
-/*home page-cover media only*/
+/* Building elements */
+
+/* Cover media */
 
 #cover-media {
     height: 600px;
     width: 100%;
     background: url('../media/images/cover-media.png') no-repeat center center;
-    background-size: cover;
-    
-    
+    background-size: cover;  
 }
 #cover-media text #cover-media-text h2 {
     color:#fff;
@@ -131,8 +125,10 @@ p {
     animation-duration:  5s;
     animation-fill-mode: both;
 }
+
 /*animates zoom effect on loading page*/
 /*creates a level of zoom for cover media*/
+
 @keyframes cover-media-zoom {
     from{
         transform: scale(1);
@@ -159,6 +155,16 @@ p {
 
     margin-top:20px;
 }
+/* Cover media */
+
+/* Cover media */
+
+#extra-spacing-div {
+    padding: 50px;
+    border: 50px;
+    margin: 50px;
+}
+
 /* (3x) Horizontal Square Blocks */
 
 #3-horizontal-square-divs {
@@ -184,3 +190,15 @@ p {
     margin: 0 auto;
     background-color: blue;
 }
+/* (3x) Horizontal Square Blocks */
+
+/* Floating blocks */
+.card {
+    float: left;
+    width:20%;
+    margin-left:10%;
+}
+.card a {
+    text-align: center;
+}
+/* Floating blocks */
