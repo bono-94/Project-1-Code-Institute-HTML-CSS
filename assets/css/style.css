@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tourney:wght@300&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     border: none;
 }
 
 body {
-    background-color: turquoise
+    background-color: rgba(0, 255, 191, 0.322);
+}
+
+header {
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 nav ul {
@@ -29,29 +34,6 @@ nav a {
     text-decoration: none;
     color: #fff;
     display: block;
-}
-.card {
-    float: left;
-    width:20%;
-    margin-left:10%;
-}
-.card a {
-    text-align: center;
-}
-img {
-    width: 100%;
-    height: 100%;
-}
-h1, h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-h2 {
-    text-align: center;
-}
-p {
-    font-family: Lato, sans-serif;
 }
 #title-of-page {
     font-family: Tourney, cursive;
@@ -98,6 +80,30 @@ p {
     color: purple;
     background-color: transparent;
 }
+.card {
+    float: left;
+    width:20%;
+    margin-left:10%;
+}
+.card a {
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+h2 {
+    text-align: center;
+}
+p {
+    font-family: Lato, sans-serif;
+}
+
 /*home page-cover media only*/
 
 #cover-media {
@@ -122,7 +128,7 @@ p {
     position: relative;
 
     animation-name: cover-media-zoom;
-    animation-duration:  20s;
+    animation-duration:  5s;
     animation-fill-mode: both;
 }
 /*animates zoom effect on loading page*/
@@ -148,14 +154,16 @@ p {
     padding-left: 10px;
     background-color: rgba(241, 109, 107, 0.7);
 
-    bottom: 30px;
     right: 150px;
     position: absolute;
+
+    margin-top:20px;
 }
 /* (3x) Horizontal Square Blocks */
 
 #3-horizontal-square-divs {
     height: 600px;
+    margin-top: 1400px;
 }
 
 #left-div {
