@@ -1,9 +1,53 @@
+/* Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
-#navigation-bar {
+/* Fonts - END */
+
+/* Content building elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: orange;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+p {
+    font-family: Lato, sans-serif;
+}
+
+/* Content building elements - END */
+
+/* Structural elements */
+
+body {
+    padding: 0%;
+    margin: 0;
+    background-color: lawngreen;
+}
+/* Structural elements - END */
+
+/* Navigation */
+
+#nav-bar {
     background-color: rgba(0, 255, 149, 0.281);
     height: 100px;
 }
+
+/* Title of page individual letters "LIFE COIN"*/
+
+
 #title-of-page {
     font-family: 'Rubik Moonrocks', cursive;
     font-size: xx-large;
@@ -12,7 +56,7 @@
     width: fit-content;
 }
 
-/* Title of page individual letters "LIFE COIN"*/
+/* Title of page individual letters "LIFE COIN" - END */
 
 #brown-l {
     color: brown;
@@ -43,7 +87,6 @@
     color: black;
 }
 
-/* Title of page individual letters "LIFE COIN"*/
 
 #nav-logo {
     width: 124px;
@@ -113,26 +156,29 @@ nav a {
     background-color: transparent;
 }
 
-/* Building elements */
-h1, h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-p {
-    font-family: Lato, sans-serif;
+
+
+/* Constant classes */
+
+.text-center {
+    text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
 
-
-/* Building elements */
+.text-right {
+    text-align: right;
+}
+/* Constant classes */
 
 /* Cover media */
 
 #cover-media {
     height: 600px;
     width: 100%;
-    background: url('../media/images/cover-media.png') no-repeat center center;
+    background: no-repeat center center;
     background-size: cover;  
 }
 #cover-media text #cover-media-text h2 {
@@ -218,6 +264,10 @@ p {
     margin: 0 auto;
     background-color: blue;
 }
+
+#circle-cover-background {
+    background-image: url('../media/images/nav-logo.png') no-repeat center center;
+}
 /* (3x) Horizontal Square Blocks */
 
 /* Floating blocks */
@@ -285,7 +335,7 @@ hr {
 }
 
 #squares-five {
-    background-image: url('../assets/media/images/cover-media.png');
+    background-image: url('../assets/media/images/cover-media.png') no-repeat center center;
     background-repeat: no-repeat;
     background: cover;
     background-position: center;
