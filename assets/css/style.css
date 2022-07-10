@@ -73,7 +73,6 @@ hr {
 #nav-bar {
     background-color: rgba(0, 255, 149, 0.281);
     height: 150px;
-    margin: 5px;
     background-color:beige;
 }
 
@@ -86,8 +85,8 @@ hr {
 
 .active-nav-menu {
     border-bottom: 1px solid #3a3a3a;
-    background-color: purple;
-    
+    background-color: orange;
+
 }
 /* NAVIGATION */ 
 
@@ -150,7 +149,7 @@ hr {
     margin:0%;
     float: right;
     display: block;
-    background-color:blue;
+    background-color:teal;
 }
 
 #nav-list1-container li {
@@ -161,7 +160,6 @@ hr {
     display: block;
     margin: 20px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: blue;
     list-style: none;
 }
 #nav-list1-container li:hover {
@@ -218,10 +216,14 @@ hr {
 /* HEADER */
 
 #cover-media {
-    height: 600px;
+    height: 200px;
     width: 100%;
-    background: no-repeat center center;
-    background-size: cover;  
+    background: no-repeat center cover;
+    background-size: cover;
+    z-index: 3;
+    object-fit:contain;
+    background-size: cover;
+    
 }
 #cover-media text #cover-media-text h2 {
     color:#fff;
@@ -257,18 +259,15 @@ hr {
     font-family: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     height: 200px;
-
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgba(241, 109, 107, 0.7);
-
     right: 150px;
     position: absolute;
-
     margin-top:20px;
+    z-index: 1;
 }
 /* Cover media */
 
