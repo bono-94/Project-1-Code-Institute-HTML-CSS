@@ -1,17 +1,24 @@
 /* - capitalized words represent sections for categorization, normal font containes notes or open tasks */
 /* - capitatized words following "}" without spacing are closing label, with spacing around is opening */
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
-/* Fonts */
+/* FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-/* Fonts - END */
+/* FONTS - END */
 
-/* Content building elements */
+/* STRUCTURAL ELEMENTS */
+
+#body-background {
+    background-color: rgb(0, 252, 176);
+}
+/* STRUCTURAL ELEMENTS - END */
+
+/* CONTENT BUILDING ELEMENTS */
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: orange;
 }
 
 h1 {
@@ -28,16 +35,22 @@ h3 {
 p {
     font-family: Lato, sans-serif;
 }
-/* Content building elements - END */
+/* CONTENT BUILDING ELEMENTS - END */
 
-/* Structural elements */
+/* CONSTANT CLASSES */
 
-body {
-    padding: 0%;
-    margin: 0;
-    background-color: lawngreen;
+.text-center {
+    text-align: center;
 }
-/* STRUCTURAL ELEMENTS */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+/* CONSTANT CLASSES - END */
 
 /* NAVIGATION */ 
 
@@ -57,37 +70,39 @@ body {
 .active-nav-menu {
     border-bottom: 1px solid #3a3a3a;
     color: purple;
-    background-color: transparent;
+    background-color: transparent ;
 }
 /* NAVIGATION */ 
 
+/* TITLE LOGO */
 
-/* Title of page individual letters "LIFE COIN"*/
+#nav-logo {
+    width: 14px;
+    height: 14px; 
+    margin-top: -5px;
+    display: block;
+}
+/* TITLE LOGO - END */
 
+/* TITLE TEXT "LIFE COIN" */
 
-#title-of-page {
+#nav-title {
     font-family: 'Rubik Moonrocks', cursive;
     font-size: xx-large;
-    float: left;
-    padding-left: 44px;
-    width: fit-content;
     display: block;
 }
 
 #brown-l {
     color: brown;
-    margin: -10px;
 }
 #green-i {
     color: green;
 }
 #blue-f {
     color: blue;
-    margin: -20px;
 }
 #skyblue-e {
     color: skyblue;
-    margin: -30px;
 }
 #yellow-c {
     color: yellow;
@@ -97,40 +112,19 @@ body {
 }
 #purple-i {
     color: purple;
-    margin: -100px;
 }
 #black-n {
     color: black;
 }
-/* Title of page individual letters "LIFE COIN" - END */
+/* TITLE TEXT "LIFE COIN" - END */
 
-/* Title Logo [link] to Home Page*/
-
-#nav-logo {
-    width: 14px;
-    height: 14px; 
-    margin-top: -5px;
-    display: block;
-}
-/* Title of page individual letters "LIFE COIN" - END */
-
-
-/* Title of page individual letters "LIFE COIN" - END */
-
-/* Title of page individual letters "LIFE COIN" - END */
-
-
-/* Title of page individual letters "LIFE COIN" - END */
-
-
-/* Title of page individual letters "LIFE COIN" - END */
-
-
+/* TITLE LOGO - END */
 
 #menu {
-    font-size: 250 px;
+    font-size: 25 px;
     letter-spacing: 4px;
-    display: block;}
+    display: block;
+}
 #menu li {
     float: right;
     list-style-type: none;
@@ -165,36 +159,32 @@ nav li {
 }
 nav a {
     color: rgb(255, 255, 255);
-    display: inline-block;
-}
-
-/*Rename to title logo*/
-#nav-logo {
-    float: left;
-    max-width: 124px;
-    max-height: 124px; 
-    align-items: center;
-    margin-top: -5px;
 }
 
 
+/* TITLE LOGO - END */
+
+/* TITLE TEXT "LIFE COIN" - END */
+
+/* TITLE LOGO - END */
 
 
 
-/* Constant classes */
+/* TITLE LOGO - END */
 
-.text-center {
-    text-align: center;
-}
+/* TITLE TEXT "LIFE COIN" - END */
 
-.text-left {
-    text-align: left;
-}
+/* TITLE LOGO - END */
 
-.text-right {
-    text-align: right;
-}
-/* Constant classes */
+
+
+/* TITLE LOGO - END */
+
+
+
+
+
+
 
 /* Cover media */
 
