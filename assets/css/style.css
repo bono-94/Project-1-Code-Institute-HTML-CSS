@@ -9,6 +9,7 @@
     font-size: xx-large;
     float: left;
     padding-left: 44px;
+    width: fit-content;
 }
 
 /* Title of page individual letters "LIFE COIN"*/
@@ -59,8 +60,7 @@
 #menu {
     font-size: 250 px;
     letter-spacing: 4px;
-    display: block;
-}
+    display: block;}
 #menu li {
     float: right;
     list-style-type: none;
