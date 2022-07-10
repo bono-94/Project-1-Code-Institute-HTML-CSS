@@ -1,7 +1,9 @@
+/* - capitalized words represent sections for categorization, normal font containes notes or open tasks */
+/* - capitatized words following "}" without spacing are closing label, with spacing around is opening */
+
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-
 /* Fonts - END */
 
 /* Content building elements */
@@ -26,7 +28,6 @@ h3 {
 p {
     font-family: Lato, sans-serif;
 }
-
 /* Content building elements - END */
 
 /* Structural elements */
@@ -36,14 +37,30 @@ body {
     margin: 0;
     background-color: lawngreen;
 }
-/* Structural elements - END */
+/* STRUCTURAL ELEMENTS */
 
-/* Navigation */
+/* NAVIGATION */ 
 
 #nav-bar {
     background-color: rgba(0, 255, 149, 0.281);
     height: 100px;
+    width: 100%;
+    margin: 5px;
 }
+
+#nav-bar-2 {
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+}
+
+.active-nav-menu {
+    border-bottom: 1px solid #3a3a3a;
+    color: purple;
+    background-color: transparent;
+}
+/* NAVIGATION */ 
+
 
 /* Title of page individual letters "LIFE COIN"*/
 
@@ -54,9 +71,8 @@ body {
     float: left;
     padding-left: 44px;
     width: fit-content;
+    display: block;
 }
-
-/* Title of page individual letters "LIFE COIN" - END */
 
 #brown-l {
     color: brown;
@@ -86,20 +102,31 @@ body {
 #black-n {
     color: black;
 }
+/* Title of page individual letters "LIFE COIN" - END */
 
+/* Title Logo [link] to Home Page*/
 
 #nav-logo {
-    width: 124px;
-    height: 124px; 
+    width: 14px;
+    height: 14px; 
     margin-top: -5px;
-    clear: both;
+    display: block;
 }
+/* Title of page individual letters "LIFE COIN" - END */
 
-#navigation-bar-2 {
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
-}
+
+/* Title of page individual letters "LIFE COIN" - END */
+
+/* Title of page individual letters "LIFE COIN" - END */
+
+
+/* Title of page individual letters "LIFE COIN" - END */
+
+
+/* Title of page individual letters "LIFE COIN" - END */
+
+
+
 #menu {
     font-size: 250 px;
     letter-spacing: 4px;
@@ -150,11 +177,7 @@ nav a {
     margin-top: -5px;
 }
 
-.active-nav-menu {
-    border-bottom: 1px solid #3a3a3a;
-    color: purple;
-    background-color: transparent;
-}
+
 
 
 
