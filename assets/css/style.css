@@ -87,6 +87,7 @@ hr {
 .active-nav-menu {
     border-bottom: 1px solid #3a3a3a;
     background-color: purple;
+    
 }
 /* NAVIGATION */ 
 
@@ -95,11 +96,13 @@ hr {
 #nav-logo {
    
     float: left;
-    background-color: green;
     height: 100px;
     width: 100px;
     display: block;
+    overflow: hidden;
+    
 }
+
 /* TITLE LOGO - END */
 
 /* TITLE TEXT "LIFE COIN" */
