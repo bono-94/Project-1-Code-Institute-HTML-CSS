@@ -21,10 +21,10 @@ footer {
 
 /* CONTENT BUILDING ELEMENTS */
 
-h1, h2, h3, h4, h5, h6 {
+/*h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 4px;
-}
+}*/
 
 h1 {
     font-size: 3.5rem;
@@ -60,7 +60,11 @@ hr {
 
 .text-right {
     text-align: right;
+    position: relative;
+    top: 30%;
 }
+
+.vertical-center
 /* CONSTANT CLASSES - END */
 /*---------------------------------------------------------------------------------*/
 /* NAVIGATION */ 
@@ -71,20 +75,21 @@ hr {
 }
 
 #nav-bar {
-    background-color: rgba(0, 255, 234, 0.881);
+    background-color: rgba(0, 255, 234, 0.781);
     height: 150px;
 }
 
 #nav-bar-current-page-extension {
-    background-color: yellow;
     width: 100%;
     height: 200px;
     background-color: black;
+    color: rgba(0, 255, 234, 0.781);
+    display: inline-block;
 }
 
 .active-nav-menu {
     border-bottom: 1px solid #3a3a3a;
-    background-color: rgba(255, 255, 0, 0.551);
+    background-color: rgba(255, 255, 0, 0.231);
     color: black;
 
 }
@@ -93,13 +98,9 @@ hr {
 /* TITLE LOGO */
 
 #nav-logo {
-   
-    float: left;
     height: 100px;
     width: 100px;
-    display: block;
-    overflow: hidden;
-    background-color:#f16c6b;
+    background-image: url('../media/images/coin-logo-2d-slim.png');
 }
 
 /* TITLE LOGO - END */
@@ -113,6 +114,7 @@ hr {
     background-color: orange;
     float: left;
     height: 100px;
+    text-align: center;
 }
 
 #brown-l {
@@ -138,6 +140,11 @@ hr {
 }
 #black-n {
     color: black;
+}
+
+#empty-span {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 /* TITLE TEXT "LIFE COIN" - END */
 
@@ -222,14 +229,12 @@ hr {
 /* HEADER */
 
 #cover-media {
-    height: 200px;
-    width: 100%;
-    background: no-repeat center cover;
-    background-size: cover;
+    height: 1000px;
+    width: 1300px;
+    background: no-repeat center contain;
+    background-size: contain;
     z-index: 3;
-    object-fit:contain;
-    background-size: cover;
-    
+    object-fit:contain;    
 }
 #cover-media text #cover-media-text h2 {
     color:#fff;
@@ -237,18 +242,21 @@ hr {
 #cover-media text #cover-media-text h3 {
     color: aquamarine;
 }
-#cover-media-heading {
-    height: 600px;
-    width: 100%;
+#cover-media-header {
+    height: 1000px;
+    width: 1500px;
     overflow: hidden;
-
-    position: relative;
-
+    position: absolute;
     animation-name: cover-media-zoom;
     animation-duration:  5s;
     animation-fill-mode: both;
+    background-image: url('../media/images/coins-3d-floating-black.png');
 }
 
+.page-header {
+    height: 50vh;
+    background: center 75% / cover no-repeat;
+}
 /*animates zoom effect on loading page*/
 /*creates a level of zoom for cover media*/
 
