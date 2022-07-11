@@ -4,18 +4,26 @@
 
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Moonrocks&display=swap');
 /* FONTS - END */
 
 /* STRUCTURAL ELEMENTS */
 
 body {
     background-color: rgb(0, 252, 176);
+    margin:0;
 }
 
 footer {
     height: 150px;
     background-color: rgb(59, 0, 0);
+    text-align: center;
+    width: 100%;
+    /*position: fixed;*/
+    bottom: 0;
+    right:0;
+    z-index: 3;
+
 }
 /* STRUCTURAL ELEMENTS - END */
 
@@ -32,10 +40,21 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3 {
     font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+h6 {
+    font-family: 'Roboto', sans-serif;
 }
 p {
     font-family: Lato, sans-serif;
@@ -69,22 +88,22 @@ hr {
 /*---------------------------------------------------------------------------------*/
 /* NAVIGATION */ 
 .nav-wrap {
-    position: absolute;
+    position: relative;
     padding: 5px;
-    max-width:max-content;
 }
 
 #nav-bar {
     background-color: rgba(0, 255, 234, 0.781);
-    height: 150px;
+    text-transform: uppercase;
 }
 
 #nav-bar-current-page-extension {
     width: 100%;
-    height: 200px;
+    height: 80px;
     background-color: black;
     color: rgba(0, 255, 234, 0.781);
     display: inline-block;
+    text-transform: capitalize;
 }
 
 .active-nav-menu {
@@ -100,7 +119,8 @@ hr {
 #nav-logo {
     height: 100px;
     width: 100px;
-    background-image: url('../media/images/coin-logo-2d-slim.png');
+    background-image: url('../assets/media/images/coin-logo-2d-slim.png');
+    float: left;
 }
 
 /* TITLE LOGO - END */
@@ -109,12 +129,15 @@ hr {
 
 #nav-title {
     font-family: 'Rubik Moonrocks', cursive;
-    font-size: xx-large;
+    font-size: xxx-large;
     display: block;
-    background-color: orange;
+    background-color: rgb(243, 216, 165);
+    position: relative;
     float: left;
-    height: 100px;
     text-align: center;
+    border: 10px solid black;
+    height: 50 px;
+
 }
 
 #brown-l {
@@ -127,10 +150,12 @@ hr {
     color: blue;
 }
 #skyblue-e {
-    color: skyblue;
+    color: rgb(0, 183, 255);
+    padding-right: 5px;
 }
 #yellow-c {
-    color: yellow;
+    color: orange;
+    padding-left: 5px;
 }
 #red-o {
     color: red;
@@ -176,7 +201,7 @@ hr {
     background-color: orange;
     color: black;
     font-weight: 400;
-    border-radius: 30%;
+    border-radius: 10%;
 }
 
 #nav-list2-container {
@@ -204,7 +229,7 @@ hr {
     border-bottom: 1px solid #3a3a3a;
     background-color: teal;
     color:orange;
-    border-radius: 30%;
+    border-radius: 10%;
 }
 
 
@@ -583,4 +608,254 @@ hr {
     #photos {
         column-count: 2;
     }
+}
+/* Gallery for mobile screens */
+#drinks {
+	padding: 1rem 0;
+	margin-bottom: 80px;
+	background: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') center center / cover no-repeat fixed;
+}
+
+.text-white {
+	color: #FFFFFF;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.page-header {
+	height: 50vh;
+	background: center 75% / cover no-repeat;
+}
+
+.form-page-header {
+	background-image: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/table.jpg')
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+strong {
+	font-size: 1.3rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+	text-decoration: underline;
+}
+.bold {
+	font-weight: bold;
+}
+#coffee-box {
+	background-color: brown;
+    position: relative;
+    left: 70px;
+    top: -15px;
+}
+
+#tea-box {
+	background-color: #6f4e37;
+	position: relative;
+	z-index: 1;
+}
+
+#cold-drinks-box {
+	background-color: chocolate;
+    position: relative;
+    right: 70px;
+    top: -15px;
+}
+
+.vertical-center {
+    position: relative;
+    top: 30%;
+}
+
+.one-third-width-column {
+    width: 33.33%;
+    display: inline-block;
+}
+
+.two-thirds-width-column {
+    width: 66.66%;
+    display: inline-block;
+}
+
+.reasons-box {
+	padding: 10px 5px 25px 5px;
+	border-radius: 8px;
+	width: 100%;
+	margin: 2%;
+	background-color: chocolate;
+    position: relative;
+    left: 20%;
+    top: 30px;
+}
+
+.drinks-box {
+	width: 33%;
+	margin: 1rem 0;
+	display: inline-block;
+}
+
+/* padding to allow for fixed footer */
+#contact {
+    margin-bottom: 50px;
+}
+
+.contact-boxes-container {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -20px;
+	float: left;
+}
+
+.contact-box-right {
+    width: 250px;
+    text-align: right;
+    margin-top: -20px;
+	float: right;
+}
+
+.spacer {
+    clear: both;
+}
+
+.contact-box-center {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px solid black;
+}
+
+ul {
+	padding: 0;
+}
+
+#reasons li {
+    margin-top: 5%;
+}
+fieldset {
+	border: none;
+	margin-top: 20px;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #5e361b;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+input[type=reset] {
+
+	margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: white;
+    color: #5e361b;
+    border: 1px solid #5e361b;
+    border-radius: 5px;
+}
+	
+
+input[type=text],
+input[type=email],
+input[list=coffees] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+}
+
+/* overrides css above */
+input[list=coffees] {
+    width: 45%;
+}
+
+select {
+    height: 36px;
+    width: 100px;
+    padding-left: 10px;
+}
+
+form {
+	width: 700px;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background-color: white;
+}
+
+.block-label {
+	display: block;
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+.checkboxes-box div {
+    margin-top: 15px;
+}
+
+#reasons li {
+    margin-top: 5%;
+}
+
+#terms {
+    height: 200px;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 1.5rem 0 0 15px;
+    border: 1px solid grey;
+    overflow: scroll;
+}
+
+/* map */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
