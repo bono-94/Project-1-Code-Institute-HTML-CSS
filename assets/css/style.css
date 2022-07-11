@@ -66,14 +66,13 @@ hr {
 /* NAVIGATION */ 
 .nav-wrap {
     position: absolute;
-    background-color:#f16c6b;
     padding: 5px;
+    max-width:max-content;
 }
 
 #nav-bar {
-    background-color: rgba(0, 255, 149, 0.281);
+    background-color: rgba(0, 255, 234, 0.881);
     height: 150px;
-    background-color:beige;
 }
 
 #nav-bar-current-page-extension {
@@ -85,10 +84,11 @@ hr {
 
 .active-nav-menu {
     border-bottom: 1px solid #3a3a3a;
-    background-color: orange;
+    background-color: rgba(255, 255, 0, 0.551);
+    color: black;
 
 }
-/* NAVIGATION */ 
+/* NAVIGATION - END */ 
 
 /* TITLE LOGO */
 
@@ -99,7 +99,7 @@ hr {
     width: 100px;
     display: block;
     overflow: hidden;
-    
+    background-color:#f16c6b;
 }
 
 /* TITLE LOGO - END */
@@ -112,6 +112,7 @@ hr {
     display: block;
     background-color: orange;
     float: left;
+    height: 100px;
 }
 
 #brown-l {
@@ -150,9 +151,9 @@ hr {
     float: right;
     display: block;
     background-color:teal;
+    position: relative;
 }
-
-#nav-list1-container li {
+#nav-list1-container a {
     font-size: 1.2em;
     line-height: 20px;
     height: 20px;
@@ -161,11 +162,13 @@ hr {
     margin: 20px;
     font-family: 'Courier New', Courier, monospace;
     list-style: none;
+    color: orange;
 }
-#nav-list1-container li:hover {
+#nav-list1-container a:hover {
     border-bottom: 1px solid #3a3a3a;
-    background-color: teal;
-    color:orange;
+    background-color: orange;
+    color: black;
+    font-weight: 400;
     border-radius: 30%;
 }
 
@@ -176,18 +179,21 @@ hr {
     margin:0%;
     float: none;
     display: inline-block;
+    position: absolute;
 }
 
-#nav-list2-container li {
+#nav-list2-container a {
     font-size: 1.2em;
     line-height: 20px;
     height: 20px;
     display: inline-block;
     margin: 2.5%;
     font-family: 'Courier New', Courier, monospace;
+    color: teal;
+    
 }
 
-#nav-list2-container li:hover {
+#nav-list2-container a:hover {
     border-bottom: 1px solid #3a3a3a;
     background-color: teal;
     color:orange;
