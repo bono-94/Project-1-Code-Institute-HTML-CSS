@@ -10,7 +10,7 @@
 /* STRUCTURAL ELEMENTS */
 
 body {
-    background-color: rgb(0, 252, 176);
+    /*background-color: rgb(0, 252, 176);*/
     margin:0;
 }
 
@@ -865,3 +865,13 @@ label {
     width: 100%;
     border: none;
 }
+
+/* FOOTER ELEMENTS */
+
+#copyright {
+    background-color: black;
+    color: silver;
+    text-align: center;
+}
+
+/* FOOTER ELEMENTS */
