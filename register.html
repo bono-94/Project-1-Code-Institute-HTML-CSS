@@ -37,8 +37,8 @@
             </a>
         </div>     
         <div id="nav-menu">
-            <a href="register.html">Register</a>
-            <a href="journey.html" class="active-nav-menu">Journey</a>
+            <a href="register.html" class="active-nav-menu">Register</a>
+            <a href="journey.html">Journey</a>
             <a href="about.html">About</a>
             <a href="home.html">Home</a>
         </div>
@@ -113,6 +113,24 @@
                 Join our Private Sale!
             </h3>
         </section>
+        <section class="form-section">
+            <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/"></form>>
+                <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i> </h2>
+                <label for="fname">First Name</label>
+                <input id="fname" class="text-input" type="text" name="first_name" required />
+                <label for="lname">Last Name</label>
+                <input id="lname" class="text-input" type="text"  name="last_name" required />
+                <label for="email">Email Address</label>
+                <input id="email" class="text-input" type="email" name="email_address" required/>
+                <label for="road">Road</label>
+                <input id="road" type="radio" name ="running_preference" value="road" required/>
+                <label for="trail">Trail</label>
+                <input id="trail" type="radio" name="running_preference" value="trail"/>
+                <label for="both">Both</label>
+                <input id="both" type="radio" name="running_preference" value="both"/>
+                <input class="join-button"  type="submit" value="Let's Run!"/>   
+            </form>
+        </section> 
         </main>
     <footer id="footer">
         <ul class="social-networks">
@@ -142,4 +160,5 @@
 <p id="copyright"><em>Copyright © Life Coin 2022</em></p>
 <script src="https://kit.fontawesome.com/00c35bfbd1.js" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
+        
