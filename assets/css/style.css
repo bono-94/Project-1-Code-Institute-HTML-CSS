@@ -206,6 +206,7 @@ hr {
     font-family: 'Courier New', Courier, monospace;
     color: rgb(2, 160, 160);
     font-weight: 1000;
+    text-transform: none;
     
 }
 
@@ -397,7 +398,213 @@ hr {
 }
 /* HEADER - ABOUT & JOURNEY - END*/
 
-/* (3x) Horizontal Square Blocks */
+/* INTRODUCTION */
+
+#introduction {
+    margin-top: 500px;
+    height: 300px;
+    background-image: url('../media/images/sunset-introduction.jpg');
+    background-size: contain no-repeat;
+    overflow: none;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#introduction p {
+    top:40%;
+    position:relative;
+    font-size: xx-large;
+    font-weight: 500;
+    color:white;
+}
+/* INTRODUCTION */
+
+/* TIMELINE 1 */
+
+#timeline {
+    text-align: center;
+    vertical-align: top;
+}
+#timeline h2 {
+    background-color: #f16b6b7a !important;
+    color: purple;
+    border: #3a3a3a 3px ridge;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+.timeline-boxes {
+    background-color: rgb(182, 174, 174);
+    display: inline-block;
+    text-align: center;
+    border: snow;
+    border-style: ridge;
+    border-width: 5px;
+    padding:10px;
+    width: 200px;
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase;
+    
+}
+
+.timeline-boxes h3 {
+    color:purple;
+    text-decoration:underline;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.timeline-boxes p {
+    font-size: medium;
+    color:black !important;
+    text-align: center;
+    font-weight: 600 !important;
+}
+/* TIMELINE 1 - END */
+
+/* TIMELINE 2 */
+#timeline-two {
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
+#timeline-two h2 {
+    background-color: #fae68d7a !important;
+    color: red;
+    border: #3a3a3a 3px ridge;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+.timeline-boxes-two {
+    background-color: rgb(231, 110, 110);
+    display: inline-block;
+    text-align: center;
+    border: snow;
+    border-style: ridge;
+    border-width: 5px;
+    padding:10px;
+    width: 200px;
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+
+.timeline-boxes-two h3 {
+    color:white;
+    text-decoration:underline;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.timeline-boxes-two p {
+    font-size: medium;
+    color:black !important;
+    text-align: center;
+    font-weight: 600 !important;
+    padding-bottom: 5px;
+}
+/* TIMELINE - 2 */
+#features {
+	margin-bottom: 10px;
+    margin-top: 10px;
+	background: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') center center / cover no-repeat fixed;
+    color:white;
+    
+}
+ #features h2 {
+    padding:40px;
+    text-align: center;
+ }
+
+ #coffee-box {
+	background-color: brown;
+    position: relative;
+    left: 70px;
+    top: -15px;
+    text-align: left;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.page-header {
+	height: 50vh;
+	background: center 75% / cover no-repeat;
+}
+
+.form-page-header {
+	background-image: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/table.jpg')
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+strong {
+	font-size: 1.3rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+	text-decoration: underline;
+}
+.bold {
+	font-weight: bold;
+}
+
+
+#tea-box {
+	background-color: #6f4e37;
+	position: relative;
+	z-index: 1;
+}
+
+#cold-drinks-box {
+	background-color: chocolate;
+    position: relative;
+    right: 70px;
+    top: -15px;
+}
+
+
+
+.one-third-width-column {
+    width: 33.33%;
+    display: inline-block;
+}
+
+.two-thirds-width-column {
+    width: 66.66%;
+    display: inline-block;
+}
+
+.reasons-box {
+	padding: 10px 5px 25px 5px;
+	border-radius: 8px;
+	width: 100%;
+	margin: 2%;
+	background-color: chocolate;
+    position: relative;
+    left: 20%;
+    top: 30px;
+}
+
+.drinks-box {
+	width: 33%;
+	margin: 1rem 0;
+	display: inline-block;
+}
+
 
 #horizontal-square-divs {
     height: 60px;
@@ -662,99 +869,9 @@ hr {
     }
 }
 /* Gallery for mobile screens */
-#drinks {
-	padding: 1rem 0;
-	margin-bottom: 80px;
-    margin-top: 500px;
-	background: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') center center / cover no-repeat fixed;
-}
-
-.text-white {
-	color: #FFFFFF;
-}
-
-.black-background {
-    background-color: black;
-}
-
-.page-header {
-	height: 50vh;
-	background: center 75% / cover no-repeat;
-}
-
-.form-page-header {
-	background-image: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/table.jpg')
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-right {
-    text-align: right;
-}
-strong {
-	font-size: 1.3rem;
-}
-
-.text-uppercase {
-    text-transform: uppercase;
-}
-
-.underline {
-	text-decoration: underline;
-}
-.bold {
-	font-weight: bold;
-}
-#coffee-box {
-	background-color: brown;
-    position: relative;
-    left: 70px;
-    top: -15px;
-}
-
-#tea-box {
-	background-color: #6f4e37;
-	position: relative;
-	z-index: 1;
-}
-
-#cold-drinks-box {
-	background-color: chocolate;
-    position: relative;
-    right: 70px;
-    top: -15px;
-}
 
 
 
-.one-third-width-column {
-    width: 33.33%;
-    display: inline-block;
-}
-
-.two-thirds-width-column {
-    width: 66.66%;
-    display: inline-block;
-}
-
-.reasons-box {
-	padding: 10px 5px 25px 5px;
-	border-radius: 8px;
-	width: 100%;
-	margin: 2%;
-	background-color: chocolate;
-    position: relative;
-    left: 20%;
-    top: 30px;
-}
-
-.drinks-box {
-	width: 33%;
-	margin: 1rem 0;
-	display: inline-block;
-}
 
 /* padding to allow for fixed footer */
 #contact {
