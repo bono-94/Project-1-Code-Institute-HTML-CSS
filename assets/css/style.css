@@ -91,7 +91,7 @@ hr {
 /* NAVIGATION */ 
 
 #nav-bar {
-    background-color: teal;
+    background-color: rgb(145, 252, 252) !important;
 }
 
 #nav-sub-menu {
@@ -114,8 +114,15 @@ hr {
 
 #nav-logo {
     float: left;
-    display: inline;
+    display: flex;
+    background-image: url('../media/images/coin-logo-2d-slim.png');
+    vertical-align: middle;
+}
 
+#nav-logo img {
+    height:80px;
+    width:80px;
+    margin:30px;
 }
 /* TITLE LOGO - END */
 
@@ -123,13 +130,10 @@ hr {
 
 #nav-title {
     font-family: 'Rubik Moonrocks', cursive;
-    font-size: x-large;
-    display: block;
-    background-color: rgba(244, 247, 206, 0.781);
+    font-size: xxxx-large;
+    display: flex;
     float: left;
-    text-align:center;
-    border: 2px solid black;
-
+    margin-left: 20px;
 }
 
 #brown-l {
@@ -222,7 +226,7 @@ hr {
 
 .page-header {
     height: 50vh;
-    background: center 100% / contain no-repeat;
+    background: center 75% / contain no-repeat;
 }
 
 /* HEADERS HOME & REGISTER*/
@@ -536,133 +540,35 @@ hr {
  }
 
  .features-box {
-	background-color: rgba(252, 250, 124, 0.877);
+	background-color: rgba(252, 250, 124, 0.932);
     text-align: center;
     font-size: small;
     color:blue;
 }
 
 .features-box-two {
-    background-color: rgba(0, 0, 255, 0.705);
+    background-color: rgba(0, 0, 255, 0.822);
     text-align: center;
     font-size: small;
     color: yellow !important
 }
+/* FEATURES */
 
 
-#horizontal-square-divs {
-    height: 60px;
-    margin-top: 140px;
-}
+/* FEATURES - END*/
 
-#left-div {
-    padding-top:30px;
-    width: 33%;
-    float: left;
-    background-color: orange;
-}
-#right-div {
-    padding-top:30px;
-    width: 33%;
-    float: right;
-    background-color: green;
-}
-#center-div {
-    padding-top:30px;
-    width: 33%;
-    margin: 0 auto;
-    background-color: blue;
-}
-
-#circle-cover-background {
-    background-image: url('../media/images/nav-logo.png') no-repeat center center;
-}
-/* (3x) Horizontal Square Blocks */
-
-.left-div-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-div-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-div-heading h2{
-    text-align: right;
-}
-.right-div-heading p{
-    text-align: right;
-}
-
-#title-3-divs {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 50px;
-    color: blue;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-background {
-    background: url('../assets/media/images/nav-logo.png') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#squares-five {
-    background-image: url('../assets/media/images/cover-media.png') no-repeat center center;
-    background-repeat: no-repeat;
-    background: cover;
-    background-position: center;
+#private-sale {
+    margin-top: 50px;
     width: 100%;
-    overflow: hidden;
+    background-color: skyblue;
 }
 
-#square-five {
-    color:#fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
+#private-sale h3 {
     text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
 }
 
-#square-five h2{
-    color:aquamarine
-}
-
-
-/* Gallery */
-
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-}
-
-#photos > img {
-    width: 100%;
+#private-sale p {
+   text-align: justify;
 }
 
 /* Form */
