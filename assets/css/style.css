@@ -507,102 +507,46 @@ hr {
     padding-bottom: 5px;
 }
 /* TIMELINE - 2 */
+
+/* FEATURES */
 #features {
 	margin-bottom: 10px;
     margin-top: 10px;
-	background: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') center center / cover no-repeat fixed;
-    color:white;
-    
+	background: url('../media/images/features-skies.jpg') center center / cover no-repeat fixed;
+    width: 100%;
+    background-size: cover no-repeat;
+    display: block;
+    font-weight: 600;
 }
  #features h2 {
-    padding:40px;
     text-align: center;
+    color: blue;
+    background-color: orange;
+    font-weight: 900;
  }
 
- #coffee-box {
-	background-color: brown;
-    position: relative;
-    left: 70px;
-    top: -15px;
-    text-align: left;
-}
-
-.black-background {
-    background-color: black;
-}
-
-.page-header {
-	height: 50vh;
-	background: center 75% / cover no-repeat;
-}
-
-.form-page-header {
-	background-image: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/table.jpg')
-}
-
-.text-center {
+ #features h3 {
     text-align: center;
+    font-weight: 800;
+    text-decoration: underline;
+ }
+
+ .list-circle {
+    list-style-type: circle;
+ }
+
+ .features-box {
+	background-color: rgba(252, 250, 124, 0.877);
+    text-align: center;
+    font-size: small;
+    color:blue;
 }
 
-.text-right {
-    text-align: right;
-}
-strong {
-	font-size: 1.3rem;
-}
-
-.text-uppercase {
-    text-transform: uppercase;
-}
-
-.underline {
-	text-decoration: underline;
-}
-.bold {
-	font-weight: bold;
-}
-
-
-#tea-box {
-	background-color: #6f4e37;
-	position: relative;
-	z-index: 1;
-}
-
-#cold-drinks-box {
-	background-color: chocolate;
-    position: relative;
-    right: 70px;
-    top: -15px;
-}
-
-
-
-.one-third-width-column {
-    width: 33.33%;
-    display: inline-block;
-}
-
-.two-thirds-width-column {
-    width: 66.66%;
-    display: inline-block;
-}
-
-.reasons-box {
-	padding: 10px 5px 25px 5px;
-	border-radius: 8px;
-	width: 100%;
-	margin: 2%;
-	background-color: chocolate;
-    position: relative;
-    left: 20%;
-    top: 30px;
-}
-
-.drinks-box {
-	width: 33%;
-	margin: 1rem 0;
-	display: inline-block;
+.features-box-two {
+    background-color: rgba(0, 0, 255, 0.705);
+    text-align: center;
+    font-size: small;
+    color: yellow !important
 }
 
 
@@ -985,13 +929,6 @@ legend {
 	margin: 20px 0 10px 0;
 }
 
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
 
 label {
     margin: 10px 15px 5px 0;
