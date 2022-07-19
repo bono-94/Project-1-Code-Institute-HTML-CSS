@@ -10,7 +10,7 @@
 /* STRUCTURAL ELEMENTS */
 
 body {
-    background-color: rgba(133, 241, 147, 0.959);
+    background-color: rgba(168, 235, 176, 0.459);
     margin:0;
     width:100%;
 }
@@ -76,12 +76,22 @@ hr {
 .text-right {
     text-align: right;
 }
+
+.vertical-center {
+    position: relative;
+    top: 40%;
+}
+
+.vertical-center-lower {
+    position: absolute;
+    top: 45%;
+}
 /* CONSTANT CLASSES - END */
 
 /* NAVIGATION */ 
 
 #nav-bar {
-    background-color: rgba(0, 255, 234, 0.781);
+    background-color: teal;
 }
 
 #nav-sub-menu {
@@ -95,8 +105,6 @@ hr {
 
 .active-nav-menu {
     text-decoration:underline !important;
-    border-color: white;
-    border-width: 10px;
     background-color: rgb(233, 141, 20);
     color: black !important;
 }
@@ -105,7 +113,6 @@ hr {
 /* TITLE LOGO */
 
 #nav-logo {
-    width: 80px;
     float: left;
     display: inline;
 
@@ -116,12 +123,12 @@ hr {
 
 #nav-title {
     font-family: 'Rubik Moonrocks', cursive;
-    font-size: xx-large;
-    display: inline;
-    background-color: rgb(238, 219, 185);
+    font-size: x-large;
+    display: block;
+    background-color: rgba(244, 247, 206, 0.781);
     float: left;
     text-align:center;
-    border: 10px solid black;
+    border: 2px solid black;
 
 }
 
@@ -171,6 +178,7 @@ hr {
     font-family: 'Courier New', Courier, monospace;
     color: orange;
     text-decoration: none;
+    font-weight: 800;
 }
 #nav-menu a:hover {
     border-bottom: 1px solid #3a3a3a;
@@ -190,13 +198,13 @@ hr {
 }
 
 #nav-sub-menu-container a {
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 20px;
     height: 20px;
     display: inline-block;
     margin: 2.5%;
     font-family: 'Courier New', Courier, monospace;
-    color: teal;
+    color: rgb(2, 160, 160);
     font-weight: 1000;
     
 }
@@ -207,46 +215,21 @@ hr {
     color:orange;
     border-radius: 10%;
 }
-
-
 /* TITLE LOGO - END */
 
-/* TITLE TEXT "LIFE COIN" - END */
+/* HEADERS */
 
-/* TITLE LOGO - END */
+.page-header {
+    height: 50vh;
+    background: center 100% / contain no-repeat;
+}
 
-
-
-/* TITLE LOGO - END */
-
-/* TITLE TEXT "LIFE COIN" - END */
-
-/* TITLE LOGO - END */
-
-
-
-/* TITLE LOGO - END */
-
-/* HEADER */
-
-#cover-media {
-    height: 1000px;
+/* HEADERS HOME & REGISTER*/
+#header-media-home {
+    margin-top: 1px;
+    height: 498px;
     width: 100%;
-    background: no-repeat center contain;
-    background-size: contain;
-    object-fit:contain;    
-}
-#cover-media text #cover-media-text h2 {
-    color:#fff;
-}
-#cover-media text #cover-media-text h3 {
-    color: aquamarine;
-}
-#cover-media-header {
-    height: 400px;
-    width: 100%;
-    margin-top: 20px;
-    overflow: hidden;
+    overflow: none;
     position: absolute;
     animation-name: cover-media-zoom;
     animation-duration:  5s;
@@ -254,39 +237,165 @@ hr {
     background-image: url('../media/images/coins-3d-floating-black.png');
 }
 
-.page-header {
-    height: 50vh;
-    background: center 75% / cover no-repeat;
+#header-media-register {
+    margin-top: 1px;
+    height: 498px;
+    width: 100%;
+    overflow: none;
+    position: absolute;
+    animation-name: cover-media-zoom;
+    animation-duration:  5s;
+    animation-fill-mode: both;
+    background-color: silver;
+    background-image: url('../media/images/coins-3d-floating-white.png');
 }
 /*animates zoom effect on loading page*/
 /*creates a level of zoom for cover media*/
 
 @keyframes cover-media-zoom {
     from{
-        transform: scale(1);
+        transform: scale(0.98);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1);
     }
-}
-#cover-media-text {
-    font-size: 130;
-    font-family: 130%;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(241, 109, 107, 0.7);
-    right: 150px;
-    position: absolute;
-    margin-top:20px;
-    z-index: 1;
-}
-/* Cover media */
 
-/* Cover media */
+}
+
+#header-media-text-home {
+    float: right;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgba(0, 128, 128, 0.966);
+    z-index: 1;
+    color: orange;
+    font-weight: 600;
+    font-size: large;
+}
+
+#header-media-text-home button{
+    background-color: orange;
+    font-weight: 800;
+} 
+
+#header-media-text-home button:hover {
+    background-color: red;
+    color:white;
+}
+
+#header-media-text-register {
+    float: left;
+    margin-left: 10px;
+    padding:10px;
+    letter-spacing: 2px;
+    z-index: 1;
+    background-color: purple;
+    font-weight: 600;
+    font-size: large;
+    color:white;
+}
+
+#header-media-text-register button{
+    background-color: black;
+    font-weight: 800;
+    color:white;
+} 
+
+#header-media-text-register button:hover {
+    background-color: red;
+    color:white;
+}
+/* HEADER - HOME & REGISTER -END */
+
+/* HEADERS - ABOUT & JOURNEY*/
+#header-media-about {
+    margin-top: 1px;
+    height: 498px;
+    width: 100%;
+    overflow: none;
+    position: absolute;
+    animation-name: cover-media-zoom;
+    animation-duration:  5s;
+    animation-fill-mode: both;
+    background-image: url('../media/images/coin-logo-3d-wide.png');
+}
+
+#header-media-journey {
+    margin-top: 1px;
+    height: 498px;
+    width: 100%;
+    overflow: none;
+    position: absolute;
+    animation-name: cover-media-zoom;
+    animation-duration:  5s;
+    animation-fill-mode: both;
+    background-color: silver;
+    background-image: url('../media/images/coin-logo-3d-wide-glow.png');
+}
+/*animates zoom effect on loading page*/
+/*creates a level of zoom for cover media*/
+
+@keyframes cover-media-zoom {
+    from{
+        transform: scale(0.98);
+    }
+    to{
+        transform: scale(1);
+    }
+
+}
+/* HEADER - ABOUT */
+/* Navigational square for pre-sale from header-media*/
+#header-media-text-about {
+    float: right;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgba(0, 128, 128, 0.966);
+    z-index: 1;
+    color: orange;
+    font-weight: 600;
+    font-size: large;
+}
+
+#header-media-text-about button{
+    background-color: orange;
+    font-weight: 800;
+} 
+
+#header-media-text-about button:hover {
+    background-color: red;
+    color:white;
+}
+
+#header-media-text-journey {
+    float: left;
+    margin-left: 10px;
+    padding:10px;
+    letter-spacing: 2px;
+    z-index: 1;
+    background-color: purple;
+    font-weight: 600;
+    font-size: large;
+    color:white;
+}
+
+#header-media-text-journey button{
+    background-color: black;
+    font-weight: 800;
+    color:white;
+} 
+
+#header-media-text-journey button:hover {
+    background-color: red;
+    color:white;
+}
+/* HEADER - ABOUT & JOURNEY - END*/
 
 /* (3x) Horizontal Square Blocks */
 
@@ -318,17 +427,6 @@ hr {
     background-image: url('../media/images/nav-logo.png') no-repeat center center;
 }
 /* (3x) Horizontal Square Blocks */
-
-/* Floating blocks */
-.card {
-    float: left;
-    width:20%;
-    margin-left:10%;
-}
-.card a {
-    text-align: center;
-}
-/* Floating blocks */
 
 .left-div-heading {
     width: 60%;
@@ -629,10 +727,7 @@ strong {
     top: -15px;
 }
 
-.vertical-center {
-    position: relative;
-    top: 30%;
-}
+
 
 .one-third-width-column {
     width: 33.33%;
