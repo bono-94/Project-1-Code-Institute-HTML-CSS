@@ -110,6 +110,16 @@ p {
     background-color: rgb(233, 141, 20);
     color: black !important;
 }
+
+.nav-logo-title-group h1:hover {
+    box-shadow: 0px 0px 20px 20px silver;
+    background-color: lightgray !important;
+}
+
+.nav-logo-title-group img:hover {
+    box-shadow: 0px 0px 20px 20px silver;
+}
+
 /* NAVIGATION - END */ 
 
 /* TITLE LOGO */
@@ -125,7 +135,10 @@ p {
     height:80px;
     width:80px;
     margin:30px;
+    border-radius: 100%;
 }
+
+
 /* TITLE LOGO - END */
 
 /* TITLE TEXT "LIFE COIN" */
@@ -140,6 +153,7 @@ p {
 
 #brown-l {
     color: brown;
+    
 }
 #green-i {
     color: green;
@@ -190,9 +204,9 @@ p {
     border-bottom: 1px solid #3a3a3a;
     background-color: orange;
     color: black;
-    font-weight: 400;
-    border-radius: 10%;
-    box-shadow: 10px 10px 10px #f16c6b;
+    font-weight: 1000;
+    padding: 3px;
+    box-shadow: 0px 0px 10px 5px #f16c6b;
 }
 
 #nav-sub-menu {
@@ -221,7 +235,9 @@ p {
     border-bottom: 1px solid #3a3a3a;
     background-color: teal;
     color:orange;
-    border-radius: 10%;
+    padding: 5px;
+    box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
+    text-transform: uppercase;
 }
 /* TITLE LOGO - END */
 
@@ -416,8 +432,6 @@ p {
     background-size: contain no-repeat;
     overflow: none;
     width: 100%;
-    text-align: center;
-    vertical-align: middle;
 }
 
 #introduction p {
@@ -426,7 +440,9 @@ p {
     font-size: xx-large;
     font-weight: 500;
     color:white;
-    text-shadow: 0 0 10px yellow;
+    text-shadow: 0 0 20px yellow;
+    text-align: center;
+    vertical-align: middle;
 }
 /* INTRODUCTION */
 
@@ -492,6 +508,7 @@ p {
     text-align: center;
     vertical-align: top;
     background-color: rgb(245, 196, 106);
+    margin-top: -17px;
 }
 
 .timeline-boxes-two {
@@ -545,13 +562,15 @@ p {
 /* TIMELINE - 2 */
 
 /* FEATURES */
+
 #features {
-    margin-top: 10px;
 	background: url('../media/images/features-skies.jpg') center center / cover no-repeat fixed;
     width: 100%;
     background-size: cover no-repeat;
     font-weight: 600;
     text-align: center;
+    margin-top: -37px;
+    margin-bottom: -10px;
 }
  #features h2 {
     text-align: center;
@@ -564,6 +583,7 @@ p {
     border-color: blue;
     padding: 30px;
     text-shadow: 1px 1px 2px blue;
+    box-shadow: 0px 10px 50px 0px rgba(250, 221, 95, 0.603);
  }
 
  #features h3 {
@@ -578,6 +598,7 @@ p {
 
  #features div {
     text-align: center;
+    border: 5px solid white;
  }
 
  .list-circle {
@@ -591,8 +612,13 @@ p {
     color:darkblue;
     width: fit-content;
     text-shadow: 0px 0px 10px orange;
-    margin: auto;
-}
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+    padding: 5px;
+ }
 
 .features-box-two {
     background-color: rgba(44, 44, 252, 0.877);
@@ -601,44 +627,64 @@ p {
     color: yellow !important;
     width: fit-content;
     text-shadow: 0px 0px 10px white;
-    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+    padding: 5px;
 }
-/* FEATURES */
 
-
+#features div:hover {
+    box-shadow: -10px -10px 58px 10px white;
+}
 /* FEATURES - END*/
 
 /* PRIVATE SALE */
 
-#private-sale {
-    margin-top: 1px;
+#below-surface {
     width: 100%;
     background: url('../media/images/underwater.jpg');
     background-size: cover;
     background-position: center;
-    width: 100%;
-}
-
-#private-sale h3 {
-    text-align: center;
-    border-color: white;
-    border-style: ridge;
-    border-width: 3px;
-    color: white;
-}
-
-#private-sale p {
-   text-align: justify;
-   background-color: rgba(255, 255, 255, 0.884);
-   text-transform: emphasize;
+    border-top: 5px dashed white;
+    margin-bottom: -14px;
 }
 
 #private-sale-title h3 {
+    text-align: center;
+    align-content: middle;
+    align-items: middle;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
     width: fit-content;
+    background-color: rgba(141, 136, 136, 0.44);
+    border-color: white;
+    border-style: ridge;
+    border-width: 3px;
 }
 
 #private-sale-text p {
-    width: fit-content;
+   text-align:left;
+   background-color: rgba(141, 136, 136, 0.44);
+   font-weight: 400;
+   width: fit-content;
+   color: white;
+   border-color: white;
+   border-style: ridge;
+   border-width: 3px;
+}
+
+#below-surface h3:hover {
+    text-shadow: 5px 5px 10px #3a3a3a;
+    box-shadow: 0px 0px 1px 3px white;
+}
+
+#below-surface p:hover {
+    text-shadow: 5px 5px 10px #3a3a3a;
+    box-shadow: 0px 0px 1px 3px white;
 }
 /* PRIVATE SALE - END */
 
@@ -782,17 +828,6 @@ p {
         column-count: 3;
     }
     }
-
-/* Gallery for mobile screens */
-
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
-    }
-}
-/* Gallery for mobile screens */
-
-
 
 
 /* padding to allow for fixed footer */
@@ -946,6 +981,10 @@ label {
 
 /* FOOTER ELEMENTS */
 
+#footer ul:hover {
+    box-shadow: 0px 0px 5px 5px green inset;
+}
+
 .social-networks {
     background-color: rgb(63, 14, 14);
     text-align: center;
@@ -971,11 +1010,32 @@ label {
     color: rgb(6, 114, 6)
 }
 
+.social-networks i:hover {
+    box-shadow: 0px 0px 5px 5px green;
+}
+
 #copyright {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.808);
     color: silver;
     text-align: center;
+    margin-top: -17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
 /* FOOTER ELEMENTS - END */
+
+
+
+/* unused */
+
+
+/* Gallery for mobile screens /
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
+/* Gallery for mobile screens */
