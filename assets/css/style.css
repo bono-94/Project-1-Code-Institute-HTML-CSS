@@ -18,6 +18,7 @@ body {
 footer {
     text-align: center;
     width: 100%;
+    margin-bottom: 3px;
 }
 
 
@@ -92,6 +93,7 @@ hr {
 
 #nav-bar {
     background-color: rgb(236, 252, 145) !important;
+    margin-top: 3px;
 }
 
 #nav-sub-menu {
@@ -429,9 +431,10 @@ hr {
 #timeline {
     text-align: center;
     vertical-align: top;
+    background-color: #e7b4b4;
 }
 #timeline h2 {
-    background-color: #f16b6b7a !important;
+    background-color: #f16b6bb9 !important;
     color: purple;
     border: #3a3a3a 3px ridge;
     margin-top: 20px;
@@ -474,17 +477,18 @@ hr {
     text-align: center;
     vertical-align: top;
     margin-bottom: 3px;
+    background-color: rgb(245, 196, 106);
 }
 #timeline-two h2 {
-    background-color: #fae68d7a !important;
-    color: red;
+    background-color: rgb(241, 168, 33) !important;
+    color: white;
     border: #3a3a3a 3px ridge;
     margin-top: 20px;
     margin-bottom: 1px;
 }
 
 .timeline-boxes-two {
-    background-color: rgb(231, 110, 110);
+    background-color: rgb(182, 174, 174);
     display: inline-block;
     text-align: center;
     border: snow;
@@ -516,21 +520,23 @@ hr {
 
 /* FEATURES */
 #features {
-	margin-bottom: 10px;
     margin-top: 10px;
 	background: url('../media/images/features-skies.jpg') center center / cover no-repeat fixed;
     width: 100%;
     background-size: cover no-repeat;
-    display: block;
     font-weight: 600;
+    text-align: center;
 }
  #features h2 {
     text-align: center;
-    color: darkblue;
-    background-color: orange;
+    color: gray;
+    background: url('../media/images/timeline-sunset-two.jpg') center / cover no-repeat;
     font-weight: 1200;
     font-size: xxx-large;
-    border-style:groove;
+    border-style:outset;
+    border-width: 1px;
+    border-color: blue;
+    padding: 30px;
  }
 
  #features h3 {
@@ -543,6 +549,10 @@ hr {
     padding-bottom: 3px;
  }
 
+ #features div {
+    text-align: center;
+ }
+
  .list-circle {
     list-style-type: circle;
  }
@@ -552,34 +562,46 @@ hr {
     text-align: center;
     font-size: small;
     color:darkblue;
+    width: fit-content;
 }
 
 .features-box-two {
     background-color: rgba(0, 0, 255, 0.84);
     text-align: center;
     font-size: small;
-    color: yellow !important;    
+    color: yellow !important;
+    width: fit-content;    
 }
 /* FEATURES */
 
 
 /* FEATURES - END*/
 
+/* PRIVATE SALE */
+
 #private-sale {
     margin-top: 50px;
     width: 100%;
-    background-color: skyblue;
+    background: url('../media/images/underwater.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
 #private-sale h3 {
     text-align: center;
+    border-color: white;
+    border-style: dotted;
+    border-width: 3px;
 }
 
 #private-sale p {
    text-align: justify;
 }
+/* PRIVATE SALE - END */
 
-/* Form */
+
+/* REGISTRATION FORM */
 
 .form-section {
     clear: left;
