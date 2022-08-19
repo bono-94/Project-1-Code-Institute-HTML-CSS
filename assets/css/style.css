@@ -293,8 +293,6 @@ color: white !important;
 
 #header-media-privsale-title {
     float: left;
-    padding-left: 20px;
-    padding-right: 10px;
     text-transform: uppercase;
     letter-spacing: 5px;
     background-color: rgba(0, 128, 128, 0.966);
@@ -466,6 +464,43 @@ color: white !important;
     vertical-align: middle;
 }
 /* INTRODUCTION */
+
+/* ABOUT */
+
+#about-box {
+    margin-top: -47px;
+    margin-bottom: -20px;
+    border-bottom: 15px solid teal;
+}
+
+#about-boxes-title h3{
+    width: 100%;
+    text-align: left;
+    background-color: black;
+    color:teal;
+    height: 50px;
+    font-size: xxx-large;
+    padding: 8px;
+    margin-bottom: -42px;
+    border-top: 30px solid teal;
+}
+
+.about-boxes-content h4{
+    width: 100%;
+    text-align: center !important;
+    background-color: teal;
+    color:orange;
+    font-size: xx-large;
+    padding: 5px;
+}
+
+.about-boxes-content p {
+    font-style: italic;
+    font-size: large;
+    padding-left: 40px;
+}
+
+/* ABOUT */
 
 /* TIMELINE 1 */
 
@@ -666,12 +701,12 @@ color: white !important;
 
 #private-sale {
     width: 100%;
-    background: url('../media/images/underwater.jpg');
-    background-size: cover;
+    background: url('../media/images/universee.jpg');
+    background-size: cover no-repeat;
     background-position: center;
     border-top: 5px double white;
     margin-bottom: -14px;
-    margin-top: 580px;
+    margin-top: 570px;
 }
 
 #private-sale-title h3 {
@@ -687,6 +722,7 @@ color: white !important;
     border-color: white;
     border-style: ridge;
     border-width: 3px;
+    padding:5px !important;
 }
 #private-sale h4 {
     text-align: center;
@@ -695,23 +731,29 @@ color: white !important;
     color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     width: fit-content;
-    background-color: rgba(141, 136, 136, 0.44);
+    background-color: rgba(141, 136, 136, 0.27);
     border-color: white;
     border-style: ridge;
     border-width: 3px;
+    margin-bottom: 30px;
+    padding:5px !important;
+    font-size: larger;
 }
 
 #private-sale p {
    text-align:left;
-   background-color: rgba(141, 136, 136, 0.44);
+   background-color: rgba(141, 136, 136, 0.308);
    font-weight: 400;
    width: fit-content;
    color: white;
    border-color: white;
    border-style: ridge;
    border-width: 3px;
+   margin-left: 20px;
+   padding:3px !important;
+   text-align: left;
 }
 
 #below-surface h3:hover {
@@ -1001,32 +1043,19 @@ label {
     overflow: scroll;
 }
 
-/* LOCATION MAP (GOOGLE) */
 
-#map-wrapper {
-    height: 404px;
-    margin-top: 200px;
-}
-
-#map {
-    height: 100%;
-    width: 100%;
-    border-style: solid;
-    border-color: aqua;
-}
-/* LOCATION MAP (GOOGLE) -END */
 
 /* FOOTER ELEMENTS */
 
 #footer ul:hover {
-    box-shadow: 0px 0px 5px 5px green inset;
+    box-shadow: 0px 0px 5px 5px white inset;
 }
 
 .social-networks {
-    background-color: rgb(63, 14, 14);
+    background-color: rgba(43, 12, 12, 0.969);
     text-align: center;
     border-style:double;
-    border-color: green;
+    border-color: rgba(5, 189, 5, 0.794);
 }
 
 .social-networks > li {
@@ -1035,7 +1064,7 @@ label {
 }
 
 .social-networks > p {
-    color:green;
+    color:rgba(5, 189, 5, 0.794);
     font-size: large;
     text-decoration:underline;
     font-weight: 400;
@@ -1044,11 +1073,11 @@ label {
 .social-networks i {
     font-size:160%;
     padding: 5%;
-    color: rgb(6, 114, 6)
+    color: rgba(5, 189, 5, 0.794)
 }
 
 .social-networks i:hover {
-    box-shadow: 0px 0px 5px 5px green;
+    box-shadow: 0px 0px 5px 5px white;
 }
 
 #copyright {
@@ -1058,6 +1087,7 @@ label {
     margin-top: -17px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: 900;
 
 }
 
