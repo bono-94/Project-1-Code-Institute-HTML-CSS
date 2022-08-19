@@ -10,7 +10,7 @@
 /* STRUCTURAL ELEMENTS */
 
 body {
-    background-color: rgba(168, 235, 176, 0.459);
+    background-color: rgba(168, 235, 176, 0.294);
     margin:0;
     width:100%;
 }
@@ -93,7 +93,8 @@ p {
 
 #nav-bar {
     background-color: rgb(236, 252, 145) !important;
-    margin-top: 3px;
+    margin-top: 2px;
+    border-top: 1px solid teal;
 }
 
 #nav-sub-menu {
@@ -103,17 +104,34 @@ p {
     display: inline-block;
     text-transform: capitalize;
     text-align: center;
+    border-top: 2px solid teal;
 }
 
 .active-nav-menu {
     text-decoration:underline !important;
     background-color: rgb(233, 141, 20);
     color: black !important;
+    box-shadow: 0px 0px 5px 3px black;
+    padding: 3px;
+}
+
+.active-nav-menu-two {
+    border-bottom: 1px solid #3a3a3a;
+    background-color: teal;
+    color: orange !important;
+    font-weight: 1000;
+    padding: 3px;
+    box-shadow: 0px 0px 5px 3px orange;
+    text-transform: uppercase !important;
 }
 
 .nav-logo-title-group h1:hover {
-    box-shadow: 0px 0px 20px 20px silver;
-    background-color: lightgray !important;
+    box-shadow: 0px 0px 10px 10px silver;
+    background-color: silver !important;
+}
+
+.nav-logo-title-group span:hover {
+color: white !important;
 }
 
 .nav-logo-title-group img:hover {
@@ -188,7 +206,7 @@ p {
     float: right;
     display: block;
     text-transform: uppercase;
-    background-color:teal;
+    background-color:rgb(4, 139, 139);
 }
 #nav-menu a {
     font-size: 1.4em;
@@ -205,8 +223,8 @@ p {
     background-color: orange;
     color: black;
     font-weight: 1000;
-    padding: 3px;
-    box-shadow: 0px 0px 10px 5px #f16c6b;
+    padding: 2px;
+    box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
 }
 
 #nav-sub-menu {
@@ -241,16 +259,28 @@ p {
 }
 /* TITLE LOGO - END */
 
-/* HEADERS */
+/* ALL HEADERS */
 
 .page-header {
     height: 50vh;
-    background: center 75% / contain no-repeat;
+    background: center 50% / cover no-repeat;
 }
 
-/* HEADERS HOME & REGISTER*/
-#header-media-home {
-    margin-top: 1px;
+@keyframes cover-media-zoom {
+    from{
+        transform: scale(0.98);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+/* ALL HEADERS */
+
+
+/* HEADER PRIVATE SALE*/
+
+#header-media-privsale {
+    margin-top: 63px;
     height: 498px;
     width: 100%;
     overflow: none;
@@ -261,6 +291,36 @@ p {
     background-image: url('../media/images/coins-3d-floating-black.png');
 }
 
+#header-media-privsale-title {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: rgba(0, 128, 128, 0.966);
+    color: orange;
+    font-weight: 600;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+#header-media-privsale-title button {
+    background-color: orange;
+    font-weight: 800;
+} 
+
+#header-media-privsale-title button:hover {
+    background-color: red;
+    color:white;
+}
+/* HEADER PRIVATE SALE*/
+
+/* HEADER REGISTER*/
+
 #header-media-register {
     margin-top: 1px;
     height: 498px;
@@ -270,46 +330,8 @@ p {
     animation-name: cover-media-zoom;
     animation-duration:  5s;
     animation-fill-mode: both;
-    background-color: silver;
+    background-color: rgba(192, 192, 192, 0.71);
     background-image: url('../media/images/coins-3d-floating-white.png');
-}
-/*animates zoom effect on loading page*/
-/*creates a level of zoom for cover media*/
-
-@keyframes cover-media-zoom {
-    from{
-        transform: scale(0.98);
-    }
-    to{
-        transform: scale(1);
-    }
-
-}
-
-#header-media-text-home {
-    float: right;
-    margin-right: 10px;
-    padding-left: 20px;
-    padding-right: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    background-color: rgba(0, 128, 128, 0.966);
-    z-index: 1;
-    color: orange;
-    font-weight: 600;
-    font-size: large;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#header-media-text-home button{
-    background-color: orange;
-    font-weight: 800;
-} 
-
-#header-media-text-home button:hover {
-    background-color: red;
-    color:white;
 }
 
 #header-media-text-register {
@@ -430,7 +452,6 @@ p {
     height: 300px;
     background-image: url('../media/images/sunset-introduction.jpg');
     background-size: contain no-repeat;
-    overflow: none;
     width: 100%;
 }
 
@@ -569,8 +590,8 @@ p {
     background-size: cover no-repeat;
     font-weight: 600;
     text-align: center;
-    margin-top: -37px;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
+    margin-top: -40px;
 }
  #features h2 {
     text-align: center;
@@ -581,9 +602,10 @@ p {
     border-style:outset;
     border-width: 1px;
     border-color: blue;
-    padding: 30px;
     text-shadow: 1px 1px 2px blue;
-    box-shadow: 0px 10px 50px 0px rgba(250, 221, 95, 0.603);
+    box-shadow: 0px 30px 40px 0px rgba(250, 221, 95, 0.603);
+    height: 300px;
+    line-height: 280px;
  }
 
  #features h3 {
@@ -642,13 +664,14 @@ p {
 
 /* PRIVATE SALE */
 
-#below-surface {
+#private-sale {
     width: 100%;
     background: url('../media/images/underwater.jpg');
     background-size: cover;
     background-position: center;
-    border-top: 5px dashed white;
+    border-top: 5px double white;
     margin-bottom: -14px;
+    margin-top: 580px;
 }
 
 #private-sale-title h3 {
@@ -665,8 +688,22 @@ p {
     border-style: ridge;
     border-width: 3px;
 }
+#private-sale h4 {
+    text-align: center;
+    align-content: middle;
+    align-items: middle;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: fit-content;
+    background-color: rgba(141, 136, 136, 0.44);
+    border-color: white;
+    border-style: ridge;
+    border-width: 3px;
+}
 
-#private-sale-text p {
+#private-sale p {
    text-align:left;
    background-color: rgba(141, 136, 136, 0.44);
    font-weight: 400;
