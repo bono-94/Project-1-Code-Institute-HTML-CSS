@@ -18,7 +18,7 @@ body {
 footer {
     text-align: center;
     width: 100%;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
 }
 
 
@@ -104,7 +104,26 @@ p {
     display: inline-block;
     text-transform: capitalize;
     text-align: center;
-    border-top: 2px solid teal;
+    border-top: 5px solid teal;
+    height:fit-content;
+    
+}
+
+.bottom-nav {
+    margin-bottom: -18px !important;
+    border-bottom: 3px solid teal;
+    width: fit-content;
+}
+.bottom-nav a {
+    font-size: 1.3em !important;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(2, 160, 160);   
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .active-nav-menu {
@@ -112,17 +131,23 @@ p {
     background-color: rgb(233, 141, 20);
     color: black !important;
     box-shadow: 0px 0px 5px 3px black;
-    padding: 3px;
+    font-weight: 1000;
+    padding: 4px;
 }
 
 .active-nav-menu-two {
     border-bottom: 1px solid #3a3a3a;
     background-color: teal;
     color: orange !important;
-    font-weight: 1000;
-    padding: 3px;
+    font-weight: 800;
     box-shadow: 0px 0px 5px 3px orange;
-    text-transform: uppercase !important;
+    padding: 5px;
+}
+
+
+.active-nav-menu-two a {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .nav-logo-title-group h1:hover {
@@ -132,6 +157,7 @@ p {
 
 .nav-logo-title-group span:hover {
 color: white !important;
+padding:5px;
 }
 
 .nav-logo-title-group img:hover {
@@ -238,14 +264,15 @@ color: white !important;
 
 #nav-sub-menu-container a {
     font-size: 1.3em;
-    line-height: 20px;
-    height: 20px;
     display: inline-block;
-    margin: 2.5%;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(2, 160, 160);
     font-weight: 1000;
     text-transform: none;
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 
@@ -263,7 +290,7 @@ color: white !important;
 
 .page-header {
     height: 50vh;
-    background: center 50% / cover no-repeat;
+    background: center 50% / contain no-repeat;
 }
 
 @keyframes cover-media-zoom {
@@ -447,7 +474,7 @@ color: white !important;
 
 #introduction {
     margin-top: 500px;
-    height: 300px;
+    height: 600px;
     background-image: url('../media/images/sunset-introduction.jpg');
     background-size: contain no-repeat;
     width: 100%;
@@ -469,20 +496,19 @@ color: white !important;
 
 #about-box {
     margin-top: -47px;
-    margin-bottom: -20px;
-    border-bottom: 15px solid teal;
+    border-bottom: 15px solid teal !important;
 }
 
 #about-boxes-title h3{
     width: 100%;
     text-align: left;
     background-color: black;
-    color:teal;
+    color:orange;
     height: 50px;
     font-size: xxx-large;
-    padding: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-bottom: -42px;
-    border-top: 30px solid teal;
 }
 
 .about-boxes-content h4{
@@ -491,7 +517,8 @@ color: white !important;
     background-color: teal;
     color:orange;
     font-size: xx-large;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .about-boxes-content p {
@@ -1052,10 +1079,12 @@ label {
 }
 
 .social-networks {
-    background-color: rgba(43, 12, 12, 0.969);
+    background-color: orange;
     text-align: center;
     border-style:double;
-    border-color: rgba(5, 189, 5, 0.794);
+    border-color: teal;
+    border-width: 3px;
+    font-weight: 1000;
 }
 
 .social-networks > li {
@@ -1064,27 +1093,65 @@ label {
 }
 
 .social-networks > p {
-    color:rgba(5, 189, 5, 0.794);
+    color:teal;
     font-size: large;
-    text-decoration:underline;
     font-weight: 400;
 }
 
 .social-networks i {
     font-size:160%;
     padding: 5%;
-    color: rgba(5, 189, 5, 0.794)
+    color: teal;
+    padding-bottom: 5px;
 }
 
 .social-networks i:hover {
     box-shadow: 0px 0px 5px 5px white;
 }
 
+#direct-contact {
+    margin-top: -50px;
+    text-align: center;
+    color:orange;
+    background-color: teal;
+    border-left: white 2px double;
+    border-right: white 2px double;
+}
+
+#direct-contact h6 {
+    font-size: large;
+    font-weight: 1000;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#direct-contact p {
+    margin-top: -40px;
+    font-size: large;
+    text-decoration:underline;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+#direct-contact i {
+    padding: 10px !important;
+    margin-left: -10px;
+    font-size:120%;
+}
+
+#direct-contact h6:hover {
+    box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+#direct-contact p:hover {
+    box-shadow: 0px 0px 5px 5px whitesmoke inset;
+}
+
 #copyright {
     background-color: rgba(0, 0, 0, 0.808);
     color: silver;
     text-align: center;
-    margin-top: -17px;
+    margin-top: -20px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 900;
