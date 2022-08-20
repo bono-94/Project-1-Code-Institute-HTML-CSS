@@ -35,67 +35,43 @@
         <div id="nav-menu">
             <a href="register.html">Register</a>
             <a href="journey.html">Journey</a>
-            <a href="careers.html">Careers</a>
-            <a href="home.html" class="active-nav-menu">Home</a>
+            <a href="careers.html" class="active-nav-menu">Careers</a>
+            <a href="home.html">Home</a>
         </div>
     </nav>
     <nav id="nav-sub-menu">
         <div id="nav-sub-menu-container">
-            <a href="home.html" class="active-nav-menu-two">Introduction</a>
-            <a href="home-timeline.html">Timeline</a>
-            <a href="home-features.html">Features</a>
-            <a href="home-privatesale.html">Private Sale</a>
+            <a href="careers.html">Recruitment</a>
+            <a href="careers-teamcommunity.html">Team & Community</a>
+            <a href="careers-collab.html" class="active-nav-menu-two">Business Collaboration</a>
         </div>
     </nav>
 <!--NAVIGATION-->
 <!--HEADER-->
-    <header id="header-media-home" class="page-header">
-        <p>a</p>
+    <header>
+        <div id="header-media-about">
+        </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+        <div id="header-media-about-buttons">
+            <a href="#careers"> 
+                <p>We are recruiting!</p>
+                <button>
+                    <em>APPLY</em>
+                </button>
+            </a>
+        </div>
     </header>
 <!--HEADER-->
-<!--VIDEO-->
-<!--VIDEO-->
-<!--INTRODUCTION-->
+<!--WORKING WITH US-->
     <main>
-        <div id="introduction">
-            <p>
-                <em>"Welcome to the beginning of new and improved life experience. Here is where healthy global economy occurs in sustainable enivoronment and optimized natural code of existence."</em>
-            </p>
-        </div>
-<!--INTRODUCTION-->
-<!--ABOUT-->
-        <div id="about-box">
-            <div id="about-boxes-title">
-                <h3>
-                    <strong>ABOUT LIFECOIN:</strong>
-                </h3>
-            </div>
-            <div class="about-boxes-content">
-                <h4>LIFE Mission:</h4>
-                <p>- We want to bridge every human, their knowlegde and experiences while giving a complete freedom of choice from the list of all global options.</p>
-            </div>
-            <div class="about-boxes-content">
-                <h4>LIFE Vision:</h4>
-                <p>- We are here to help each other and our enivoronment since we are all interdependent and equally important.</p>
-            </div>
-            <div class="about-boxes-content">
-                <h4>LIFE Destiny:</h4>
-                <p>- “Coin from everybody for everyone.”</p>
-                <p>- “We will grow together and learn from each other.”</p>
-            </div>
-            <div class="about-boxes-content">
-                <h4>LIFE Purpose:</h4>
-                <p>- Love, motivation, collaboration, sustainability, productivity, positive emotion will be emphasized.</p>
-                <p>- Negative feelings, actions, despair, and similar will all be diminished.</p>
-                <br>
-            </div>    
-        </div>
+        <section>
+            <p>About</p>
+            <p>Conditions</p>
+        </section>
         <nav id="nav-sub-menu" class="bottom-nav">
             <div id="nav-sub-menu-container">
-                <a href="home.html" class="active-nav-menu-two">Introduction</a>
-                <a href="home-timeline.html">Timeline</a>
-                <a href="home-features.html">Features</a>
-                <a href="home-privatesale.html">Private Sale</a>
+                <a href="careers.html">Recruitment</a>
+                <a href="careers-teamcommunity.html">Team & Community</a>
+                <a href="careers-collab.html" class="active-nav-menu-two">Business Collaboration</a>
             </div>
         </nav>
     </main>

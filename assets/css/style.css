@@ -157,7 +157,6 @@ p {
 
 .nav-logo-title-group span:hover {
 color: white !important;
-padding:5px;
 }
 
 .nav-logo-title-group img:hover {
@@ -316,6 +315,7 @@ padding:5px;
     animation-duration:  5s;
     animation-fill-mode: both;
     background-image: url('../media/images/coins-3d-floating-black.png');
+    background: contain no-repeat;
 }
 
 #header-media-privsale-title {
@@ -386,7 +386,9 @@ padding:5px;
 /* HEADERS - ABOUT & JOURNEY*/
 #header-media-about {
     margin-top: 1px;
-    height: 498px;
+    margin-bottom: -500px;
+    height: 500px;
+    background: center 50% / contain no-repeat;
     width: 100%;
     overflow: none;
     position: absolute;
@@ -422,7 +424,7 @@ padding:5px;
 }
 /* HEADER - ABOUT */
 /* Navigational square for pre-sale from header-media*/
-#header-media-text-about {
+#header-media-about-buttons {
     float: right;
     margin-right: 10px;
     padding-left: 20px;
@@ -436,12 +438,12 @@ padding:5px;
     font-size: large;
 }
 
-#header-media-text-about button{
+#header-media-about-buttons button{
     background-color: orange;
     font-weight: 800;
 } 
 
-#header-media-text-about button:hover {
+#header-media-about-buttons button:hover {
     background-color: red;
     color:white;
 }
@@ -728,24 +730,24 @@ padding:5px;
 
 #private-sale {
     width: 100%;
-    background: url('../media/images/universee.jpg');
+    background: url('../media/images/universetwo.jpg');
     background-size: cover no-repeat;
     background-position: center;
     border-top: 5px double white;
-    margin-bottom: -14px;
-    margin-top: 570px;
+    margin-bottom: -10px;
+    margin-top: 560px;
 }
 
 #private-sale-title h3 {
     text-align: center;
     align-content: middle;
     align-items: middle;
-    color: white;
+    color:rgb(245, 196, 106);
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     width: fit-content;
-    background-color: rgba(141, 136, 136, 0.44);
+    background-color: rgba(141, 136, 136, 0.856);
     border-color: white;
     border-style: ridge;
     border-width: 3px;
@@ -755,12 +757,12 @@ padding:5px;
     text-align: center;
     align-content: middle;
     align-items: middle;
-    color: white;
+    color:rgb(232, 179, 80);
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     width: fit-content;
-    background-color: rgba(141, 136, 136, 0.27);
+    background-color: rgba(141, 136, 136, 0.856);
     border-color: white;
     border-style: ridge;
     border-width: 3px;
@@ -771,16 +773,20 @@ padding:5px;
 
 #private-sale p {
    text-align:left;
-   background-color: rgba(141, 136, 136, 0.308);
+   background-color: rgba(141, 136, 136, 0.856);
    font-weight: 400;
    width: fit-content;
-   color: white;
+   color: yellow;
    border-color: white;
    border-style: ridge;
    border-width: 3px;
    margin-left: 20px;
    padding:3px !important;
    text-align: left;
+}
+
+#private-sale i {
+    color:yellow;
 }
 
 #below-surface h3:hover {
@@ -1102,7 +1108,7 @@ label {
     font-size:160%;
     padding: 5%;
     color: teal;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 .social-networks i:hover {
