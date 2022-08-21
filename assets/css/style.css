@@ -248,7 +248,7 @@ color: white !important;
     background-color: orange;
     color: black;
     font-weight: 1000;
-    padding: 2px;
+    padding: 5px;
     box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
 }
 
@@ -385,17 +385,21 @@ color: white !important;
 
 /* HEADERS - ABOUT & JOURNEY*/
 #header-media-about {
-    margin-top: 1px;
-    margin-bottom: -500px;
+    float: right;
+    display:inline-block;
     height: 500px;
-    background: center 50% / contain no-repeat;
-    width: 100%;
+    background: center 50% / cover no-repeat;
+    width: 50%;
     overflow: none;
-    position: absolute;
-    animation-name: cover-media-zoom;
-    animation-duration:  5s;
-    animation-fill-mode: both;
     background-image: url('../media/images/coin-logo-3d-wide.png');
+}
+
+#header-media-about-title {
+        text-align: center;
+        width:50%;
+        float: right;
+        display:inline-block;
+        height: 500px;
 }
 
 #header-media-journey {
@@ -1087,10 +1091,11 @@ label {
 .social-networks {
     background-color: orange;
     text-align: center;
-    border-style:double;
-    border-color: teal;
-    border-width: 3px;
+    border-top:double teal 3px;
     font-weight: 1000;
+    margin-bottom: 50px;
+    border-left: white 1px double;
+    border-right: white 1px double;
 }
 
 .social-networks > li {
@@ -1102,6 +1107,7 @@ label {
     color:teal;
     font-size: large;
     font-weight: 400;
+    padding-top: 10px;
 }
 
 .social-networks i {
@@ -1117,47 +1123,51 @@ label {
 
 #direct-contact {
     margin-top: -50px;
+    margin-bottom: 20px;
     text-align: center;
     color:orange;
     background-color: teal;
-    border-left: white 2px double;
-    border-right: white 2px double;
+    border-left: white 1px double;
+    border-right: white 1px double;
 }
 
 #direct-contact h6 {
     font-size: large;
-    font-weight: 1000;
+    font-weight: 100 !important;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 #direct-contact p {
     margin-top: -40px;
     font-size: large;
     text-decoration:underline;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 20px;
     margin-left: -10px;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
 }
 
 #direct-contact i {
     padding: 10px !important;
     margin-left: -10px;
-    font-size:120%;
+    font-size: 140%;
 }
 
 #direct-contact h6:hover {
-    box-shadow: 0px 0px 5px 5px whitesmoke;
+    box-shadow: 0px 0px 3px 3px whitesmoke;
 }
+
 #direct-contact p:hover {
-    box-shadow: 0px 0px 5px 5px whitesmoke inset;
+    box-shadow: 0px 0px 5px 3px whitesmoke;
 }
 
 #copyright {
     background-color: rgba(0, 0, 0, 0.808);
     color: silver;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -19px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 900;
