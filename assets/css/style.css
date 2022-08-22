@@ -406,7 +406,7 @@ color: white !important;
     float: left;
     text-align: center;
     width: 30%;
-    margin-top: 40px;
+    margin-top: 35px;
     margin-left: 90px;
     margin-bottom: 10px;
 }
@@ -415,6 +415,7 @@ color: white !important;
     font-size: xx-large;
     text-decoration: underline !important;
     font-weight: 2000;
+    margin-bottom: 40px;
 }
 
 #header-media-about-info-one {
