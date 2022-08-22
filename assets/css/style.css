@@ -10,9 +10,9 @@
 /* STRUCTURAL ELEMENTS */
 
 body {
-    background-color: rgba(168, 235, 176, 0.294);
     margin:0;
     width:100%;
+    background-color: rgba(169, 219, 239, 0.431);
 }
 
 footer {
@@ -92,7 +92,7 @@ p {
 /* NAVIGATION */ 
 
 #nav-bar {
-    background-color: rgb(236, 252, 145) !important;
+   background-color: rgba(135, 207, 235, 0.541);
     margin-top: 2px;
     border-top: 1px solid teal;
 }
@@ -384,23 +384,86 @@ color: white !important;
 /* HEADER - HOME & REGISTER -END */
 
 /* HEADERS - ABOUT & JOURNEY*/
-#header-media-about {
+#header-about {
+    margin-top: -30px;
+    height: 500px;
+    text-align: center;
+    background-color: whitesmoke !important;
+    color: teal !important;
+}
+
+#header-media-about-pic {
     float: right;
-    display:inline-block;
     height: 500px;
     background: center 50% / cover no-repeat;
     width: 50%;
     overflow: none;
     background-image: url('../media/images/coin-logo-3d-wide.png');
+    background-color: rgba(0, 128, 128, 0.325);
 }
 
-#header-media-about-title {
-        text-align: center;
-        width:50%;
-        float: right;
-        display:inline-block;
-        height: 500px;
+#header-media-about-info {
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 10px;
 }
+
+#header-media-about-info-title h2{
+    font-size: xx-large;
+    text-decoration: underline !important;
+    font-weight: 2000;
+}
+
+#header-media-about-info-one {
+    padding: 8px;
+    background-color: rgba(0, 128, 128, 0.325);
+    margin-bottom: 10px;
+    color: black;
+    border: 2px solid orange;
+}
+
+#header-media-about-info-two {
+    background-color: rgba(0, 128, 128, 0.325);
+    padding: 8px;
+    margin-bottom: 10px;
+    color: black;
+    border: 2px solid orange;
+}
+
+#header-media-about-info-link {
+    background-color: rgba(0, 128, 128, 0.325);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid orange;
+}
+
+#header-media-about-info-link h4{
+    color: black;
+}
+
+#header-media-about-info-link button {
+    background-color: orange;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#header-media-about-info-link a {
+    color: black !important;
+    font-weight: 600;   
+}
+
+#header-media-about-info-link button:hover {
+    box-shadow: 0px 0px 10px 5px white;
+    background: teal;
+}
+
+#header-media-about-info-link a:hover {
+    color: orange!important;
+}
+/* HEADER - MEDIA */
 
 #header-media-journey {
     margin-top: 1px;
