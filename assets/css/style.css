@@ -382,17 +382,17 @@ color: white !important;
 /* HEADER - HOME & REGISTER -END */
 
 /* HEADERS - ABOUT & JOURNEY*/
-#header-about {
+#header-careers {
     margin-top: -30px;
-    height: 500px;
+    height: 600 px;
     text-align: center;
     background-color: whitesmoke !important;
     color: teal !important;
 }
 
-#header-media-about-pic {
+#header-media-careers-pic {
     float: right;
-    height: 500px;
+    height: 585px;
     background: center 50% / cover no-repeat;
     width: 50%;
     overflow: none;
@@ -422,6 +422,7 @@ color: white !important;
     margin-bottom: 10px;
     color: black;
     border: 2px solid orange;
+    margin-bottom: 17px;
 }
 
 #header-media-about-info-two {
@@ -430,6 +431,7 @@ color: white !important;
     margin-bottom: 10px;
     color: black;
     border: 2px solid orange;
+    margin-bottom: 17px;
 }
 
 #header-media-about-info-link {
@@ -446,14 +448,54 @@ color: white !important;
 #header-media-about-info-link button {
     background-color: orange;
     padding: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-weight: 800;
+    color: teal !important;
+}
+#header-media-about-info-one button {
+    background-color: teal;
+    padding: 2px;
+    font-weight: 800;
+    color: orange !important;
+}
+#header-media-about-info-two button {
+    background-color: teal;
+    padding: 2px;
+    font-weight: 800;
+    color: orange !important;
+}
+#header-media-about-info-one a {
+    color: orange !important;
+    padding: 2px;
+}
+
+#header-media-about-info-two a {
+    color: orange !important;
+    padding: 2px;
 }
 
 #header-media-about-info-link a {
-    color: black !important;
     font-weight: 600;   
 }
+
+#header-media-about-info-one button:hover {
+    box-shadow: 0px 0px 5px 3px white;
+    background: orange;
+}
+
+#header-media-about-info-one a:hover {
+    color: teal!important;
+}
+
+#header-media-about-info-two button:hover {
+    box-shadow: 0px 0px 5px 3px white;
+    background: orange;
+}
+
+#header-media-about-info-two a:hover {
+    color: teal!important;
+}
+
 
 #header-media-about-info-link button:hover {
     box-shadow: 0px 0px 10px 5px white;
@@ -539,6 +581,120 @@ color: white !important;
 }
 /* HEADER - ABOUT & JOURNEY - END*/
 
+/* HEADER - CAREER - TEAMNDCOMMUNITY */
+
+#header-career-teamndcommunity {
+    height: 500px;
+    background-image: url('../media/images/coin-logo-3d-wide.png');
+    background: cover no-repeat;
+    background-color: rgba(1, 167, 167, 0.247);
+}
+
+#career-teamndcommunity {
+    background-color: whitesmoke !important;
+    margin-top: -62px;
+}
+
+#career-teamndcommunity-title {
+    text-align: center;
+    background-color: rgba(9, 70, 70, 0.616) !important;
+    font-size: xxx-large;
+    margin-bottom: -64px;
+    color: rgb(255, 196, 0);
+    font-weight: 1000;
+}
+
+#career-teamndcommunity h5 {
+    font-size: x-large;
+    text-decoration: underline;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 7px;
+    max-width: fit-content;
+    background-color: rgba(0, 128, 128, 0.325) !important;
+}
+
+#career-teamndcommunity-concept p {
+    background-color: rgba(0, 128, 128, 0.325);
+    color: black;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 14px;
+}
+
+#career-teamndcommunity-payment p {
+    background-color: rgba(0, 128, 128, 0.325);
+    color: black;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 14px;
+}
+
+#career-teamndcommunity-conditions-box {
+    background-color: rgba(0, 128, 128, 0.325);
+    color: black;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    margin-bottom: 14px;
+}
+
+#career-teamndcommunity-positions-box {
+    background-color: rgba(0, 128, 128, 0.325);
+    color: black;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+}
+
+#career-teamndcommunity-concept {
+    padding-left: 21px;
+    padding-right: 21px;
+    border-top: 1px solid rgb(0, 128, 128);
+    border-bottom: 1px solid rgb(0, 128, 128);
+    padding-bottom: 15px;
+}
+
+#career-teamndcommunity-payment {
+    padding-left: 21px;
+    padding-right: 21px;
+    border-bottom: 1px solid rgb(0, 128, 128);
+    padding-bottom: 15px;
+}
+
+#career-teamndcommunity-conditions {
+    padding-left: 21px;
+    padding-right: 21px;
+    border-bottom: 1px solid rgb(0, 128, 128);
+    padding-bottom: 20px;
+}
+
+#career-teamndcommunity-positions {
+    padding-left: 21px;
+    padding-right: 21px;
+    border-bottom: 1px solid rgb(0, 128, 128);
+    padding-bottom: 35px;
+}
+
+/* HEADER - CAREER - TEAMNDCOMMUNITY - END */
+
+/* HEADER - CAREER - COLLAB */
+
+#header-career-collab {
+    height: 500px;
+    background-image: url('../media/images/coin-logo-3d-wide.png');
+    background: cover no-repeat;
+    background-color: rgba(0, 128, 128, 0.325);
+}
+/* HEADER - CAREER - COLLAB - END */
 /* INTRODUCTION */
 
 #introduction {
