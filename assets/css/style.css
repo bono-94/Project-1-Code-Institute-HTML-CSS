@@ -146,6 +146,7 @@ p {
 .active-nav-menu-two a {
     padding-left: 5px;
     padding-right: 5px;
+    text-transform: uppercase;
 }
 
 .nav-logo-title-group h1:hover {
@@ -279,7 +280,6 @@ color: white !important;
     color:orange;
     padding: 5px;
     box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
-    text-transform: uppercase;
 }
 /* TITLE LOGO - END */
 
@@ -591,7 +591,7 @@ color: white !important;
 }
 
 #career-teamndcommunity {
-    background-color: whitesmoke !important;
+    background-color: rgba(202, 234, 245, 0.301) !important;
     margin-top: -62px;
 }
 
@@ -612,6 +612,8 @@ color: white !important;
     padding: 7px;
     max-width: fit-content;
     background-color: rgba(0, 128, 128, 0.325) !important;
+    color:black !important;
+    
 }
 
 #career-teamndcommunity-concept p {
@@ -620,6 +622,7 @@ color: white !important;
     border: 2px solid teal;
     box-shadow: 0px 0px 2px 2px orange;
     padding: 14px;
+    font-weight: 300;
 }
 
 #career-teamndcommunity-payment p {
@@ -628,6 +631,7 @@ color: white !important;
     border: 2px solid teal;
     box-shadow: 0px 0px 2px 2px orange;
     padding: 14px;
+    font-weight: 300;
 }
 
 #career-teamndcommunity-conditions-box {
@@ -641,6 +645,7 @@ color: white !important;
     padding-right: 20px;
     width: 50%;
     margin-bottom: 14px;
+    font-weight: 200;
 }
 
 #career-teamndcommunity-positions-box {
@@ -887,13 +892,13 @@ color: white !important;
     background: url('../media/images/timeline-sunset-two.jpg') center / cover no-repeat;
     font-weight: 1200;
     font-size: xxx-large;
-    border-style:outset;
     border-width: 1px;
     border-color: blue;
     text-shadow: 1px 1px 2px blue;
-    box-shadow: 0px 30px 40px 0px rgba(250, 221, 95, 0.603);
+    box-shadow: 0px 40px 50px 0px rgba(250, 221, 95, 0.603);
     height: 300px;
     line-height: 280px;
+    background-color: rgba(135, 207, 235, 0.644) !important;
  }
 
  #features h3 {
@@ -958,59 +963,81 @@ color: white !important;
     background-size: cover no-repeat;
     background-position: center;
     border-top: 5px double white;
-    margin-bottom: -10px;
+    margin-bottom: -30px;
     margin-top: 560px;
+    background-color: rgba(245, 245, 245, 0.733) !important;
 }
 
 #private-sale-title h3 {
     text-align: center;
     align-content: middle;
     align-items: middle;
-    color:rgb(245, 196, 106);
+    color: orange;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     width: fit-content;
-    background-color: rgba(141, 136, 136, 0.856);
+    background-color: teal;
     border-color: white;
     border-style: ridge;
     border-width: 3px;
     padding:5px !important;
+    font-weight: 800;
 }
 #private-sale h4 {
-    text-align: center;
-    align-content: middle;
-    align-items: middle;
-    color:rgb(232, 179, 80);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    margin-top: 70px;
     width: fit-content;
-    background-color: rgba(141, 136, 136, 0.856);
+    background-color: teal;
     border-color: white;
     border-style: ridge;
     border-width: 3px;
     margin-bottom: 30px;
     padding:5px !important;
     font-size: larger;
+    font-weight: 1000 !important;
+    text-align: left;
+    margin-left: 20px;
+    color: orange;
 }
 
 #private-sale p {
    text-align:left;
-   background-color: rgba(141, 136, 136, 0.856);
+   background-color: teal;
    font-weight: 400;
    width: fit-content;
-   color: yellow;
    border-color: white;
    border-style: ridge;
    border-width: 3px;
    margin-left: 20px;
-   padding:3px !important;
-   text-align: left;
+   padding:4px !important;
+   color:gold;
 }
 
 #private-sale i {
-    color:yellow;
+    color:orange;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#private-sale-wallets-info {
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+#private-sale-wallets-info p{
+    color:orange !important;
+}
+#private-sale-info {
+    padding-right: 35px;
+}
+
+#private-sale-info p {
+    text-align: justify;
+    padding: 30px;
+}
+
+#private-sale-text strong {
+    color:orange !important;
 }
 
 #below-surface h3:hover {
