@@ -583,84 +583,49 @@ color: white !important;
 
 /* HEADER - CAREER - TEAMNDCOMMUNITY */
 
-#header-career-teamndcommunity {
+#recruitment-team-header {
     height: 500px;
     background-image: url('../media/images/coin-logo-3d-wide.png');
     background: cover no-repeat;
     background-color: rgba(1, 167, 167, 0.247);
 }
 
-#career-teamndcommunity {
+#recruitment-team-box {
     background-color: rgba(202, 234, 245, 0.301) !important;
     margin-top: -62px;
 }
 
-#career-teamndcommunity-title {
-    text-align: center;
+#recruitment-team-title {
     background-color: rgba(9, 70, 70, 0.616) !important;
-    font-size: xxx-large;
-    margin-bottom: -64px;
     color: rgb(255, 196, 0);
+    font-size: xxx-large;
     font-weight: 1000;
+    text-align: center;
+    margin-bottom: -64px;
 }
 
-#career-teamndcommunity h5 {
+#recruitment-team-title h4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#recruitment-team-title i {
+    padding-left: 14px;
+    color: rgb(255, 196, 0);
+}
+
+#recruitment-team-box h5 {
     font-size: x-large;
-    text-decoration: underline;
     border: 2px solid teal;
     box-shadow: 0px 0px 2px 2px orange;
     padding: 7px;
     max-width: fit-content;
-    background-color: rgba(0, 128, 128, 0.325) !important;
-    color:black !important;
-    
+    background-color: rgba(9, 70, 70, 0.616) !important;
+    color: rgb(255, 196, 0);
+    font-weight: 1000 !important;
 }
 
-#career-teamndcommunity-concept p {
-    background-color: rgba(0, 128, 128, 0.325);
-    color: black;
-    border: 2px solid teal;
-    box-shadow: 0px 0px 2px 2px orange;
-    padding: 14px;
-    font-weight: 300;
-}
-
-#career-teamndcommunity-payment p {
-    background-color: rgba(0, 128, 128, 0.325);
-    color: black;
-    border: 2px solid teal;
-    box-shadow: 0px 0px 2px 2px orange;
-    padding: 14px;
-    font-weight: 300;
-}
-
-#career-teamndcommunity-conditions-box {
-    background-color: rgba(0, 128, 128, 0.325);
-    color: black;
-    border: 2px solid teal;
-    box-shadow: 0px 0px 2px 2px orange;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 50%;
-    margin-bottom: 14px;
-    font-weight: 200;
-}
-
-#career-teamndcommunity-positions-box {
-    background-color: rgba(0, 128, 128, 0.325);
-    color: black;
-    border: 2px solid teal;
-    box-shadow: 0px 0px 2px 2px orange;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 50%;
-}
-
-#career-teamndcommunity-concept {
+#recruitment-team-concept {
     padding-left: 21px;
     padding-right: 21px;
     border-top: 1px solid rgb(0, 128, 128);
@@ -668,38 +633,231 @@ color: white !important;
     padding-bottom: 15px;
 }
 
-#career-teamndcommunity-payment {
-    padding-left: 21px;
-    padding-right: 21px;
-    border-bottom: 1px solid rgb(0, 128, 128);
-    padding-bottom: 15px;
-}
-
-#career-teamndcommunity-conditions {
+#recruitment-team-conditions{
     padding-left: 21px;
     padding-right: 21px;
     border-bottom: 1px solid rgb(0, 128, 128);
     padding-bottom: 20px;
 }
 
-#career-teamndcommunity-positions {
+#recruitment-team-payment {
+    padding-left: 21px;
+    padding-right: 21px;
+    border-bottom: 1px solid rgb(0, 128, 128);
+    padding-bottom: 15px;
+}
+
+#recruitment-team-positions {
     padding-left: 21px;
     padding-right: 21px;
     border-bottom: 1px solid rgb(0, 128, 128);
     padding-bottom: 35px;
 }
 
+#recruitment-team-concept p {
+    background-color: rgb(1, 152, 152) !important;
+    color:white !important;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 14px;
+    font-weight: 300;
+    font-size: larger;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#recruitment-team-conditions-box {
+    background-color: rgb(1, 152, 152) !important;
+    color:white !important;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size:large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#recruitment-team-payment p {
+    background-color: rgb(1, 152, 152) !important;
+    color:white !important;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 14px;
+    font-weight: 300;
+    font-size: larger;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#recruitment-team-positions-box {
+    background-color: rgb(1, 152, 152) !important;
+    color:white !important;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /* HEADER - CAREER - TEAMNDCOMMUNITY - END */
 
-/* HEADER - CAREER - COLLAB */
+/* RECRUITMENT - COLLAB */
 
-#header-career-collab {
+/* RECRUITMENT - COLLAB - HEADER */
+
+#recruitment-collab-header {
     height: 500px;
     background-image: url('../media/images/coin-logo-3d-wide.png');
     background: cover no-repeat;
     background-color: rgba(0, 128, 128, 0.325);
 }
-/* HEADER - CAREER - COLLAB - END */
+
+/* RECRUITMENT - COLLAB - HEADER - END */
+
+/* RECRUITMENT - COLLAB - CONTENT */
+
+#recruitment-collab-box {
+    background-color: rgba(202, 234, 245, 0.301) !important;
+    margin-top: -62px;
+}
+
+#recruitment-collab-title {
+    background-color: rgba(9, 70, 70, 0.616) !important;
+    color: rgb(255, 196, 0);
+    font-size: xxx-large;
+    font-weight: 1000;
+    text-align: center;
+}
+
+#recruitment-collab-title h4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#recruitment-collab-title i {
+    padding-left: 14px;
+    color: rgb(255, 196, 0);
+}
+
+#recruitment-collab-description {
+    background-color: rgba(9, 70, 70, 0.616) !important;
+    color: whitesmoke;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#recruitment-collab-description h5 {
+    text-align: center;
+    font-weight: 1000;
+}
+
+#recruitment-collab-description h6 {
+    padding-left: 15px;
+    color: white;
+    font-weight: 800;
+}
+
+
+#recruitment-collab-concepts {
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-bottom: 20px;    
+    margin-bottom: 30px;
+}
+
+#recruitment-collab-concepts-subtitle {
+    color: rgb(9, 70, 70) !important;
+    background-color: rgb(255, 196, 0);
+    border: 2px solid orange;
+    box-shadow: 0px 0px 2px 2px teal;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}   
+
+#recruitment-collab-concepts-subtitle h5 {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    font-size: xx-large;
+    font-weight: bolder !important;
+}
+
+#recruitment-collab-concepts-investment {
+    margin-top: 80px;
+} 
+
+#recruitment-collab-concepts-investment h6 {
+    font-size: x-large;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 7px;
+    max-width: fit-content;
+    background-color: rgba(9, 70, 70, 0.616) !important;
+    color: rgb(255, 196, 0);
+    font-weight: 1000 !important;
+} 
+
+#recruitment-collab-concepts-investment p {
+    
+} 
+
+#recruitment-collab-concepts-sponsorship {
+    
+}   
+
+#recruitment-collab-concepts-sponsorship h6 {
+    font-size: x-large;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 7px;
+    max-width: fit-content;
+    background-color: rgba(9, 70, 70, 0.616) !important;
+    color: rgb(255, 196, 0);
+    font-weight: 1000 !important;
+}   
+
+#recruitment-collab-concepts-sponsorship p {
+    
+}   
+
+#recruitment-collab-concepts-collaboration {
+    
+}     
+
+#recruitment-collab-concepts-collaboration h6 {
+    font-size: x-large;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 7px;
+    max-width: fit-content;
+    background-color: rgba(9, 70, 70, 0.616) !important;
+    color: rgb(255, 196, 0);
+    font-weight: 1000 !important;
+    padding-right:20px;
+    padding-left:20px;
+}  
+
+#recruitment-collab-concepts-collaboration p {
+    
+}  
+
+
+/* RECRUITMENT - COLLAB - END */
+
+
 /* INTRODUCTION */
 
 #introduction {
