@@ -150,16 +150,16 @@ p {
 }
 
 .nav-logo-title-group h1:hover {
-    box-shadow: 0px 0px 10px 10px silver;
-    background-color: silver !important;
+    box-shadow: 0px 0px 10px 10px teal;
+    background-color: teal !important;
 }
 
-.nav-logo-title-group span:hover {
-color: white !important;
+.nav-logo-title-group h1:hover > span {
+    color: orange !important;
 }
 
 .nav-logo-title-group img:hover {
-    box-shadow: 0px 0px 20px 20px silver;
+    box-shadow: 0px 0px 10px 10px teal;
 }
 
 /* NAVIGATION - END */ 
@@ -191,6 +191,10 @@ color: white !important;
     display: flex;
     float: left;
     margin-left: 20px;
+}
+
+#nav-title span {
+    text-indent: 3px;
 }
 
 #brown-l {
@@ -587,7 +591,7 @@ color: white !important;
     height: 500px;
     background-image: url('../media/images/coin-logo-3d-wide.png');
     background: cover no-repeat;
-    background-color: rgba(1, 167, 167, 0.247);
+    background-color: rgba(202, 234, 245, 0.301) !important;
 }
 
 #recruitment-team-box {
@@ -596,8 +600,8 @@ color: white !important;
 }
 
 #recruitment-team-title {
-    background-color: rgba(9, 70, 70, 0.616) !important;
-    color: rgb(255, 196, 0);
+    background-color: teal !important;
+    color: orange;
     font-size: xxx-large;
     font-weight: 1000;
     text-align: center;
@@ -607,21 +611,23 @@ color: white !important;
 #recruitment-team-title h4 {
     padding-top: 5px;
     padding-bottom: 5px;
+    border-bottom: 1px solid orange;
+    border-top: 1px solid orange;
 }
 
 #recruitment-team-title i {
     padding-left: 14px;
-    color: rgb(255, 196, 0);
+    color: orange;
 }
 
 #recruitment-team-box h5 {
     font-size: x-large;
     border: 2px solid teal;
-    box-shadow: 0px 0px 2px 2px orange;
+    box-shadow: 0px 0px 2px 2px teal;
     padding: 7px;
     max-width: fit-content;
-    background-color: rgba(9, 70, 70, 0.616) !important;
-    color: rgb(255, 196, 0);
+    background-color: orange !important;
+    color: teal;
     font-weight: 1000 !important;
 }
 
@@ -719,7 +725,7 @@ color: white !important;
     height: 500px;
     background-image: url('../media/images/coin-logo-3d-wide.png');
     background: cover no-repeat;
-    background-color: rgba(0, 128, 128, 0.325);
+    background-color: rgba(202, 234, 245, 0.301) !important;
 }
 
 /* RECRUITMENT - COLLAB - HEADER - END */
@@ -732,8 +738,8 @@ color: white !important;
 }
 
 #recruitment-collab-title {
-    background-color: rgba(9, 70, 70, 0.616) !important;
-    color: rgb(255, 196, 0);
+    background-color: teal !important;
+    color: orange;
     font-size: xxx-large;
     font-weight: 1000;
     text-align: center;
@@ -742,15 +748,17 @@ color: white !important;
 #recruitment-collab-title h4 {
     padding-top: 5px;
     padding-bottom: 5px;
+    border-bottom: 1px solid orange;
+    border-top: 1px solid orange;
 }
 
 #recruitment-collab-title i {
     padding-left: 14px;
-    color: rgb(255, 196, 0);
+    color: orange;
 }
 
 #recruitment-collab-description {
-    background-color: rgba(9, 70, 70, 0.616) !important;
+    background-color: rgb(1, 152, 152) !important;
     color: whitesmoke;
     border: 2px solid teal;
     box-shadow: 0px 0px 2px 2px orange;
@@ -770,6 +778,11 @@ color: white !important;
     font-weight: 800;
 }
 
+#recruitment-collab-description i {
+    padding-right: 18px;
+    color: orange;
+}
+
 
 #recruitment-collab-concepts {
     padding-left: 41px;
@@ -779,79 +792,112 @@ color: white !important;
 }
 
 #recruitment-collab-concepts-subtitle {
-    color: rgb(9, 70, 70) !important;
-    background-color: rgb(255, 196, 0);
-    border: 2px solid orange;
+    color: teal !important;
+    background-color: orange;
+    border: 2px solid teal;
     box-shadow: 0px 0px 2px 2px teal;
     text-align: center;
-    margin-top: -10px;
-    margin-bottom: 30px;
+    margin-top: -8px;
+    margin-bottom: 20px;
 }   
 
 #recruitment-collab-concepts-subtitle h5 {
     margin-bottom: 5px !important;
     margin-top: 5px !important;
     font-size: xx-large;
-    font-weight: bolder !important;
+    font-weight: 2000 !important;
 }
 
 #recruitment-collab-concepts-investment {
-    margin-top: 80px;
+    margin-top: 70px;
+    border-bottom: 1px solid rgb(0, 128, 128);
+    padding-bottom: 35px;
 } 
 
 #recruitment-collab-concepts-investment h6 {
     font-size: x-large;
     border: 2px solid teal;
-    box-shadow: 0px 0px 2px 2px orange;
+    box-shadow: 0px 0px 2px 2px teal;
     padding: 7px;
     max-width: fit-content;
-    background-color: rgba(9, 70, 70, 0.616) !important;
-    color: rgb(255, 196, 0);
+    background-color: orange !important;
+    color: teal;
     font-weight: 1000 !important;
 } 
 
 #recruitment-collab-concepts-investment p {
-    
+    background-color: rgb(1, 152, 152) !important;
+    color:white !important;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 14px;
+    font-weight: 300;
+    font-size: larger;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px !important;
+    max-width:90%
 } 
 
 #recruitment-collab-concepts-sponsorship {
-    
+
+    border-bottom: 1px solid rgb(0, 128, 128);
+    padding-bottom: 35px;
 }   
 
 #recruitment-collab-concepts-sponsorship h6 {
     font-size: x-large;
     border: 2px solid teal;
-    box-shadow: 0px 0px 2px 2px orange;
+    box-shadow: 0px 0px 2px 2px teal;
     padding: 7px;
     max-width: fit-content;
-    background-color: rgba(9, 70, 70, 0.616) !important;
-    color: rgb(255, 196, 0);
-    font-weight: 1000 !important;
+    background-color: orange !important;
+    color: teal;
+
 }   
 
 #recruitment-collab-concepts-sponsorship p {
-    
+    background-color: rgb(1, 152, 152) !important;
+    color:white !important;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 14px;
+    font-weight: 300;
+    font-size: larger;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 90%;
 }   
 
 #recruitment-collab-concepts-collaboration {
-    
+    margin-top: 60px;
+    border-bottom: 1px solid rgb(0, 128, 128);
+    padding-bottom: 35px;
 }     
 
 #recruitment-collab-concepts-collaboration h6 {
     font-size: x-large;
     border: 2px solid teal;
-    box-shadow: 0px 0px 2px 2px orange;
+    box-shadow: 0px 0px 2px 2px teal;
     padding: 7px;
     max-width: fit-content;
-    background-color: rgba(9, 70, 70, 0.616) !important;
-    color: rgb(255, 196, 0);
+    background-color: orange !important;
+    color: teal;
     font-weight: 1000 !important;
-    padding-right:20px;
-    padding-left:20px;
 }  
 
 #recruitment-collab-concepts-collaboration p {
-    
+    background-color: rgb(1, 152, 152) !important;
+    color:white !important;
+    border: 2px solid teal;
+    box-shadow: 0px 0px 2px 2px orange;
+    padding: 14px;
+    font-weight: 300;
+    font-size: larger;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px !important;
+    max-width: 90%;
 }  
 
 
@@ -887,16 +933,15 @@ color: white !important;
     border-bottom: 15px solid teal !important;
 }
 
-#about-boxes-title h3{
+#about-boxes-title h3 {
     width: 100%;
     text-align: left;
     background-color: black;
     color:orange;
-    height: 50px;
     font-size: xxx-large;
     padding-top: 8px;
+    padding-left: 15px;
     padding-bottom: 8px;
-    padding-left: 20px;
     margin-bottom: -42px;
 }
 
@@ -908,6 +953,7 @@ color: white !important;
     font-size: xx-large;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-weight: bolder;
 }
 
 .about-boxes-content p {
@@ -923,14 +969,14 @@ color: white !important;
 #timeline {
     text-align: center;
     vertical-align: top;
-    background-color: #e7b4b4;
+    background-color: rgba(202, 234, 245, 0.301);
 }
 
 .timeline-boxes {
-    background-color: rgb(182, 174, 174);
+    background-color: teal;
     display: inline-block;
     text-align: center;
-    border: snow;
+    border: orange;
     border-style: ridge;
     border-width: 5px;
     padding:10px;
@@ -944,32 +990,32 @@ color: white !important;
 }
 
 #timeline h2 {
-    background-color: #f16b6bb9 !important;
-    color: purple;
-    border: #3a3a3a 3px ridge;
+    background-color: teal !important;
+    color: orange;
+    border: orange 4px ridge;
     margin-top: 1px;
     margin-bottom: 40px;
-    text-shadow: 2px 2px 4px whitesmoke;
+    text-shadow: 0px 0px 2px black;
 }
 
 .timeline-boxes h3 {
-    color:purple;
+    color: orange;
     text-decoration:underline;
     font-weight: 900;
     font-size: xx-large;
-    text-shadow: 2px 2px 3px whitesmoke;
+    text-shadow: 0px 0px 2px black;
 }
 
 .timeline-boxes p {
     font-size: medium;
-    color:black !important;
+    color:white !important;
     text-align: center;
     font-weight: 600 !important;
-    text-shadow: -1px 0 #ee8a8a, 0 2px #ee8a8a, 2px 0 #ee8a8a, 0 -1px #ee8a8a;
+    text-shadow: 0px 0px 2px black;
 }
 
 #timeline hr {
-    border-top: 2px double purple;
+    border-top: 2px double rgba(202, 234, 245, 0.301);
     width: 100%;
     margin: 5px 0;
 }
@@ -979,15 +1025,14 @@ color: white !important;
 #timeline-two {
     text-align: center;
     vertical-align: top;
-    background-color: rgb(245, 196, 106);
-    margin-top: -17px;
+    background-color: rgba(202, 234, 245, 0.301);
 }
 
 .timeline-boxes-two {
-    background-color: rgb(182, 174, 174);
+    background-color: teal;
     display: inline-block;
     text-align: center;
-    border: snow;
+    border: orange;
     border-style: ridge;
     border-width: 5px;
     padding:10px;
@@ -995,39 +1040,39 @@ color: white !important;
     text-align: center;
     vertical-align: top;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 #timeline-two h2 {
-    background-color: rgb(241, 168, 33) !important;
+    background-color: teal !important;
     color: white;
-    border: #3a3a3a 3px ridge;
+    border: orange 4px ridge;
     margin-top: 20px;
     margin-bottom: 40px;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 0px 0px 2px black;
 }
 
 .timeline-boxes-two h3 {
-    color:white;
+    color:orange;
     text-decoration:underline;
-    font-weight: 700;
+    font-weight: 900;
     font-size: xx-large;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 0px 0px 2px black;
 }
 
 .timeline-boxes-two p {
     font-size: medium;
-    color:black !important;
+    color: white !important;
     text-align: center;
     font-weight: 600 !important;
     padding-bottom: 5px;
-    text-shadow: -1px 0 rgb(250, 197, 99), 0 2px rgb(250, 197, 99), 2px 0 rgb(250, 197, 99), 0 -1px rgb(250, 197, 99);
+    text-shadow: 0px 0px 2px black;
 }
 
 #timeline-two hr {
-    border-top: 2px double white;
+    border-top: 2px double rgba(202, 234, 245, 0.301);
     width: 100%;
     margin: 5px 0;
 }
@@ -1041,7 +1086,7 @@ color: white !important;
     background-size: cover no-repeat;
     font-weight: 600;
     text-align: center;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
     margin-top: -40px;
 }
  #features h2 {
@@ -1052,7 +1097,7 @@ color: white !important;
     font-size: xxx-large;
     border-width: 1px;
     border-color: blue;
-    text-shadow: 1px 1px 2px blue;
+    text-shadow: 1px 1px 2px rgb(0, 64, 255);
     box-shadow: 0px 40px 50px 0px rgba(250, 221, 95, 0.603);
     height: 300px;
     line-height: 280px;
@@ -1074,8 +1119,8 @@ color: white !important;
     border: 5px solid white;
  }
 
- .list-circle {
-    list-style-type: circle;
+ #features-first-box {
+    margin-top: 60px !important;
  }
 
  .features-box {
@@ -1083,10 +1128,9 @@ color: white !important;
     text-align: center;
     font-size: small;
     color:darkblue;
-    width: fit-content;
-    text-shadow: 0px 0px 10px orange;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 1%;
@@ -1098,10 +1142,9 @@ color: white !important;
     text-align: center;
     font-size: small;
     color: yellow !important;
-    width: fit-content;
-    text-shadow: 0px 0px 10px white;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 1%;
@@ -1110,9 +1153,16 @@ color: white !important;
 
 #features div:hover {
     box-shadow: -10px -10px 58px 10px white;
+    text-shadow: 0px 0px 10px white;
+}
+
+#features hr {
+    margin-bottom: 20px;
 }
 /* FEATURES - END*/
-
+.list-circle {
+    list-style-type: circle;
+ }
 /* PRIVATE SALE */
 
 #private-sale {
@@ -1141,9 +1191,10 @@ color: white !important;
     border-width: 3px;
     padding:5px !important;
     font-weight: 800;
+    font-size: xx-large;
 }
 #private-sale h4 {
-    margin-top: 70px;
+    margin-top: 30px;
     width: fit-content;
     background-color: teal;
     border-color: white;
@@ -1151,7 +1202,7 @@ color: white !important;
     border-width: 3px;
     margin-bottom: 30px;
     padding:5px !important;
-    font-size: larger;
+    font-size: x-large;
     font-weight: 1000 !important;
     text-align: left;
     margin-left: 20px;
@@ -1168,7 +1219,8 @@ color: white !important;
    border-width: 3px;
    margin-left: 20px;
    padding:4px !important;
-   color:gold;
+   color:white;
+   padding: 5px !important;
 }
 
 #private-sale i {
@@ -1177,13 +1229,20 @@ color: white !important;
     padding-right: 3px;
 }
 
+#private-sale hr {
+    margin-top: 40px !important;
+    margin-top: 40px !important;
+}
+
 #private-sale-wallets-info {
     padding-bottom: 40px;
     padding-right: 20px;
+    margin-top: 30px;
 }
 
 #private-sale-wallets-info p{
     color:orange !important;
+    padding: 10px !important;
 }
 #private-sale-info {
     padding-right: 35px;
@@ -1573,6 +1632,7 @@ label {
     color: silver;
     text-align: center;
     margin-top: -19px;
+    margin-bottom: -20px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 900;
