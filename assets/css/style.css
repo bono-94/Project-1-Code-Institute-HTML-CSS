@@ -150,16 +150,17 @@ p {
 }
 
 .nav-logo-title-group h1:hover {
-    box-shadow: 0px 0px 10px 10px teal;
-    background-color: teal !important;
+    box-shadow: 0px 0px 5px 14px rgb(1, 138, 138);
+    background-color: rgb(1, 138, 138) !important;
 }
 
 .nav-logo-title-group h1:hover > span {
     color: orange !important;
+    text-shadow: 0px 0px 5px white;
 }
 
 .nav-logo-title-group img:hover {
-    box-shadow: 0px 0px 10px 10px teal;
+    box-shadow: 0px 0px 8px 12px rgb(1, 138, 138);
 }
 
 /* NAVIGATION - END */ 
@@ -174,10 +175,14 @@ p {
 }
 
 #nav-logo img {
-    height:80px;
-    width:80px;
+    height:90px;
+    width:90px;
     margin:30px;
     border-radius: 100%;
+}
+
+#nav-logo-title-group h1 {
+    margin-bottom: 20px;
 }
 
 
@@ -194,7 +199,8 @@ p {
 }
 
 #nav-title span {
-    text-indent: 3px;
+    text-indent: 2px;
+    text-align: center;
 }
 
 #brown-l {
@@ -209,11 +215,11 @@ p {
 }
 #skyblue-e {
     color: rgb(0, 183, 255);
-    padding-right: 5px;
+    padding-right: 7px;
 }
 #yellow-c {
     color: orange;
-    padding-left: 5px;
+    padding-left: 7px;
 }
 #red-o {
     color: red;
@@ -253,6 +259,7 @@ p {
     font-weight: 1000;
     padding: 5px;
     box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
+    text-shadow: 0px 0px 4px white;
 }
 
 #nav-sub-menu {
@@ -396,7 +403,7 @@ p {
 
 #header-media-careers-pic {
     float: right;
-    height: 585px;
+    height: 600px;
     background: center 50% / cover no-repeat;
     width: 50%;
     overflow: none;
@@ -417,7 +424,7 @@ p {
     font-size: xx-large;
     text-decoration: underline !important;
     font-weight: 2000;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #header-media-about-info-one {
@@ -453,21 +460,41 @@ p {
     background-color: orange;
     padding: 5px;
     margin-bottom: 10px;
-    font-weight: 800;
+    font-weight: 900;
     color: teal !important;
 }
+
 #header-media-about-info-one button {
     background-color: teal;
     padding: 2px;
-    font-weight: 800;
+    font-weight: 900;
     color: orange !important;
+    margin-bottom: 8px;
 }
+
 #header-media-about-info-two button {
     background-color: teal;
     padding: 2px;
-    font-weight: 800;
+    font-weight: 900;
     color: orange !important;
+    margin-bottom: 8px;
 }
+
+#header-media-about-info-one h4 {
+    color: black !important;
+    font-size: large;
+}
+
+#header-media-about-info-two h4 {
+    color: black !important;
+    font-size: large;
+}
+
+#header-media-about-info-link h4 {
+    font-size: large;
+    color: black;   
+}
+
 #header-media-about-info-one a {
     color: orange !important;
     padding: 2px;
@@ -479,7 +506,8 @@ p {
 }
 
 #header-media-about-info-link a {
-    font-weight: 600;   
+    font-weight: 900;
+    color: teal;   
 }
 
 #header-media-about-info-one button:hover {
@@ -561,28 +589,6 @@ p {
     color:white;
 }
 
-#header-media-text-journey {
-    float: left;
-    margin-left: 10px;
-    padding:10px;
-    letter-spacing: 2px;
-    z-index: 1;
-    background-color: purple;
-    font-weight: 600;
-    font-size: large;
-    color:white;
-}
-
-#header-media-text-journey button{
-    background-color: black;
-    font-weight: 800;
-    color:white;
-} 
-
-#header-media-text-journey button:hover {
-    background-color: red;
-    color:white;
-}
 /* HEADER - ABOUT & JOURNEY - END*/
 
 /* HEADER - CAREER - TEAMNDCOMMUNITY */
@@ -733,7 +739,7 @@ p {
 /* RECRUITMENT - COLLAB - CONTENT */
 
 #recruitment-collab-box {
-    background-color: rgba(202, 234, 245, 0.301) !important;
+    background-color: rgba(202, 234, 245, 0.565) !important;
     margin-top: -62px;
 }
 
@@ -902,6 +908,118 @@ p {
 
 
 /* RECRUITMENT - COLLAB - END */
+
+/* JOURNEY */
+
+#journey-header {
+    height: 600px;
+    text-align: center;
+}
+
+#journey-header-picture {
+    float: left;
+    width: 50%;
+    background-image: url('../media/images/lock-small.jpg');
+    background: center 50% / cover no-repeat;
+    overflow: none;
+    height: 600px;
+}
+
+
+#journey-header-content {
+    background-color: orange;
+    float: right;
+    width: 50%;
+    height: 600px;
+}
+
+#journey-header-content-one {
+    background-color: teal !important;
+    color:white !important;
+    border: 2px solid orange;
+    padding: 5px;
+    margin-bottom: 17px;
+    margin-right: 0;
+    margin-left: 0;
+    font-weight: 900;
+    font-size: larger;
+    width: fit-content;
+}
+
+#journey-header-content-two {
+    margin-right: 0;
+    margin-left: 0;
+    padding:10px;
+    background-color: purple;
+    font-weight: 900;
+    font-size: larger;
+    color:white;
+    width: fit-content;
+}
+
+#journey-header-content-three {
+    margin-right: 0;
+    margin-left: 0;
+    padding:10px;
+    background-color: purple;
+    font-weight: 900;
+    font-size: larger;
+    color:white;
+    width: fit-content;
+}
+
+#journey-header-content-four {
+    margin-right: 0;
+    margin-left: 0;
+    padding:10px;
+    background-color: purple;
+    font-weight: 900;
+    font-size: larger;
+    color:white;
+    width: fit-content;
+}
+
+#journey-header-content-five {
+    margin-right: 0;
+    margin-left: 0;
+    background-color: purple;
+    font-weight: 900;
+    font-size: larger;
+    color:white;
+    width: fit-content;
+}
+
+#journey-header-content-six {
+    margin-right: 0;
+    margin-left: 0;
+    font-weight: 900;
+    font-size: larger;
+}
+
+#journey-header-content-six button{
+    background-color: teal;
+    padding: 2px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-weight: 900;
+} 
+
+#journey-header-content-six a {
+    color:orange !important;
+    font-weight: 900;
+    padding: 8px;
+}
+
+#journey-header-content-six button:hover {
+    background-color: orange !important;
+    box-shadow: 0 0 10px 3px white;
+}
+
+#journey-header-content-six a:hover {
+    color:teal !important;
+    font-weight: 900;
+}
+/* JOURNEY - END */
 
 
 /* INTRODUCTION */
