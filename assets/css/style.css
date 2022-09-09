@@ -90,11 +90,16 @@ p {
 /* NAVIGATION */ 
 
 #nav-bar {
-    background-color: rgba(135, 207, 235, 0.541);
+    background-image: url('../media/images/leaves-tall-water.jpg');
+    background-repeat: repeat;
+    background-position: right;
+    background-size: 80%;
     margin-top: 2px;
-    border-top: 1px solid teal;
+    border-top: 2px solid teal;
+    height: 105px;
+    width: 100%;
 }
-
+   
 #nav-sub-menu {
     width: 100%;
     background-color: black;
@@ -102,9 +107,8 @@ p {
     display: inline-block;
     text-transform: capitalize;
     text-align: center;
-    border-top: 5px solid teal;
-    height:fit-content;
-    
+    border-top: 3px solid teal;
+    height:fit-content;    
 }
 
 .bottom-nav {
@@ -127,10 +131,10 @@ p {
 .active-nav-menu {
     text-decoration:underline !important;
     background-color: rgb(233, 141, 20);
-    color: black !important;
+    color: teal !important;
     box-shadow: 0px 0px 5px 3px black;
     font-weight: 1000;
-    padding: 4px;
+    padding: 3px;
 }
 
 .active-nav-menu-two {
@@ -152,15 +156,17 @@ p {
 .nav-logo-title-group h1:hover {
     box-shadow: 0px 0px 5px 14px rgb(1, 138, 138);
     background-color: rgb(1, 138, 138) !important;
+    padding: -100px !important;
 }
 
 .nav-logo-title-group h1:hover > span {
     color: orange !important;
     text-shadow: 0px 0px 5px white;
+    padding: -100px !important;
 }
 
 .nav-logo-title-group img:hover {
-    box-shadow: 0px 0px 8px 15px rgb(1, 138, 138);
+    box-shadow: 0px 0px 8px 5px rgb(1, 138, 138);
 }
 
 /* NAVIGATION - END */ 
@@ -169,20 +175,23 @@ p {
 
 #nav-logo {
     float: left;
-    display: flex;
-    background-image: url('../media/images/coin-logo-2d-slim.png');
-    vertical-align: middle;
+    display: flex;;
+    margin-bottom: -4px;
+    background-color: rgba(4, 184, 184, 0.606);
 }
 
 #nav-logo img {
-    height:90px;
-    width:90px;
-    margin:30px;
+    height:100%;
+    width:80px;
+    margin: 12px;
+    margin-left: 20px;
     border-radius: 100%;
+    vertical-align: middle;
 }
 
-#nav-logo-title-group h1 {
-    margin-bottom: 20px;
+#nav-logo h1 {
+    vertical-align: middle;
+    margin: 21.4px;
 }
 
 
@@ -196,11 +205,13 @@ p {
     display: flex;
     float: left;
     margin-left: 20px;
+    vertical-align: middle;
+    margin-bottom: -10px;
 }
 
 #nav-title span {
     text-indent: 2px;
-    text-align: center;
+    vertical-align: middle;
 }
 
 #brown-l {
@@ -1802,7 +1813,7 @@ label {
     font-weight: 400;
     font-weight: 1000 !important;
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 .social-networks i {
@@ -1860,7 +1871,7 @@ label {
     box-shadow: 0px 0px 5px 3px whitesmoke;
     padding-bottom: 8px;
     padding-top: 5px;
-    text-shadow: 0px 0px 1px white;
+    text-shadow: 0px 0px 3px rgb(6, 203, 203);
 }
 
 #copyright {
