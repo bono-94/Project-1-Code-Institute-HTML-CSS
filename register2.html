@@ -33,10 +33,10 @@
             </a>
         </div>     
         <div id="nav-menu">
-            <a href="register.html">Register</a>
+            <a href="register.html" class="active-nav-menu">Register</a>
             <a href="journey.html">Journey</a>
-            <a href="careers.html">Recruitment</a>
-            <a href="home.html" class="active-nav-menu">Home</a>
+            <a href="careers.html">Careers</a>
+            <a href="home.html">Home</a>
         </div>
     </nav>
     <nav id="nav-sub-menu">
@@ -49,47 +49,37 @@
     </nav>
 <!--NAVIGATION-->
 <!--HEADER-->
-    <header id="home-header-video">
-        <video src="/assets/media/video/cover-video-options.mp4" autoplay>
-            <p>WELCOME TO LIFE COIN VIDEO</p>
-        </video>
-    </header>
-<!--HEADER-->
-<!--INTRODUCTION-->
+<header id="header-media-register" class="page-header">
+    <div class="vertical-center-lower">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+        <div id="header-media-text-register">
+            <a href="#community"> 
+                <button>
+                    <em>Join our Global Community</em>
+                </button>
+            </a>
+        </div>
+    </div> 
+</header>
+<!--BREAK-->
     <main>
-        <div id="introduction">
-            <p>
-                <em>"Welcome to the beginning of new and improved life experience. Here is where healthy global economy occurs in sustainable enivoronment and optimized natural code of existence."</em>
-            </p>
-        </div>
-<!--INTRODUCTION-->
-<!--ABOUT-->
-        <div id="about-box">
-            <div id="about-boxes-title">
-                <h3>
-                    <strong>ABOUT LIFECOIN:</strong>
-                </h3>
-            </div>
-            <div class="about-boxes-content">
-                <h4>LIFE Mission:</h4>
-                <p>- We want to bridge every human, their knowlegde and experiences while giving a complete freedom of choice from the list of all global options.</p>
-            </div>
-            <div class="about-boxes-content">
-                <h4>LIFE Vision:</h4>
-                <p>- We are here to help each other and our enivoronment since we are all interdependent and equally important.</p>
-            </div>
-            <div class="about-boxes-content">
-                <h4>LIFE Destiny:</h4>
-                <p>- “Coin from everybody for everyone.”</p>
-                <p>- “We will grow together and learn from each other.”</p>
-            </div>
-            <div class="about-boxes-content">
-                <h4>LIFE Purpose:</h4>
-                <p>- Love, motivation, collaboration, sustainability, productivity, positive emotion will be emphasized.</p>
-                <p>- Negative feelings, actions, despair, and similar will all be diminished.</p>
-                <br>
-            </div>    
-        </div>
+        <section class="form-section">
+            <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/"></form>>
+                <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i> </h2>
+                <label for="fname">First Name</label>
+                <input id="fname" class="text-input" type="text" name="first_name" required />
+                <label for="lname">Last Name</label>
+                <input id="lname" class="text-input" type="text"  name="last_name" required />
+                <label for="email">Email Address</label>
+                <input id="email" class="text-input" type="email" name="email_address" required/>
+                <label for="road">Road</label>
+                <input id="road" type="radio" name ="running_preference" value="road" required/>
+                <label for="trail">Trail</label>
+                <input id="trail" type="radio" name="running_preference" value="trail"/>
+                <label for="both">Both</label>
+                <input id="both" type="radio" name="running_preference" value="both"/>
+                <input class="join-button"  type="submit" value="Let's Run!"/>   
+            </form>
+        </section> 
         <nav id="nav-sub-menu" class="bottom-nav">
             <div id="nav-sub-menu-container">
                 <a href="home.html" class="active-nav-menu-two">Introduction</a>

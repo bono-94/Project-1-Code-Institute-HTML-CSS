@@ -90,7 +90,7 @@ p {
 /* NAVIGATION */ 
 
 #nav-bar {
-   background-color: rgba(135, 207, 235, 0.541);
+    background-color: rgba(135, 207, 235, 0.541);
     margin-top: 2px;
     border-top: 1px solid teal;
 }
@@ -160,7 +160,7 @@ p {
 }
 
 .nav-logo-title-group img:hover {
-    box-shadow: 0px 0px 8px 12px rgb(1, 138, 138);
+    box-shadow: 0px 0px 8px 15px rgb(1, 138, 138);
 }
 
 /* NAVIGATION - END */ 
@@ -297,8 +297,7 @@ p {
 /* ALL HEADERS */
 
 .page-header {
-    height: 50vh;
-    background: center 50% / contain no-repeat;
+    height: 500px;
 }
 
 @keyframes cover-media-zoom {
@@ -309,25 +308,40 @@ p {
         transform: scale(1);
     }
 }
-/* ALL HEADERS */
 
+/* HOME */
+
+#home-header-video{
+    width: 100%;
+    height: 500px !important;
+}
+
+#home-header-video video {
+    width: 100%;
+    border-top: 1px solid teal;
+}
+
+/* HOME - END */
 
 /* HEADER PRIVATE SALE*/
 
-#header-media-privsale {
+#privsale-header-pic {
     margin-top: 63px;
-    height: 498px;
+    margin-bottom: -562px;
+    height: 700px;
     width: 100%;
-    overflow: none;
-    position: absolute;
     animation-name: cover-media-zoom;
     animation-duration:  5s;
     animation-fill-mode: both;
+    background-color: black;
     background-image: url('../media/images/coins-3d-floating-black.png');
-    background: contain no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
 }
 
-#header-media-privsale-title {
+#privsale-header-title {
     float: left;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -337,19 +351,20 @@ p {
     font-size: large;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1px;
+    margin-top: -62px;
     width: 100%;
     text-align: center;
 }
 
-#header-media-privsale-title button {
+#privsale-header-title button {
     background-color: orange;
     font-weight: 800;
 } 
 
-#header-media-privsale-title button:hover {
-    background-color: red;
-    color:white;
+#privsale-header-title button:hover {
+    background-color: White;
+    color:teal;
+    font-weight: 800;
 }
 /* HEADER PRIVATE SALE*/
 
@@ -428,7 +443,7 @@ p {
 }
 
 #header-media-about-info-one {
-    padding: 8px;
+    padding: 10px;
     background-color: rgba(0, 128, 128, 0.325);
     margin-bottom: 10px;
     color: black;
@@ -438,7 +453,7 @@ p {
 
 #header-media-about-info-two {
     background-color: rgba(0, 128, 128, 0.325);
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 10px;
     color: black;
     border: 2px solid orange;
@@ -593,16 +608,26 @@ p {
 
 /* HEADER - CAREER - TEAMNDCOMMUNITY */
 
-#recruitment-team-header {
+#recruitment-team-header div {
     height: 500px;
-    background-image: url('../media/images/coin-logo-3d-wide.png');
-    background: cover no-repeat;
-    background-color: rgba(202, 234, 245, 0.301) !important;
+    width: 100%;
+    background-color: rgba(202, 234, 245, 0.301);
+    background-image: url('../media/images/coin-logo-3d-slim.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3px;
+    margin-bottom: -63px;
 }
 
+#recruitment-team-header div:hover {
+    background-repeat: repeat;
+    background-size: 12.5%; 
+}
+
+
 #recruitment-team-box {
-    background-color: rgba(202, 234, 245, 0.301) !important;
-    margin-top: -62px;
+    margin-top: 6px;
 }
 
 #recruitment-team-title {
@@ -728,10 +753,23 @@ p {
 /* RECRUITMENT - COLLAB - HEADER */
 
 #recruitment-collab-header {
-    height: 500px;
+    width: 100%;
+}
+
+#recruitment-collab-pic {
     background-image: url('../media/images/coin-logo-3d-wide.png');
-    background: cover no-repeat;
-    background-color: rgba(202, 234, 245, 0.301) !important;
+    background-color: rgba(0, 128, 128, 0.325) !important;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 21.4%;
+    height: 500px;
+    width: 100%;
+    margin-bottom: -63px;
+}
+
+#recruitment-collab-pic:hover {
+    background-repeat: no-repeat;
+    background-size: 80%;
 }
 
 /* RECRUITMENT - COLLAB - HEADER - END */
@@ -1038,11 +1076,49 @@ p {
 }
 /* JOURNEY - END */
 
+/* REGISTER */
+
+#register-box {
+    background-image: url('../media/images/sand-large.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+#register-box form:hover {
+    box-shadow: 0px 0px 5px 10px white;
+}
+
+#register-header-video{
+    width: 100% !important;
+    height: 500px !important;
+}
+
+#register-header-video video {
+    height: 500px !important;
+    border-top: 3px solid teal;
+    width: 100% !important;
+    background-image: url('../media/images/sand-large.jpg');
+    background-size: 50%;
+    background-repeat: repeat;
+    background-position: center; 
+    border: 10px double white;
+    padding-top: 30px;
+}
+
+/* REGISTER - END */
+
+
+
+
 
 /* INTRODUCTION */
 
 #introduction {
-    margin-top: 500px;
+    margin-top: 212px;
     height: 600px;
     background-image: url('../media/images/sunset-introduction.jpg');
     background-size: contain no-repeat;
@@ -1100,6 +1176,21 @@ p {
 /* ABOUT */
 
 /* TIMELINE 1 */
+
+
+
+#timeline-header-pic{
+    height: 700px;
+    width: 100%;
+    animation-name: cover-media-zoom;
+    animation-duration:  5s;
+    animation-fill-mode: both;
+    background-color: orange;
+    background-image: url('../media/images/coins-3d-floating-white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
 
 #timeline {
     text-align: center;
@@ -1221,7 +1312,7 @@ p {
     background-size: cover no-repeat;
     font-weight: 600;
     text-align: center;
-    margin-bottom: -10px;
+    margin-bottom: -21px;
     margin-top: -40px;
 }
 
@@ -1403,6 +1494,8 @@ p {
     box-shadow: 0px 0px 1px 3px white;
 }
 /* PRIVATE SALE - END */
+
+
 
 
 /* REGISTRATION FORM */
@@ -1707,18 +1800,22 @@ label {
     color:teal;
     font-size: large;
     font-weight: 400;
-    padding-top: 10px;
+    font-weight: 1000 !important;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 .social-networks i {
     font-size:160%;
     padding: 5%;
     color: teal;
-    padding: 5px;
+    padding: 10px;
 }
 
 .social-networks i:hover {
-    box-shadow: 0px 0px 5px 5px white;
+    box-shadow: 0px 0px 5px 2px white inset;
+    margin-bottom: 5px;
+    text-shadow: 0px 0px 10px white;
 }
 
 #direct-contact {
@@ -1733,7 +1830,7 @@ label {
 
 #direct-contact h6 {
     font-size: large;
-    font-weight: 100 !important;
+    font-weight: 1000 !important;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -1761,6 +1858,9 @@ label {
 
 #direct-contact p:hover {
     box-shadow: 0px 0px 5px 3px whitesmoke;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    text-shadow: 0px 0px 1px white;
 }
 
 #copyright {
