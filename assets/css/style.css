@@ -90,13 +90,10 @@ p {
 /* NAVIGATION */ 
 
 #nav-bar {
-    background-image: url('../media/images/leaves-tall-water.jpg');
-    background-repeat: repeat;
-    background-position: right;
-    background-size: 80%;
+    background-color:rgba(211, 211, 211, 0.596);
     margin-top: 2px;
     border-top: 2px solid teal;
-    height: 105px;
+    height: 140px;
     width: 100%;
 }
    
@@ -134,7 +131,7 @@ p {
     color: teal !important;
     box-shadow: 0px 0px 5px 3px black;
     font-weight: 1000;
-    padding: 3px;
+    padding: 4px;
 }
 
 .active-nav-menu-two {
@@ -154,19 +151,18 @@ p {
 }
 
 .nav-logo-title-group h1:hover {
-    box-shadow: 0px 0px 5px 14px rgb(1, 138, 138);
+    box-shadow: 0px 0px 8px 5px rgb(1, 138, 138);
     background-color: rgb(1, 138, 138) !important;
-    padding: -100px !important;
+    padding: -1px !important;
 }
 
 .nav-logo-title-group h1:hover > span {
     color: orange !important;
     text-shadow: 0px 0px 5px white;
-    padding: -100px !important;
 }
 
 .nav-logo-title-group img:hover {
-    box-shadow: 0px 0px 8px 5px rgb(1, 138, 138);
+    box-shadow: 0px 0px 8px 10px rgb(1, 138, 138);
 }
 
 /* NAVIGATION - END */ 
@@ -177,7 +173,7 @@ p {
     float: left;
     display: flex;;
     margin-bottom: -4px;
-    background-color: rgba(4, 184, 184, 0.606);
+    padding-top: 18px;
 }
 
 #nav-logo img {
@@ -192,6 +188,8 @@ p {
 #nav-logo h1 {
     vertical-align: middle;
     margin: 21.4px;
+    padding-left: 8px !important;
+    padding-right: 10px !important;
 }
 
 
@@ -212,6 +210,7 @@ p {
 #nav-title span {
     text-indent: 2px;
     vertical-align: middle;
+    text-shadow: 0px 0px 2px black;
 }
 
 #brown-l {
@@ -222,7 +221,7 @@ p {
     color: green;
 }
 #blue-f {
-    color: blue;
+    color: rgb(2, 2, 164);
 }
 #skyblue-e {
     color: rgb(0, 183, 255);
