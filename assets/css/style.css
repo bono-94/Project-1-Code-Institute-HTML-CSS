@@ -912,110 +912,127 @@ p {
 /* JOURNEY */
 
 #journey-header {
-    height: 600px;
-    text-align: center;
+    height: 500px;
 }
 
 #journey-header-picture {
+    background-color: black;
+    background-image: url('../media/images/lock-large.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%; 
     float: left;
-    width: 50%;
-    background-image: url('../media/images/lock-small.jpg');
-    background: center 50% / cover no-repeat;
-    overflow: none;
-    height: 600px;
+    width: 40%;
+    height: 500px;
 }
 
+#journey-header-picture:hover {
+    background-size: 105%;
+}
 
 #journey-header-content {
     background-color: orange;
     float: right;
-    width: 50%;
-    height: 600px;
+    width: 60%;
+    height: 500px;
 }
 
 #journey-header-content-one {
     background-color: teal !important;
     color:white !important;
-    border: 2px solid orange;
-    padding: 5px;
-    margin-bottom: 17px;
-    margin-right: 0;
-    margin-left: 0;
-    font-weight: 900;
-    font-size: larger;
-    width: fit-content;
+    border: 2px solid white;
+    font-weight: 900 !important;
+    font-size: medium;
+    width: 70%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
+#journey-header-content-one h4 {
+    padding-right: -10px;
+    padding-left: -10px;
+}
 #journey-header-content-two {
-    margin-right: 0;
-    margin-left: 0;
-    padding:10px;
-    background-color: purple;
+    background-color: teal !important;
+    color:orange !important;
+    border: 2px solid white;
     font-weight: 900;
-    font-size: larger;
-    color:white;
-    width: fit-content;
+    font-size: smaller;
+    width: 50%;
+    height: 50px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 5px;
+}
+
+#journey-header-content-two:hover {
+    background-color: white !important;
+    color:teal !important;
+    border: 2px solid whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
+    box-shadow: 0 0 10px 3px white;
 }
 
 #journey-header-content-three {
-    margin-right: 0;
-    margin-left: 0;
-    padding:10px;
-    background-color: purple;
-    font-weight: 900;
-    font-size: larger;
-    color:white;
-    width: fit-content;
+    background-color: teal !important;
+    color:white !important;
+    border: 2px solid white;
+    font-size: medium;
+    width: 90%;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#journey-header-content-three p {
+    text-align: center;
+}
+
+#journey-header-content-three-space {
+    padding-bottom: 5px !important;
 }
 
 #journey-header-content-four {
-    margin-right: 0;
-    margin-left: 0;
-    padding:10px;
-    background-color: purple;
-    font-weight: 900;
-    font-size: larger;
-    color:white;
+    background-color: teal !important;
+    color:white !important;
+    margin-left: auto;
+    margin-right: auto;
     width: fit-content;
 }
 
-#journey-header-content-five {
-    margin-right: 0;
-    margin-left: 0;
-    background-color: purple;
-    font-weight: 900;
-    font-size: larger;
-    color:white;
-    width: fit-content;
-}
-
-#journey-header-content-six {
-    margin-right: 0;
-    margin-left: 0;
-    font-weight: 900;
-    font-size: larger;
-}
-
-#journey-header-content-six button{
+#journey-header-content-four button{
     background-color: teal;
-    padding: 2px;
+    border: 2px solid white;
+    padding: 5px;
     font-weight: 900;
     letter-spacing: 1px;
     font-weight: 900;
+    font-size: large;
 } 
 
-#journey-header-content-six a {
+#journey-header-content-four a {
     color:orange !important;
     font-weight: 900;
     padding: 8px;
 }
 
-#journey-header-content-six button:hover {
-    background-color: orange !important;
+#journey-header-content-four button:hover {
+    background-color: white !important;
+    color: teal !important;
     box-shadow: 0 0 10px 3px white;
 }
 
-#journey-header-content-six a:hover {
+#journey-header-content-four a:hover {
     color:teal !important;
     font-weight: 900;
 }
@@ -1207,19 +1224,20 @@ p {
     margin-bottom: -10px;
     margin-top: -40px;
 }
+
  #features h2 {
     text-align: center;
     color: gray;
     background: url('../media/images/timeline-sunset-two.jpg') center / cover no-repeat;
     font-weight: 1200;
     font-size: xxx-large;
-    border-width: 1px;
-    border-color: blue;
     text-shadow: 1px 1px 2px rgb(0, 64, 255);
     box-shadow: 0px 40px 50px 0px rgba(250, 221, 95, 0.603);
     height: 300px;
     line-height: 280px;
     background-color: rgba(135, 207, 235, 0.644) !important;
+    border-bottom: 5px blue outset;
+    border-top: 2px blue inset;
  }
 
  #features h3 {
