@@ -14,7 +14,7 @@
     </title>
 <!--Readjust meta keywords per page-->
 </head>
-<body>
+<body id="body-register">
 <!--NAVIGATION-->
     <nav id="nav-bar">
         <div class="nav-logo-title-group">
@@ -46,173 +46,159 @@
     </nav>
 <!--NAVIGATION-->
 <!--HEADER-->
-<header id="register-header-video">
-    <video src="/assets/media/video/cover-video-wide.mp4" autoplay loop muted>
-        <p>WELCOME TO LIFE COIN VIDEO</p>
-    </video>
-</header>
+    <header id="register-header-video">
+        <video src="/assets/media/video/cover-video-wide.mp4" alt="Life Coin promotional video with Earth Elements" controls loop muted>
+        </video>
+    </header>
 <!--HEADER-->
 <!--FORM-->
+<main>
     <div id="register-box">
         <div id="register-form">
         <form action="https://formdump.codeinstitute.net" method="POST">
+            <div id="form-intro">
+                <h4>
+                    Personal Profile
+                </h4>
+                <p>- Please fill up each field to the best of your abilities so we can prepare your Team, Associates, and Community profiles for The Great Disclosure</p>
+                <p>- We would like to get to know you in order to create a maximum life experience based on your unique existence</p>
+            </div>
+            <fieldset id ="personal-info">
+                <legend>Personal Information</legend>
+                <div class="float-left">
+                    <label for="name-field" class="block-label">Full Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your full legal birth name" required>
+                </div>
+                <div class="float-left">
+                    <label for="username-field" class="block-label">Username</label>
+                    <input id="username-field" type="text" name="user_name" placeholder="Apply for a unique username" required>
+                </div>
+                <div class="float-left">
+                    <label for="email-field" class="block-label">Email</label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email address" required>
+                </div>
+                <div class="float-left">
+                    <label for="tele-field" class="block-label">Telephone</label>
+                    <input id="tele-field" type="text" name="telephone" placeholder="Your telephone / cellphone number" required>
+                </div>
+                <div class="float-left">
+                    <label for="birthday-field" class="block-label">Birthday</label>
+                    <input id="birthday-field" type="date" name="birthday" required>
+                </div>
+                <div class="float-left">
+                    <label for="origin-field" class="block-label">Origin</label>
+                    <input id="origin-field" type="text" name="origin" placeholder="Area/s that you consider your home" required>
+                </div>
+                <div class="float-left">
+                    <label for="location-field" class="block-label">Location</label>
+                    <input id="location-field" type="text" name="location" placeholder="Your current residence in a format: CITY, STATE, COUNTRY" required>
+                </div>
+                <div class="float-left">
+                    <label for="occupations-field" class="block-label">Occupations</label>
+                    <input id="occupations-field" type="text" name="occupation" placeholder="Your current career pathways (multiple options encouraged)" required>
+                </div>
+                <div class="float-left">
+                    <label for="profile-photo" class="block-label">Upload your account's profile photo (same as for your official identification documents)</label>
+                    <input id="profile-photo" type="file" name="profile_photo" required>
+                </div>
+	        </fieldset>
+            <fieldset id="register-background">
+                <legend>Personal Background</legend>
+                <div class="float-left">
+                    <label for="short-intro-field" class="block-label">Short Introduction</label>
+                    <input id="short-intro-field" type="text" name="short_intro" placeholder="Please summarize your life experience up to the point of reading this (maximum-limit: 4000 words)" required>
+                </div>
+                <div class="float-left">
+                    <label for="long-intro-field" class="block-label">Long Inroduction <em>(not requiered)</em></label>
+                    <input id="long-intro-field" type="text" name="long_intro" placeholder="Please describe your life experience to your best abilities up to the point of reading this (minimum-limit: 4000 words)">
+                </div>
+	        </fieldset>
+            <fieldset id="register-swot">
+                <legend>Personal SWOT</legend>
+                <div class="float-left">
+                    <label for="strengths" class="block-label">Personal Strengths</label>
+                    <input id="strengths" type="text" name="strengths" placeholder="Please list all your strengths" required>
+                </div>
+                <div class="float-left">
+                    <label for="weaknesses" class="block-label">Personal Weaknesses</label>
+                    <input id="weaknesses" type="text" name="weaknesses" placeholder="Please list all your weaknesses" required>
+                </div>
+                <div class="float-left">
+                    <label for="opportunities" class="block-label">Personal Opportunities</label>
+                    <input id="opportunities" type="text" name="opportunities" placeholder="Please list all your opportunities in life" required>
+                </div>
+                <div class="float-left">
+                    <label for="threats" class="block-label">Personal Threats</label>
+                    <input id="threats" type="text" name="threats" placeholder="Please list all your threats in life" required>
+                </div>
+	        </fieldset>
+            <h4>
+                Life Experiences Customization
+            </h4>
+            <fieldset id="register-topics">
+                <legend>Personal Knowledge Topics</legend>
+                <div class="float-left">
+                    <label for="topics-plus" class="block-label">Preferred Topics</label>
+                    <input id="topics-plus" type="text" name="topics_plus" placeholder="Please name all the life knowledge topics that you like" required>
+                </div>
+                <div class="float-left">
+                    <label for="topics-minus" class="block-label">Non-preferred Topics</label>
+                    <input id="topics-minus" type="text" name="topics_minus" placeholder="Please name all the life knowledge topics that you do not like" required>
+                </div>
+	        </fieldset>
+            <fieldset id="register-careers">
+                <legend>Personal Careers</legend>
+                <div class="float-left">
+                    <label for="careers-plus" class="block-label">Ideal Careers</label>
+                    <input id="careers-plus" type="text" name="careers_plus" placeholder="Please name all the topics branches, departments and positions for your perfect career" required>
+                </div>
+                <div class="float-left">
+                    <label for="careers-minus" class="block-label">Non-ideal Careers</label>
+                    <input id="careers-minus" type="text" name="careers_minus" placeholder="Please name all the topics branches, departments and positions that you wish to keep away for your perfect career" required>
+                </div>
+	        </fieldset>
+            <fieldset id="register-missions">
+                <legend>Personal Missions</legend>
+                <div class="float-left">
+                    <label for="tasks-plus" class="block-label">Acceptable Tasks</label>
+                    <input id="tasks-plus" type="text" name="careers_plus" placeholder="Please name all the life knowledge topics that you like" required>
+                </div>
+                <div class="float-left">
+                    <label for="topics-minus" class="block-label">Non-acceptable Tasks</label>
+                    <input id="topics-minus" type="text" name="topics_minus" placeholder="Please name all the life knowledge topics that you do not like" required>
+                </div>
+	        </fieldset>
             <fieldset>
                 <legend>Your details</legend>
                 <div class="float-left">
                     <label for="name-field" class="block-label">Name</label>
                     <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
                 </div>
-                <div class="float-left">
-                    <label for="email-field" class="block-label">Email</label>
-                    <input id="email-field" type="email" name="email" placeholder="Your email" required>
-                </div>
-
-                <label for="age" class="block-label">Age</label>
-                <select id="age" name="age" required>
-                    <option value="under-20">Under 20</option>
-                    <option value="20s">20-29</option>
-                    <option value="30s">30-39</option>
-                    <option value="40s">40-49</option>
-                    <option value="50s">50-59</option>
-                    <option value="60+">60+</option>
-                </select>
-
 	        </fieldset>
-		<fieldset>
-			<legend>Our products</legend>
-			<div>
-				<label for="fav-coffee" class="block-label">What is your favourite coffee?</label>
-				<input id="fav-coffee" list="coffees" name="fav-coffee" required>
-				<datalist id="coffees">
-					<option value="Latte">
-					<option value="Americano">
-					<option value="Cappuccino">
-					<option value="Espresso">
-					<option value="Flat-white">
-				</datalist>
-			</div>
-
-			<p>How many cups of coffee do you drink a day?</p>
-
-			<input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio" required>
-			<label for="0-2cups-radio">0 to 2 cups</label>
-
-			<input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" required>
-			<label for="3-5cups-radio">3 to 5 cups</label>
-
-			<input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio" required>
-			<label for="6-8cups-radio">6 to 8 cups</label>
-
-			<input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups" type="radio" required>
-			<label for="9plus-cups-radio">9 or more cups</label>
-
-			<p>How often do you visit Coders Coffeehouse?</p>
-
-			<input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" required>
-			<label for="once-a-week">Once a week</label>
-
-			<input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" required>
-			<label for="twice-a-week">Twice a week</label>
-
-			<input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight" type="radio" required>
-			<label for="once-a-fortnight">Once a fortnight</label>
-
-			<input id="not-often" name="visit-frequency" value="not-often" type="radio" required>
-			<label for="not-often">Not often</label>
-
-			<p>Which of our coders coffeehouse snacks do you enjoy?</p>
-			<div>
-				<input type="checkbox" id="brownies-checkbox" name="brownies">
-				<label for="brownies-checkbox">Brownies</label>
-			</div>
-			<div>
-				<input type="checkbox" id="cookies-checkbox" name="cookies">
-				<label for="cookies-checkbox">Cookies</label>
-			</div>
-			<div>
-				<input type="checkbox" id="nachos-checkbox" name="nachos">
-				<label for="nachos-checkbox">Nachos</label>
-			</div>
-			<div>
-				<input type="checkbox" id="croissants-checkbox" name="croissants">
-				<label for="croissants-checkbox">Croissants</label>
-			</div>
-			<div>
-				<input type="checkbox" id="scones-checkbox" name="scones">
-				<label for="scones-checkbox">Scones</label>
-			</div>	
-		</fieldset>
-
-		<fieldset>
-			<legend>Feedback</legend>
-			<label for="feedback" class="block-label">How can we improve your experience with us?</label>
-			<br>
-			<textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
-		</fieldset>
-        <div id="terms">
-            <h5 class="underline">OFFICIAL RULES FOR CODERS COFFEEHOUSE PRIZE DRAW</h5>
-            <p>NO PURCHASE NECESSARY TO ENTER OR WIN. A purchase does not improve chances
-                of winning. Subject to all federal, state and local laws and regulations. VOID WHERE
-                PROHIBITED OR RESTRICTED</p>
-            <p><span class="bold">Sponsor: </span>Coders Coffeehouse, 42 Coffeebean street, Dublin</p>
-
-            <p><span class="bold">Eligibility: </span>
-                The Coders Coffeehouse Prize Drawing for 2020 (“Promotion”) is open to all individuals who (i) are 21
-                years of age or older at the
-                time of entry, excluding of Sponsor and its
-                parents, subsidiaries, affiliated companies and agents, and their immediate families or those
-                living in the same household, are not eligible to enter.</p>
-
-            <p><span class="bold">Promotion Period: </span>
-                Entrants may participate in the Promotion between 00:01am GMT on
-                January 1, 2020 through 23:01AM GMT on December 31, 2020 (“Promotion Period”). Sponsor's
-                server is the official clock for this Promotion.
-            </p>
-
-            <p><span class="bold">Release: </span>
-                BY ENTERING THE PROMOTION, ENTRANTS RELEASE AND HOLD HARMLESS
-                SPONSOR AND ITS PARENTS, SUBSIDIARIES, AND AFFILIATED COMPANIES, AND
-                EACH OF THEIR DIRECTORS, OFFICERS, EMPLOYEES, REPRESENTATIVES,
-                VENDORS, PARTNERS AND AGENTS, FROM ANY AND ALL LIABILITY WHATSOEVER,
-                AND WAIVE ANY AND ALL CAUSES OF ACTION, FOR OR RELATED TO ANY CLAIMS,
-                COSTS, INJURIES, LOSSES, LIABILITIES, OR DAMAGES OF ANY KIND (INCLUDING,
-                WITHOUT LIMITATION, PERSONAL INJURY, DEATH, DAMAGE TO OR DESTRUCTION OF
-                PROPERTY, RIGHTS OF PUBLICITY OR PRIVACY, DEFAMATION OR PORTRAYAL IN A
-                FALSE LIGHT) ARISING OUT OF OR IN CONNECTION WITH THE PROMOTION OR THE
-                ACCEPTANCE, POSSESSION, OR USE OF THE PRIZE, WHETHER UNDER A THEORY OF
-                CONTRACT, WARRANTY, TORT (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE,
-                WHETHER ACTIVE, PASSIVE, OR IMPUTED), STRICT LIABILITY, PRODUCT LIABILITY,
-                CONTRIBUTION, OR ANY OTHER THEORY, TO THE EXTENT PERMITTED BY LAW.
-            </p>
-
-            <p><span class="bold">Winner Notification and Acceptance: </span>
-                The potential winners will be notified on or about
-                January 2nd 2021, via email. Winner may waive the right to receive the prize. The prize is nonassignable
-                and non-transferable. Cash will not be awarded in lieu of the prize, but Sponsor
-                reserves the right to substitute a prize of equal or greater value due to unavailability. The winner
-                is solely responsible for reporting and payment of any federal, state and local taxes and for
-                compliance with all laws associated with the use of the prize. The winner may be asked to
-                execute and return to Sponsor an affidavit of eligibility and a liability release (except where
-                prohibited by law) within fourteen (14) days of attempted notification. Non-compliance within
-                that time period or failure to comply with any term or condition of these Official Rules may, at
-                the sole discretion of Sponsor, result in a winner's disqualification and the selection of an
-                alternate winner. Return of any prize/prize notification as undeliverable will result in
-                disqualification and an alternate winner will be selected. All decisions of Sponsor are final and
-                binding.
-            </p>
-
-            <p><span class="bold">Rules: </span>
-                By entering the Promotion, entrant agrees to abide by the terms and conditions of these
-                Official Rules, which are final on all matters pertaining to the Promotion, and warrants that
-                he/she is eligible to participate in the Promotion. Submission of entry constitutes entrant’s
-                consent for Sponsor to use entrant’s email address for purposes of marketing and promotion of
-                Sponsor’s products and services.
-            </p>
-        </div>
-
-		<input type="submit" class="block-label" value="Enter prize draw">
-		<input type="reset" value="Reset Form">
-
+            <fieldset>
+                <legend>Your details</legend>
+                <div class="float-left">
+                    <label for="name-field" class="block-label">Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                </div>
+	        </fieldset>
+            <fieldset>
+                <legend>Your details</legend>
+                <div class="float-left">
+                    <label for="name-field" class="block-label">Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                </div>
+	        </fieldset>
+            <fieldset>
+                <legend>Your details</legend>
+                <div class="float-left">
+                    <label for="name-field" class="block-label">Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                </div>
+	        </fieldset>
+            <input type="submit" class="block-label" value="Enter prize draw">
+            <input type="reset" value="Reset Form">
+        </form>
 	</form>
     </div>
 </div>

@@ -90,7 +90,7 @@ p {
 /* NAVIGATION */ 
 
 #nav-bar {
-    background-color:rgba(211, 211, 211, 0.596);
+    background-color:rgba(211, 211, 211, 0.531);
     margin-top: 2px;
     border-top: 2px solid teal;
     height: 140px;
@@ -162,7 +162,7 @@ p {
 }
 
 .nav-logo-title-group img:hover {
-    box-shadow: 0px 0px 8px 10px rgb(1, 138, 138);
+    box-shadow: 0px 0px 7px 12px rgb(1, 138, 138);
 }
 
 /* NAVIGATION - END */ 
@@ -174,13 +174,13 @@ p {
     display: flex;;
     margin-bottom: -4px;
     padding-top: 18px;
+    margin-left: 30px;
 }
 
 #nav-logo img {
     height:100%;
     width:80px;
     margin: 12px;
-    margin-left: 20px;
     border-radius: 100%;
     vertical-align: middle;
 }
@@ -323,12 +323,14 @@ p {
 
 #home-header-video{
     width: 100%;
-    height: 500px !important;
+    margin-bottom: -217px;
+    background-color: rgb(2, 161, 161);
+    border-top: 1px solid teal;
 }
 
 #home-header-video video {
-    width: 100%;
-    border-top: 1px solid teal;
+    width:100%;
+    height: 650px;
 }
 
 /* HOME - END */
@@ -1088,11 +1090,13 @@ p {
 
 /* REGISTER */
 
-#register-box {
+#body-register {
     background-image: url('../media/images/sand-large.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center; 
+} 
+#register-box {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 70px;
@@ -1104,7 +1108,7 @@ p {
 
 #register-header-video{
     width: 100% !important;
-    height: 500px !important;
+    height: 100% !important;
 }
 
 #register-header-video video {
@@ -1116,7 +1120,6 @@ p {
     background-repeat: repeat;
     background-position: center; 
     border: 10px double white;
-    padding-top: 30px;
 }
 
 /* REGISTER - END */
@@ -1127,16 +1130,21 @@ p {
 
 /* INTRODUCTION */
 
-#introduction {
-    margin-top: 212px;
-    height: 600px;
+#home-introduction {
     background-image: url('../media/images/sunset-introduction.jpg');
-    background-size: contain no-repeat;
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: top; 
     width: 100%;
+    border-top: 2px solid teal;
+    border-bottom: 2px solid teal;
+    margin-top: 212px;
+    height: 450px;
 }
 
-#introduction p {
-    top:40%;
+
+#home-introduction p {
+    top:30%;
     position:relative;
     font-size: xx-large;
     font-weight: 500;
@@ -1144,26 +1152,31 @@ p {
     text-shadow: 0 0 20px yellow;
     text-align: center;
     vertical-align: middle;
+    margin-right: 45px;
+    margin-left: 40px;
 }
 /* INTRODUCTION */
 
 /* ABOUT */
 
 #about-box {
-    margin-top: -47px;
+    margin-top: -48px;
     border-bottom: 15px solid teal !important;
+    width: 100%;
 }
 
 #about-boxes-title h3 {
-    width: 100%;
     text-align: left;
     background-color: black;
     color:orange;
     font-size: xxx-large;
     padding-top: 8px;
-    padding-left: 15px;
     padding-bottom: 8px;
-    margin-bottom: -42px;
+    margin-bottom: -43px;
+}
+
+#about-box h3{
+    padding-left: 40px;
 }
 
 .about-boxes-content h4{
@@ -1172,22 +1185,22 @@ p {
     background-color: teal;
     color:orange;
     font-size: xx-large;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     font-weight: bolder;
+    border-bottom: 1px solid orange !important;
+    border-top: 1px solid orange !important;
 }
 
 .about-boxes-content p {
     font-style: italic;
-    font-size: large;
+    font-size: x-large;
     padding-left: 40px;
 }
 
 /* ABOUT */
 
 /* TIMELINE 1 */
-
-
 
 #timeline-header-pic{
     height: 700px;
@@ -1811,7 +1824,7 @@ label {
     font-size: large;
     font-weight: 400;
     font-weight: 1000 !important;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 3px;
 }
 
@@ -1820,6 +1833,7 @@ label {
     padding: 5%;
     color: teal;
     padding: 10px;
+    margin-bottom: 15px !important;
 }
 
 .social-networks i:hover {
