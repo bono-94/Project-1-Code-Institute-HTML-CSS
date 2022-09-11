@@ -90,7 +90,7 @@ p {
 /* NAVIGATION */ 
 
 #nav-bar {
-    background-color:rgba(211, 211, 211, 0.531);
+    background-color:rgba(189, 189, 189, 0.586);
     margin-top: 2px;
     border-top: 2px solid teal;
     height: 140px;
@@ -324,7 +324,7 @@ p {
 #home-header-video{
     width: 100%;
     margin-bottom: -217px;
-    background-color: rgb(2, 161, 161);
+    background-color: rgba(2, 111, 111, 0.365);
     border-top: 1px solid teal;
 }
 
@@ -1090,16 +1090,18 @@ p {
 
 /* REGISTER */
 
-#body-register {
+#register-box {
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+#register-form {
     background-image: url('../media/images/sand-large.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center; 
-} 
-#register-box {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 70px;
 }
 
 #register-box form:hover {
@@ -1208,11 +1210,15 @@ p {
     animation-name: cover-media-zoom;
     animation-duration:  5s;
     animation-fill-mode: both;
-    background-color: orange;
+    background-color: rgb(251, 198, 99);
     background-image: url('../media/images/coins-3d-floating-white.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; 
+}
+
+#timeline-header-pic:hover {
+    background-color: lightseagreen;
 }
 
 #timeline {
@@ -1240,17 +1246,19 @@ p {
 
 #timeline h2 {
     background-color: teal !important;
-    color: orange;
+    color: white;
     border: orange 4px ridge;
     margin-top: 1px;
     margin-bottom: 40px;
     text-shadow: 0px 0px 2px black;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .timeline-boxes h3 {
-    color: orange;
+    color: rgb(252, 189, 71);
     text-decoration:underline;
-    font-weight: 900;
+    font-weight: 900 !important;
     font-size: xx-large;
     text-shadow: 0px 0px 2px black;
 }
@@ -1301,10 +1309,12 @@ p {
     margin-top: 20px;
     margin-bottom: 40px;
     text-shadow: 0px 0px 2px black;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .timeline-boxes-two h3 {
-    color:orange;
+    color: rgb(252, 189, 71);
     text-decoration:underline;
     font-weight: 900;
     font-size: xx-large;
@@ -1329,30 +1339,56 @@ p {
 
 /* FEATURES */
 
-#features {
+#features-header-pic{
+    height: 700px;
+    width: 100%;
+    animation-name: cover-media-zoom;
+    animation-duration:  5s;
+    animation-fill-mode: both;
+    background-color: rgb(53, 170, 242);
+    background-image: url('../media/images/coins-3d-floating-white.png');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    z-index: 2;
+}
+
+#features-header-pic:hover {
+    background-color: white;
+    background-size:95%;
+}
+
+ #features-title {
+    width:100%;
+    height: 300px; 
+    text-align: center;
+    background: url('../media/images/sun-best-version.jpg') center / 180%, no-repeat;
+    box-shadow: 0px 0px 50px 50px rgba(250, 221, 95, 0.603);
+    border-top: 2px blue inset !important;
+    border-bottom: 2px blue inset !important;
+    margin-bottom: 60px;
+    margin-top: -40px;
+    z-index: 1;
+ }
+
+ #features-title h2 {
+    width:100%;
+    color: gray;
+    font-weight: 1200;
+    font-size: 100px;
+    text-shadow: 1px 1px 2px rgb(0, 64, 255);
+    line-height: 150px;
+ }
+
+ #features {
 	background: url('../media/images/features-skies.jpg') center center / cover no-repeat fixed;
     width: 100%;
     background-size: cover no-repeat;
     font-weight: 600;
-    text-align: center;
     margin-bottom: -21px;
-    margin-top: -40px;
+    padding-bottom: 50px;
+    padding-top: 90px;
 }
-
- #features h2 {
-    text-align: center;
-    color: gray;
-    background: url('../media/images/timeline-sunset-two.jpg') center / cover no-repeat;
-    font-weight: 1200;
-    font-size: xxx-large;
-    text-shadow: 1px 1px 2px rgb(0, 64, 255);
-    box-shadow: 0px 40px 50px 0px rgba(250, 221, 95, 0.603);
-    height: 300px;
-    line-height: 280px;
-    background-color: rgba(135, 207, 235, 0.644) !important;
-    border-bottom: 5px blue outset;
-    border-top: 2px blue inset;
- }
 
  #features h3 {
     text-align: center;
@@ -1364,7 +1400,12 @@ p {
     padding-bottom: 3px;
  }
 
- #features div {
+ #features-first-box div {
+    text-align: center;
+    border: 5px solid white;
+ }
+
+ #features-second-box div {
     text-align: center;
     border: 5px solid white;
  }
@@ -1401,7 +1442,12 @@ p {
     padding: 5px;
 }
 
-#features div:hover {
+#features-first-box div:hover {
+    box-shadow: -10px -10px 58px 10px white;
+    text-shadow: 0px 0px 10px white;
+}
+
+#features-second-box div:hover {
     box-shadow: -10px -10px 58px 10px white;
     text-shadow: 0px 0px 10px white;
 }
