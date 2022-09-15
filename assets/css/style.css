@@ -95,6 +95,7 @@ p {
     display: block;
     text-transform: uppercase;
     text-align: center;
+    margin-top: -1px;
 }
 
 #nav-menu a {
@@ -156,7 +157,7 @@ p {
     display: inline-block;
     width: 100%;
     height: fit-content;
-    margin-bottom: -18px !important;
+    margin-bottom: -16px !important;
 }
 
 .bottom-nav a {
@@ -287,7 +288,6 @@ p {
 }
 
 .nav-logo-title-group img:hover {
-    border: 1px solid white;
     box-shadow: 0px 0px 7px 12px rgb(1, 138, 138);
 }
 /* TITLE GROUP TEXT + LOGO - END */
@@ -342,87 +342,460 @@ p {
 }
 
 #about-box {
-    margin-top: -48px;
-    border-bottom: 15px solid teal !important;
+    border-bottom: 5px solid teal !important;
     width: 100%;
+    margin-top: -48px;
 }
 
 #about-boxes-title h3 {
-    text-align: left;
     background-color: black;
     color:orange;
-    font-size: xxx-large;
+    text-align: left;
     padding-top: 8px;
     padding-bottom: 8px;
     margin-bottom: -43px;
+    font-size: xxx-large;
 }
 
 #about-box h3{
-    padding-left: 40px;
+    padding-left: 54px;
 }
 
 .about-boxes-content h4{
-    width: 100%;
-    text-align: center !important;
+    
     background-color: teal;
     color:orange;
-    font-size: xx-large;
+    border-bottom: 1px solid orange !important;
+    border-top: 1px solid orange !important;
+    width: 100%;
+    text-align: center !important;
     padding-top: 7px;
     padding-bottom: 7px;
     font-weight: bolder;
-    border-bottom: 1px solid orange !important;
-    border-top: 1px solid orange !important;
+    font-size: xx-large;
 }
 
 .about-boxes-content p {
+    padding-left: 40px;
     font-style: italic;
     font-size: x-large;
-    padding-left: 40px;
 }
-
 /* HOME - END */
 
-
-/* HEADER REGISTER*/
-
-#header-media-register {
-    margin-top: 1px;
-    height: 498px;
-    width: 100%;
-    overflow: none;
-    position: absolute;
-    animation-name: cover-media-zoom;
-    animation-duration:  5s;
-    animation-fill-mode: both;
-    background-color: rgba(192, 192, 192, 0.71);
+/* FEATURES */
+#features-header-pic{
+    background-color: rgb(53, 170, 242);
     background-image: url('../media/images/coins-3d-floating-white.png');
+    background-size: 88%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    animation-name: cover-media-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    height: 700px;
+    width: 100%;
+    padding-top: 20px;   
+    padding-bottom: 20px; 
 }
 
-#header-media-text-register {
-    float: left;
-    margin-left: 10px;
-    padding:10px;
-    letter-spacing: 2px;
-    z-index: 1;
-    background-color: purple;
+#features-header-pic:hover {
+    background-color: white;
+    background-size: 90%;
+}
+
+#features {
+	background: url('../media/images/features-skies.jpg') center center / cover no-repeat fixed;
+    background-size: cover no-repeat;
+    width: 100%;
+    margin-bottom: -21px;
+    padding-bottom: 50px;
+    padding-top: 90px;
+    text-align: center;
     font-weight: 600;
-    font-size: large;
-    color:white;
 }
 
-#header-media-text-register button{
-    background-color: black;
+ #features-title {
+    background: url('../media/images/sun-best-version.jpg') center -295px / 100%, no-repeat;
+    box-shadow: 0px 50px 50px 50px rgba(250, 221, 95, 0.603);
+    border-top: 1px yellow inset !important;
+    border-bottom: 1px yellow inset !important;
+    width: 100%;
+    height: 450px; 
+    text-align: center;
+    margin-bottom:130px;
+    margin-top: -90px;
+}
+
+#features-title h2 {
+    color: gray;
+    text-shadow: 1px 1px 2px rgb(0, 64, 255);
+    width: 100%;
+    font-weight: 1200;
+    font-size: 80px;
+    line-height: 300px;
+    position: absolute;
+    left: 30px;
+}
+
+#features-title h2:hover {
+    text-shadow: 1px 1px 8px rgb(0, 64, 255);
+}
+
+#features-container {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#features-container div:hover {
+    box-shadow: -10px -10px 58px 10px white;
+    text-shadow: 0px 0px 10px white;
+}
+
+#features-box-one {
+	background-color: rgba(252, 250, 124, 0.95);
+    color:darkblue;
+    border: 5px solid white;
+    border-radius: 1%;
+    width: 40%;
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+}
+
+#features-box-two {
+    background-color: rgba(44, 44, 252, 0.877);
+    color: yellow !important;
+    border: 5px solid white;
+    border-radius: 1%;  
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+}
+
+#features h3 {
+    text-align: center;
     font-weight: 800;
-    color:white;
+    text-decoration: underline;
+}
+
+#features p {
+    padding-bottom: 8px;
+    text-align: center !important;
+}
+
+#features-box-one p {
+    padding-left: 30px;
+    padding-right: 30px;
 } 
 
-#header-media-text-register button:hover {
-    background-color: red;
-    color:white;
-}
-/* HEADER - HOME & REGISTER -END */
+#features-box-two p {
+    padding-left: 30px;
+    padding-right: 30px;
+} 
 
-/* HEADERS - ABOUT & JOURNEY*/
+#features hr {
+    width: 95%;
+    margin-bottom: 20px;
+}
+/* FEATURES - END*/
+
+/* TIMELINE 1 */
+#timeline-header-pic {
+    background-color: rgb(251, 207, 126);
+    background-image: url('../media/images/coins-3d-floating-white.png');
+    background-size: 88%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    animation-name: cover-media-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    height: 700px;
+    width: 100%;
+    padding-top: 20px;   
+    padding-bottom: 20px; 
+}
+
+#timeline-header-pic:hover {
+    background-color: lightseagreen;
+    background-size: 90%;
+}
+
+#timeline {
+    background-color: rgba(202, 234, 245, 0.301);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#timeline h2 {
+    background-color: teal !important;
+    color: white;
+    border: orange 4px ridge;
+    margin-top: 1px;
+    margin-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 0px 0px 2px black;
+}
+
+.timeline-boxes {
+    background-color: teal;
+    display: inline-block;
+    border: orange;
+    border-style: ridge;
+    border-width: 5px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:10px;
+    text-transform: uppercase;
+    vertical-align: top;
+    text-align: center;
+}
+
+.timeline-boxes h3 {
+    color: rgb(252, 189, 71);
+    text-decoration: underline;
+    font-weight: 900 !important;
+    font-size: xx-large;
+    text-shadow: 0px 0px 2px black;
+}
+
+.timeline-boxes p {
+    color:white !important;
+    font-size: medium;
+    text-align: center;
+    font-weight: 600 !important;
+    text-shadow: 0px 0px 2px black;
+    padding-bottom: 5px;
+}
+
+#timeline hr {
+    border-top: 2px double rgba(202, 234, 245, 0.301);
+    width: 100%;
+    margin: 5px 0;
+}
+/* TIMELINE 1 - END */
+
+/* TIMELINE 2 */
+#timeline-two {
+    background-color: rgba(202, 234, 245, 0.301);
+    text-align: center;
+    margin-top: -20px;
+    padding-bottom: 30px;
+}
+
+#timeline-two h2 {
+    background-color: teal !important;
+    color: white;
+    border: orange 4px ridge;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 0px 0px 2px black;
+}
+
+.timeline-boxes-two {
+    background-color: teal;
+    display: inline-block;
+    border: orange;
+    border-style: ridge;
+    border-width: 5px;
+    width: 200px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:10px;
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase; 
+}
+
+.timeline-boxes-two h3 {
+    color: rgb(252, 189, 71);
+    text-decoration: underline;
+    font-weight: 900 !important;
+    font-size: xx-large;
+    text-shadow: 0px 0px 2px black;
+}
+
+.timeline-boxes-two p {
+    color: white !important;
+    font-size: medium;
+    text-align: center;
+    font-weight: 600 !important;
+    padding-bottom: 5px;
+    text-shadow: 0px 0px 2px black;
+}
+
+#timeline-two hr {
+    border-top: 2px double rgba(202, 234, 245, 0.301);
+    width: 100%;
+    margin: 5px 0;
+}
+/* TIMELINE 2 - END */
+
+/* PRIVATE SALE */
+#privsale-header-title {
+    background-color: rgba(0, 128, 128, 0.966);
+    color: orange;
+    width: 100%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#privsale-header-title button {
+    background-color: orange;
+    font-weight: 800;
+} 
+
+#privsale-header-title button:hover {
+    background-color: red;
+    color: white;
+    font-weight: 800;
+}
+
+#privsale-header {
+    margin-top: 62px;
+}
+
+#privsale-header-pic{
+    background-color: black;
+    background-image: url('../media/images/coins-3d-floating-white.png');
+    background-size: 88%;
+    background-repeat: no-repeat;
+    background-position: center;  
+    animation-name: cover-media-zoom;
+    animation-duration:  3s;
+    animation-fill-mode: both;
+    height: 700px;
+    width: 100%;
+    padding-top: 20px;   
+    padding-bottom: 20px; 
+    margin-bottom: 1px;
+}
+
+#privsale-header-pic:hover {
+    background-size: 90%;
+}
+
+#private-sale {
+    background: url('../media/images/universetwo.jpg');
+    background-size: cover no-repeat;
+    background-position: center;
+    border-top: 5px single white inset;
+    width: 100%;
+    margin-bottom: -30px;
+    padding-top: 20px;
+}
+
+#private-sale-title h3 {
+    background-color: teal;
+    color: orange;
+    border-color: white;
+    border-style: ridge;
+    border-width: 3px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-right: -5px !important;
+    padding: 10px !important;
+    text-align: center;
+    align-content: middle;
+    align-items: middle;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+#private-sale h3:hover {
+    text-shadow: 5px 5px 10px #3a3a3a;
+}
+
+#private-sale h4 {
+    background-color: teal;
+    color: orange;
+    border-color: white;
+    border-style: ridge;
+    border-width: 3px;
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:8px !important;
+    font-size: x-large;
+    font-weight: 1000 !important;
+    text-align: left;
+    margin-left: 20px;   
+}
+
+#private-sale h4:hover {
+    text-shadow: 5px 5px 10px #3a3a3a;
+}
+
+#private-sale p {
+    background-color: teal;
+    color: white;
+    border-color: white;
+    border-style: ridge;
+    border-width: 3px;
+    width: fit-content;
+    padding: 5px !important;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left !important;
+    font-weight: 400;   
+}
+
+#private-sale p:hover {
+    text-shadow: 0px 0px 3px orange !important;
+}
+
+#private-sale i {
+    color:orange;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#private-sale strong {
+    color:orange !important;
+}
+
+#private-sale strong:hover {
+    text-shadow: 0px 0px 1px black !important;
+}
+
+#private-sale hr {
+    margin-top: 40px !important;
+    margin-top: 40px !important;
+}
+
+#private-sale-wallets-info {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+#private-sale-wallets-info p{
+    color:orange !important;
+    padding: 10px !important;
+}
+/* PRIVATE SALE - END */
+
+/* RECRUITMENT */
 #header-careers {
     margin-top: -30px;
     height: 600 px;
@@ -567,62 +940,10 @@ p {
 #header-media-about-info-link a:hover {
     color: orange!important;
 }
-/* HEADER - MEDIA */
 
-#header-media-journey {
-    margin-top: 1px;
-    height: 498px;
-    width: 100%;
-    overflow: none;
-    position: absolute;
-    animation-name: cover-media-zoom;
-    animation-duration:  5s;
-    animation-fill-mode: both;
-    background-color: silver;
-    background-image: url('../media/images/coin-logo-3d-wide-glow.png');
-}
-/*animates zoom effect on loading page*/
-/*creates a level of zoom for cover media*/
+/* RECRUITMENT - END */
 
-@keyframes cover-media-zoom {
-    from{
-        transform: scale(0.98);
-    }
-    to{
-        transform: scale(1);
-    }
-
-}
-/* HEADER - ABOUT */
-/* Navigational square for pre-sale from header-media*/
-#header-media-about-buttons {
-    float: right;
-    margin-right: 10px;
-    padding-left: 20px;
-    padding-right: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    background-color: rgba(0, 128, 128, 0.966);
-    z-index: 1;
-    color: orange;
-    font-weight: 600;
-    font-size: large;
-}
-
-#header-media-about-buttons button{
-    background-color: orange;
-    font-weight: 800;
-} 
-
-#header-media-about-buttons button:hover {
-    background-color: red;
-    color:white;
-}
-
-/* HEADER - ABOUT & JOURNEY - END*/
-
-/* HEADER - CAREER - TEAMNDCOMMUNITY */
-
+/* RECRUITMENT - TEAM */
 #recruitment-team-header div {
     height: 500px;
     width: 100%;
@@ -761,11 +1082,9 @@ p {
     margin-right: 20px;
 }
 
-/* HEADER - CAREER - TEAMNDCOMMUNITY - END */
+/* RECRUITMENT - TEAM - END */
 
 /* RECRUITMENT - COLLAB */
-
-/* RECRUITMENT - COLLAB - HEADER */
 
 #recruitment-collab-header {
     width: 100%;
@@ -786,10 +1105,6 @@ p {
     background-repeat: no-repeat;
     background-size: 80%;
 }
-
-/* RECRUITMENT - COLLAB - HEADER - END */
-
-/* RECRUITMENT - COLLAB - CONTENT */
 
 #recruitment-collab-box {
     background-color: rgba(202, 234, 245, 0.565) !important;
@@ -841,7 +1156,6 @@ p {
     padding-right: 18px;
     color: orange;
 }
-
 
 #recruitment-collab-concepts {
     padding-left: 41px;
@@ -958,8 +1272,6 @@ p {
     margin-top: 20px !important;
     max-width: 90%;
 }  
-
-
 /* RECRUITMENT - COLLAB - END */
 
 /* JOURNEY */
@@ -1093,6 +1405,104 @@ p {
 
 /* REGISTER */
 
+#header-media-register {
+    margin-top: 1px;
+    height: 498px;
+    width: 100%;
+    overflow: none;
+    position: absolute;
+    animation-name: cover-media-zoom;
+    animation-duration:  5s;
+    animation-fill-mode: both;
+    background-color: rgba(192, 192, 192, 0.71);
+    background-image: url('../media/images/coins-3d-floating-white.png');
+}
+
+#header-media-text-register {
+    float: left;
+    margin-left: 10px;
+    padding:10px;
+    letter-spacing: 2px;
+    z-index: 1;
+    background-color: purple;
+    font-weight: 600;
+    font-size: large;
+    color:white;
+}
+
+#header-media-text-register button{
+    background-color: black;
+    font-weight: 800;
+    color:white;
+} 
+
+#header-media-text-register button:hover {
+    background-color: red;
+    color:white;
+}
+/* HEADER - HOME & REGISTER -END */
+
+
+/* HEADER - JOURNEY */
+
+#header-media-journey {
+    margin-top: 1px;
+    height: 498px;
+    width: 100%;
+    overflow: none;
+    position: absolute;
+    animation-name: cover-media-zoom;
+    animation-duration:  5s;
+    animation-fill-mode: both;
+    background-color: silver;
+    background-image: url('../media/images/coin-logo-3d-wide-glow.png');
+}
+/*animates zoom effect on loading page*/
+/*creates a level of zoom for cover media*/
+
+@keyframes cover-media-zoom {
+    from{
+        transform: scale(0.98);
+    }
+    to{
+        transform: scale(1);
+    }
+
+}
+/* HEADER - ABOUT */
+/* Navigational square for pre-sale from header-media*/
+#header-media-about-buttons {
+    float: right;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgba(0, 128, 128, 0.966);
+    z-index: 1;
+    color: orange;
+    font-weight: 600;
+    font-size: large;
+}
+
+#header-media-about-buttons button{
+    background-color: orange;
+    font-weight: 800;
+} 
+
+#header-media-about-buttons button:hover {
+    background-color: red;
+    color:white;
+}
+
+/* HEADER - ABOUT & JOURNEY - END*/
+
+/* HEADER - CAREER - TEAMNDCOMMUNITY */
+
+
+
+/* REGISTER */
+
 #register-box {
     width: 100%;
     height: fit-content;
@@ -1130,445 +1540,6 @@ p {
 /* REGISTER - END */
 
 
-
-
-
-/* INTRODUCTION */
-
-
-/* INTRODUCTION */
-
-/* ABOUT */
-
-
-/* ABOUT */
-
-/* TIMELINE 1 */
-
-#timeline-header-pic{
-    height: 700px;
-    width: 100%;
-    animation-name: cover-media-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: both;
-    background-color: rgb(251, 207, 126);
-    background-image: url('../media/images/coins-3d-floating-white.png');
-    background-size: 88%;
-    background-repeat: no-repeat;
-    background-position: center; 
-    padding-top: 20px;   
-    padding-bottom: 20px; 
-}
-
-#timeline-header-pic:hover {
-    background-color: lightseagreen;
-    background-size: 90%;
-}
-
-#timeline {
-    text-align: center;
-    vertical-align: top;
-    background-color: rgba(202, 234, 245, 0.301);
-}
-
-.timeline-boxes {
-    background-color: teal;
-    display: inline-block;
-    text-align: center;
-    border: orange;
-    border-style: ridge;
-    border-width: 5px;
-    padding:10px;
-    width: 200px;
-    text-align: center;
-    vertical-align: top;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#timeline h2 {
-    background-color: teal !important;
-    color: white;
-    border: orange 4px ridge;
-    margin-top: 1px;
-    margin-bottom: 40px;
-    text-shadow: 0px 0px 2px black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.timeline-boxes h3 {
-    color: rgb(252, 189, 71);
-    text-decoration:underline;
-    font-weight: 900 !important;
-    font-size: xx-large;
-    text-shadow: 0px 0px 2px black;
-}
-
-.timeline-boxes p {
-    font-size: medium;
-    color:white !important;
-    text-align: center;
-    font-weight: 600 !important;
-    text-shadow: 0px 0px 2px black;
-}
-
-#timeline hr {
-    border-top: 2px double rgba(202, 234, 245, 0.301);
-    width: 100%;
-    margin: 5px 0;
-}
-/* TIMELINE 1 - END */
-
-/* TIMELINE 2 */
-#timeline-two {
-    text-align: center;
-    vertical-align: top;
-    background-color: rgba(202, 234, 245, 0.301);
-}
-
-.timeline-boxes-two {
-    background-color: teal;
-    display: inline-block;
-    text-align: center;
-    border: orange;
-    border-style: ridge;
-    border-width: 5px;
-    padding:10px;
-    width: 200px;
-    text-align: center;
-    vertical-align: top;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#timeline-two h2 {
-    background-color: teal !important;
-    color: white;
-    border: orange 4px ridge;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    text-shadow: 0px 0px 2px black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.timeline-boxes-two h3 {
-    color: rgb(252, 189, 71);
-    text-decoration:underline;
-    font-weight: 900;
-    font-size: xx-large;
-    text-shadow: 0px 0px 2px black;
-}
-
-.timeline-boxes-two p {
-    font-size: medium;
-    color: white !important;
-    text-align: center;
-    font-weight: 600 !important;
-    padding-bottom: 5px;
-    text-shadow: 0px 0px 2px black;
-}
-
-#timeline-two hr {
-    border-top: 2px double rgba(202, 234, 245, 0.301);
-    width: 100%;
-    margin: 5px 0;
-}
-/* TIMELINE - 2 */
-
-/* FEATURES */
-
-#features-header-pic{
-    height: 700px;
-    width: 100%;
-    animation-name: cover-media-zoom;
-    animation-duration:  4s;
-    animation-fill-mode: both;
-    background-color: rgb(53, 170, 242);
-    background-image: url('../media/images/coins-3d-floating-white.png');
-    background-size: 88%;
-    background-repeat: no-repeat;
-    background-position: center; 
-    padding-top: 20px;   
-    padding-bottom: 20px; 
-}
-
-#features-header-pic:hover {
-    background-color: white;
-    background-size: 90%;
-}
-
- #features-title {
-    width:100%;
-    height: 300px; 
-    text-align: center;
-    background: url('../media/images/sun-best-version.jpg') -400px center / 150%, no-repeat;
-    box-shadow: 0px 50px 50px 50px rgba(250, 221, 95, 0.603);
-    border-top: 2px blue inset !important;
-    border-bottom: 2px blue inset !important;
-    margin-bottom:130px;
-    margin-top: -90px;
- }
-
- #features-title h2 {
-    width:100%;
-    color: gray;
-    font-weight: 1200;
-    font-size: 60px;
-    text-shadow: 1px 1px 2px rgb(0, 64, 255);
-    line-height: 200px;
- }
-
- #features {
-	background: url('../media/images/features-skies.jpg') center center / cover no-repeat fixed;
-    width: 100%;
-    background-size: cover no-repeat;
-    font-weight: 600;
-    margin-bottom: -21px;
-    padding-bottom: 50px;
-    padding-top: 90px;
-    text-align: center;
-}
-
- #features h3 {
-    text-align: center;
-    font-weight: 800;
-    text-decoration: underline;
- }
-
- #features p {
-    padding-bottom: 5px;
-    text-align: center !important;
- }
-
- #features-box-one div {
-    text-align: center;
-    border: 5px solid white;
- }
-
- #features-box-two div {
-    text-align: center;
-    border: 5px solid white;
- }
-
- #features-container {
-    margin-top: 150px;
-    text-align: center;
-}
-#features-container div:hover {
-    box-shadow: -10px -10px 58px 10px white;
-    text-shadow: 0px 0px 10px white;
-}
-
-#features-container div:hover {
-    box-shadow: -10px -10px 58px 10px white;
-    text-shadow: 0px 0px 10px white;
-}
-
- #features-box-one {
-    margin-top: 60px !important;
-	background-color: rgba(252, 250, 124, 0.95);
-    text-align: center;
-    font-size: small;
-    color:darkblue;
-    width: 40%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 1%;
-    padding: 5px;
- }
-
-#features-box-two {
-    background-color: rgba(44, 44, 252, 0.877);
-    text-align: center;
-    font-size: small;
-    color: yellow !important;
-    width: 40%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 1%;
-    padding: 5px;
-}
-
-#features-box-one p{
-    padding-left: 30px;
-    padding-right: 30px;
-} 
-
-#features-box-two p{
-    padding-left: 30px;
-    padding-right: 30px;
-} 
-
-#features-title h2:hover {
-       text-shadow: 1px 1px 8px rgb(0, 64, 255);
-}
-
-#features hr {
-    margin-bottom: 20px;
-    width: 95%;
-}
-/* FEATURES - END*/
-
-/* PRIVATE SALE */
-#privsale-header-title {
-    float: left;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    background-color: rgba(0, 128, 128, 0.966);
-    color: orange;
-    font-weight: 600;
-    font-size: large;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    text-align: center;
-}
-
-#privsale-header-title button {
-    background-color: orange;
-    font-weight: 800;
-} 
-
-#privsale-header-title button:hover {
-    background-color: White;
-    color:teal;
-    font-weight: 800;
-}
-#privsale-header {
-    margin-top: 62px;
-}
-
-#privsale-header-pic{
-    height: 700px;
-    width: 100%;
-    animation-name: cover-media-zoom;
-    animation-duration:  5s;
-    animation-fill-mode: both;
-    background-color: black;
-    background-image: url('../media/images/coins-3d-floating-white.png');
-    background-size: 88%;
-    background-repeat: no-repeat;
-    background-position: center;  
-    padding-top: 20px;   
-    padding-bottom: 20px; 
-}
-
-#privsale-header-pic:hover {
-    background-size: 90%;
-}
-
-#private-sale {
-    width: 100%;
-    background: url('../media/images/universetwo.jpg');
-    background-size: cover no-repeat;
-    background-position: center;
-    border-top: 5px double white;
-    margin-bottom: -30px;
-    background-color: rgba(245, 245, 245, 0.733) !important;
-}
-
-#private-sale-title h3 {
-    text-align: center;
-    align-content: middle;
-    align-items: middle;
-    color: orange;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    width: fit-content;
-    background-color: teal;
-    border-color: white;
-    border-style: ridge;
-    border-width: 3px;
-    padding:5px !important;
-    font-weight: 800;
-    font-size: xx-large;
-}
-#private-sale h4 {
-    margin-top: 30px;
-    width: fit-content;
-    background-color: teal;
-    border-color: white;
-    border-style: ridge;
-    border-width: 3px;
-    margin-bottom: 30px;
-    padding:5px !important;
-    font-size: x-large;
-    font-weight: 1000 !important;
-    text-align: left;
-    margin-left: 20px;
-    color: orange;
-}
-
-#private-sale p {
-   text-align: left !important;
-   background-color: teal;
-   font-weight: 400;
-   width: fit-content;
-   border-color: white;
-   border-style: ridge;
-   border-width: 3px;
-   margin-left: 20px;
-   padding:4px !important;
-   color:white;
-   padding: 5px !important;
-   margin-left: 40px;
-}
-
-#private-sale i {
-    color:orange;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-#private-sale hr {
-    margin-top: 40px !important;
-    margin-top: 40px !important;
-}
-
-#private-sale-wallets-info {
-    padding-bottom: 40px;
-    padding-right: 20px;
-    margin-top: 30px;
-}
-
-#private-sale-wallets-info p{
-    color:orange !important;
-    padding: 10px !important;
-}
-#private-sale-info {
-    padding-right: 35px;
-}
-
-#private-sale-info p {
-    text-align: justify;
-    padding: 30px;
-}
-
-#private-sale-text strong {
-    color:orange !important;
-}
-
-#below-surface h3:hover {
-    text-shadow: 5px 5px 10px #3a3a3a;
-    box-shadow: 0px 0px 1px 3px white;
-}
-
-#below-surface p:hover {
-    text-shadow: 5px 5px 10px #3a3a3a;
-    box-shadow: 0px 0px 1px 3px white;
-}
-/* PRIVATE SALE - END */
 
 
 
@@ -1862,8 +1833,6 @@ label {
     border-top:double teal 3px;
     font-weight: 1000;
     margin-bottom: 50px;
-    border-left: white 1px double;
-    border-right: white 1px double;
 }
 
 .social-networks > li {
@@ -1900,8 +1869,6 @@ label {
     text-align: center;
     color:orange;
     background-color: teal;
-    border-left: white 1px double;
-    border-right: white 1px double;
 }
 
 #direct-contact h6 {
