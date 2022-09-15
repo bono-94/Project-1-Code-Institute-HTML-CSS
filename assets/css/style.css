@@ -1,18 +1,16 @@
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /* - capitalized words represent sections for categorization, normal font containes notes or open tasks */
-/* - capitatized words following "}" without spacing are closing label, with spacing around is opening */
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
 /* FONTS */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&family=Rubik+Moonrocks&display=swap');
 /* FONTS - END */
 
 /* STRUCTURAL ELEMENTS */
-
 body {
     margin:0;
     width:100%;
-    background-color: rgba(169, 219, 239, 0.431);
+    background-color: lightcyan;
 }
 
 footer {
@@ -23,47 +21,38 @@ footer {
 /* STRUCTURAL ELEMENTS - END */
 
 /* CONTENT BUILDING ELEMENTS */
-
-/*h1, h2, h3, h4, h5, h6 {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}*/
-
 h1 {
     font-size: 3.5rem;
 }
 
 h2 {
     font-size: 2.5rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
     font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-}
-h4 {
-    font-family: 'Roboto', sans-serif;
-}
-h5 {
-    font-family: 'Roboto', sans-serif;
-}
-h6 {
-    font-family: 'Roboto', sans-serif;
-}
-p {
-    font-family: Lato, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/*hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-} */
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
 /* CONTENT BUILDING ELEMENTS - END */
 
 /* CONSTANT CLASSES */
-
 .text-center {
     text-align: center;
 }
@@ -85,104 +74,144 @@ p {
     position: absolute;
     top: 45%;
 }
+
+.list-circle {
+    list-style-type: circle;
+ }
 /* CONSTANT CLASSES - END */
 
 /* NAVIGATION */ 
-
 #nav-bar {
-    background-color:rgba(189, 189, 189, 0.586);
-    margin-top: 2px;
+    background-color: lightcyan;
     border-top: 2px solid teal;
     height: 140px;
     width: 100%;
-}
-   
-#nav-sub-menu {
-    width: 100%;
-    background-color: black;
-    color: rgba(0, 255, 234, 0.781);
-    display: inline-block;
-    text-transform: capitalize;
-    text-align: center;
-    border-top: 3px solid teal;
-    height:fit-content;    
+    margin-top: 1px;
 }
 
-.bottom-nav {
-    margin-bottom: -18px !important;
-    border-bottom: 3px solid teal;
-    width: fit-content;
+#nav-menu {
+    background-color:rgb(4, 139, 139);
+    float: right;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
 }
-.bottom-nav a {
-    font-size: 1.3em !important;
-    display: inline-block;
-    margin-top: 10px;
+
+#nav-menu a {
+    color: orange;
+    float: left;
+    display: block;
+    margin: 15px;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(2, 160, 160);   
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+#nav-menu a:hover {
+    background-color: orange;
+    color: rgb(0, 85, 85);
+    border-bottom: 1px solid #3a3a3a;
+    padding: 5px;
+    font-weight: 1000;
+    text-decoration: underline;
+    box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
+    text-shadow: 0px 0px 4px white;
+}
+
+#nav-sub-menu {
+    background-color: black;
+    border-top: 3px solid teal;
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#nav-sub-menu-container a {
+    color: rgb(2, 160, 160);
+    display: inline-block;
     margin-left: 70px !important;
     margin-right: 70px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;  
+}
+
+#nav-sub-menu-container a:hover {
+    background-color: teal;
+    color:orange;
+    border-bottom: 1px solid #3a3a3a;
+    box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
+    padding: 5px;
+}
+   
+.bottom-nav {
+    background-color: black;
+    border-top: 4px solid teal;
+    border-bottom: 2px solid teal;
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: -18px !important;
+}
+
+.bottom-nav a {
+    color: rgb(2, 160, 160);   
+    display: inline-block;
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em !important;
 }
 
 .active-nav-menu {
-    text-decoration:underline !important;
     background-color: rgb(233, 141, 20);
-    color: teal !important;
+    color: rgb(0, 85, 85) !important;
+    text-decoration: underline !important;
     box-shadow: 0px 0px 5px 3px black;
-    font-weight: 1000;
     padding: 4px;
+    font-weight: 1000;
+    text-shadow: 0px 0px 1px white;
 }
 
 .active-nav-menu-two {
-    border-bottom: 1px solid #3a3a3a;
     background-color: teal;
     color: orange !important;
-    font-weight: 800;
+    border-bottom: 1px solid #3a3a3a;
     box-shadow: 0px 0px 5px 3px orange;
     padding: 5px;
+    font-weight: 800;
 }
-
 
 .active-nav-menu-two a {
     padding-left: 5px;
     padding-right: 5px;
-    text-transform: uppercase;
 }
-
-.nav-logo-title-group h1:hover {
-    box-shadow: 0px 0px 8px 5px rgb(1, 138, 138);
-    background-color: rgb(1, 138, 138) !important;
-    padding: -1px !important;
-}
-
-.nav-logo-title-group h1:hover > span {
-    color: orange !important;
-    text-shadow: 0px 0px 5px white;
-}
-
-.nav-logo-title-group img:hover {
-    box-shadow: 0px 0px 7px 12px rgb(1, 138, 138);
-}
-
 /* NAVIGATION - END */ 
 
 /* TITLE LOGO */
-
 #nav-logo {
     float: left;
-    display: flex;;
+    display: flex;
     margin-bottom: -4px;
-    padding-top: 18px;
     margin-left: 30px;
+    padding-top: 18px;
 }
 
 #nav-logo img {
     height:100%;
     width:80px;
-    margin: 12px;
     border-radius: 100%;
     vertical-align: middle;
+    margin: 12px;
 }
 
 #nav-logo h1 {
@@ -191,140 +220,94 @@ p {
     padding-left: 8px !important;
     padding-right: 10px !important;
 }
-
-
 /* TITLE LOGO - END */
 
 /* TITLE TEXT "LIFE COIN" */
-
 #nav-title {
-    font-family: 'Rubik Moonrocks', cursive;
-    font-size: xxxx-large;
     display: flex;
     float: left;
-    margin-left: 20px;
     vertical-align: middle;
+    margin-left: 20px;
     margin-bottom: -10px;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: xxxx-large;
 }
 
 #nav-title span {
-    text-indent: 2px;
     vertical-align: middle;
-    text-shadow: 0px 0px 2px black;
+    text-indent: 2px;
+    text-shadow: 0px 0px 3px black !important;
 }
 
 #brown-l {
     color: brown;
-    
 }
+
 #green-i {
     color: green;
 }
+
 #blue-f {
     color: rgb(2, 2, 164);
 }
+
 #skyblue-e {
     color: rgb(0, 183, 255);
-    padding-right: 7px;
+    padding-right: 5px;
 }
+
 #yellow-c {
     color: orange;
-    padding-left: 7px;
+    padding-left: 5px;
 }
+
 #red-o {
     color: red;
 }
+
 #purple-i {
     color: purple;
 }
+
 #black-n {
     color: black;
 }
 /* TITLE TEXT "LIFE COIN" - END */
 
-/* TITLE LOGO - END */
-
-#nav-menu {
-    list-style: none;
-    text-align: center;
-    float: right;
-    display: block;
-    text-transform: uppercase;
-    background-color:rgb(4, 139, 139);
-}
-#nav-menu a {
-    font-size: 1.4em;
-    float: right;
-    display: block;
-    margin: 14px;
-    font-family: 'Courier New', Courier, monospace;
-    color: orange;
-    text-decoration: none;
-    font-weight: 800;
-}
-#nav-menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-    background-color: orange;
-    color: black;
-    font-weight: 1000;
-    padding: 5px;
-    box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
-    text-shadow: 0px 0px 4px white;
+/* TITLE GROUP TEXT + LOGO */
+.nav-logo-title-group h1:hover {
+    box-shadow: 0px 0px 8px 5px rgb(1, 138, 138);
+    background-color: rgb(1, 138, 138) !important;
+    padding: -1px !important;
 }
 
-#nav-sub-menu {
-    list-style: none;
-    text-align: center;
-    padding:0%;
-    margin:0%;
-    float: none;
-    display: inline-block;
+.nav-logo-title-group h1:hover > span {
+    color: orange !important;
+    text-shadow: 0px 0px 5px white !important;
 }
 
-#nav-sub-menu-container a {
-    font-size: 1.3em;
-    display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(2, 160, 160);
-    font-weight: 1000;
-    text-transform: none;
-    margin-left: 70px !important;
-    margin-right: 70px !important;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
+.nav-logo-title-group img:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 7px 12px rgb(1, 138, 138);
 }
+/* TITLE GROUP TEXT + LOGO - END */
 
-#nav-sub-menu-container a:hover {
-    border-bottom: 1px solid #3a3a3a;
-    background-color: teal;
-    color:orange;
-    padding: 5px;
-    box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
-}
-/* TITLE LOGO - END */
-
-/* ALL HEADERS */
-
-.page-header {
-    height: 500px;
-}
-
+/* ALL HEADERS ANIMATION */
 @keyframes cover-media-zoom {
     from{
-        transform: scale(0.98);
+        transform: scale(0.90);
     }
     to{
         transform: scale(1);
     }
 }
+/* ALL HEADERS ANIMATION - END */
 
 /* HOME */
-
 #home-header-video{
     width: 100%;
     margin-bottom: -217px;
-    background-color: rgba(2, 111, 111, 0.365);
+    background-color:lightcyan !important;
     border-top: 1px solid teal;
 }
 
@@ -333,52 +316,72 @@ p {
     height: 650px;
 }
 
-/* HOME - END */
-
-/* HEADER PRIVATE SALE*/
-
-#privsale-header-pic {
-    margin-top: 63px;
-    margin-bottom: -562px;
-    height: 700px;
-    width: 100%;
-    animation-name: cover-media-zoom;
-    animation-duration:  5s;
-    animation-fill-mode: both;
-    background-color: black;
-    background-image: url('../media/images/coins-3d-floating-black.png');
-    background-size: contain;
+#home-introduction {
+    background-image: url('../media/images/sunset-introduction.jpg');
+    background-size: 250%;
     background-repeat: no-repeat;
-    background-position: center; 
-    
+    background-position: top; 
+    border-top: 2px solid teal;
+    border-bottom: 2px solid teal;
+    width: 100%;
+    height: 450px;
+    margin-top: 212px;
 }
 
-#privsale-header-title {
-    float: left;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    background-color: rgba(0, 128, 128, 0.966);
-    color: orange;
-    font-weight: 600;
-    font-size: large;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -62px;
-    width: 100%;
+#home-introduction p {
+    color:white;
+    top:30%;
+    position:relative;
+    vertical-align: middle;
+    margin-right: 45px;
+    margin-left: 40px;
+    font-size: xx-large;
+    font-weight: 500;
+    text-shadow: 0 0 20px yellow;
     text-align: center;
 }
 
-#privsale-header-title button {
-    background-color: orange;
-    font-weight: 800;
-} 
-
-#privsale-header-title button:hover {
-    background-color: White;
-    color:teal;
-    font-weight: 800;
+#about-box {
+    margin-top: -48px;
+    border-bottom: 15px solid teal !important;
+    width: 100%;
 }
-/* HEADER PRIVATE SALE*/
+
+#about-boxes-title h3 {
+    text-align: left;
+    background-color: black;
+    color:orange;
+    font-size: xxx-large;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: -43px;
+}
+
+#about-box h3{
+    padding-left: 40px;
+}
+
+.about-boxes-content h4{
+    width: 100%;
+    text-align: center !important;
+    background-color: teal;
+    color:orange;
+    font-size: xx-large;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: bolder;
+    border-bottom: 1px solid orange !important;
+    border-top: 1px solid orange !important;
+}
+
+.about-boxes-content p {
+    font-style: italic;
+    font-size: x-large;
+    padding-left: 40px;
+}
+
+/* HOME - END */
+
 
 /* HEADER REGISTER*/
 
@@ -1132,73 +1135,11 @@ p {
 
 /* INTRODUCTION */
 
-#home-introduction {
-    background-image: url('../media/images/sunset-introduction.jpg');
-    background-size: 250%;
-    background-repeat: no-repeat;
-    background-position: top; 
-    width: 100%;
-    border-top: 2px solid teal;
-    border-bottom: 2px solid teal;
-    margin-top: 212px;
-    height: 450px;
-}
 
-
-#home-introduction p {
-    top:30%;
-    position:relative;
-    font-size: xx-large;
-    font-weight: 500;
-    color:white;
-    text-shadow: 0 0 20px yellow;
-    text-align: center;
-    vertical-align: middle;
-    margin-right: 45px;
-    margin-left: 40px;
-}
 /* INTRODUCTION */
 
 /* ABOUT */
 
-#about-box {
-    margin-top: -48px;
-    border-bottom: 15px solid teal !important;
-    width: 100%;
-}
-
-#about-boxes-title h3 {
-    text-align: left;
-    background-color: black;
-    color:orange;
-    font-size: xxx-large;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-bottom: -43px;
-}
-
-#about-box h3{
-    padding-left: 40px;
-}
-
-.about-boxes-content h4{
-    width: 100%;
-    text-align: center !important;
-    background-color: teal;
-    color:orange;
-    font-size: xx-large;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-weight: bolder;
-    border-bottom: 1px solid orange !important;
-    border-top: 1px solid orange !important;
-}
-
-.about-boxes-content p {
-    font-style: italic;
-    font-size: x-large;
-    padding-left: 40px;
-}
 
 /* ABOUT */
 
@@ -1208,17 +1149,20 @@ p {
     height: 700px;
     width: 100%;
     animation-name: cover-media-zoom;
-    animation-duration:  5s;
+    animation-duration: 4s;
     animation-fill-mode: both;
-    background-color: rgb(251, 198, 99);
+    background-color: rgb(251, 207, 126);
     background-image: url('../media/images/coins-3d-floating-white.png');
-    background-size: contain;
+    background-size: 88%;
     background-repeat: no-repeat;
     background-position: center; 
+    padding-top: 20px;   
+    padding-bottom: 20px; 
 }
 
 #timeline-header-pic:hover {
     background-color: lightseagreen;
+    background-size: 90%;
 }
 
 #timeline {
@@ -1343,41 +1287,41 @@ p {
     height: 700px;
     width: 100%;
     animation-name: cover-media-zoom;
-    animation-duration:  5s;
+    animation-duration:  4s;
     animation-fill-mode: both;
     background-color: rgb(53, 170, 242);
     background-image: url('../media/images/coins-3d-floating-white.png');
-    background-size: 95%;
+    background-size: 88%;
     background-repeat: no-repeat;
     background-position: center; 
-    z-index: 2;
+    padding-top: 20px;   
+    padding-bottom: 20px; 
 }
 
 #features-header-pic:hover {
     background-color: white;
-    background-size:95%;
+    background-size: 90%;
 }
 
  #features-title {
     width:100%;
     height: 300px; 
     text-align: center;
-    background: url('../media/images/sun-best-version.jpg') center / 180%, no-repeat;
-    box-shadow: 0px 0px 50px 50px rgba(250, 221, 95, 0.603);
+    background: url('../media/images/sun-best-version.jpg') -400px center / 150%, no-repeat;
+    box-shadow: 0px 50px 50px 50px rgba(250, 221, 95, 0.603);
     border-top: 2px blue inset !important;
     border-bottom: 2px blue inset !important;
-    margin-bottom: 60px;
-    margin-top: -40px;
-    z-index: 1;
+    margin-bottom:130px;
+    margin-top: -90px;
  }
 
  #features-title h2 {
     width:100%;
     color: gray;
     font-weight: 1200;
-    font-size: 100px;
+    font-size: 60px;
     text-shadow: 1px 1px 2px rgb(0, 64, 255);
-    line-height: 150px;
+    line-height: 200px;
  }
 
  #features {
@@ -1388,6 +1332,7 @@ p {
     margin-bottom: -21px;
     padding-bottom: 50px;
     padding-top: 90px;
+    text-align: center;
 }
 
  #features h3 {
@@ -1397,24 +1342,36 @@ p {
  }
 
  #features p {
-    padding-bottom: 3px;
+    padding-bottom: 5px;
+    text-align: center !important;
  }
 
- #features-first-box div {
+ #features-box-one div {
     text-align: center;
     border: 5px solid white;
  }
 
- #features-second-box div {
+ #features-box-two div {
     text-align: center;
     border: 5px solid white;
  }
 
- #features-first-box {
+ #features-container {
+    margin-top: 150px;
+    text-align: center;
+}
+#features-container div:hover {
+    box-shadow: -10px -10px 58px 10px white;
+    text-shadow: 0px 0px 10px white;
+}
+
+#features-container div:hover {
+    box-shadow: -10px -10px 58px 10px white;
+    text-shadow: 0px 0px 10px white;
+}
+
+ #features-box-one {
     margin-top: 60px !important;
- }
-
- .features-box {
 	background-color: rgba(252, 250, 124, 0.95);
     text-align: center;
     font-size: small;
@@ -1428,7 +1385,7 @@ p {
     padding: 5px;
  }
 
-.features-box-two {
+#features-box-two {
     background-color: rgba(44, 44, 252, 0.877);
     text-align: center;
     font-size: small;
@@ -1442,24 +1399,73 @@ p {
     padding: 5px;
 }
 
-#features-first-box div:hover {
-    box-shadow: -10px -10px 58px 10px white;
-    text-shadow: 0px 0px 10px white;
-}
+#features-box-one p{
+    padding-left: 30px;
+    padding-right: 30px;
+} 
 
-#features-second-box div:hover {
-    box-shadow: -10px -10px 58px 10px white;
-    text-shadow: 0px 0px 10px white;
+#features-box-two p{
+    padding-left: 30px;
+    padding-right: 30px;
+} 
+
+#features-title h2:hover {
+       text-shadow: 1px 1px 8px rgb(0, 64, 255);
 }
 
 #features hr {
     margin-bottom: 20px;
+    width: 95%;
 }
 /* FEATURES - END*/
-.list-circle {
-    list-style-type: circle;
- }
+
 /* PRIVATE SALE */
+#privsale-header-title {
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: rgba(0, 128, 128, 0.966);
+    color: orange;
+    font-weight: 600;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#privsale-header-title button {
+    background-color: orange;
+    font-weight: 800;
+} 
+
+#privsale-header-title button:hover {
+    background-color: White;
+    color:teal;
+    font-weight: 800;
+}
+#privsale-header {
+    margin-top: 62px;
+}
+
+#privsale-header-pic{
+    height: 700px;
+    width: 100%;
+    animation-name: cover-media-zoom;
+    animation-duration:  5s;
+    animation-fill-mode: both;
+    background-color: black;
+    background-image: url('../media/images/coins-3d-floating-white.png');
+    background-size: 88%;
+    background-repeat: no-repeat;
+    background-position: center;  
+    padding-top: 20px;   
+    padding-bottom: 20px; 
+}
+
+#privsale-header-pic:hover {
+    background-size: 90%;
+}
 
 #private-sale {
     width: 100%;
@@ -1468,7 +1474,6 @@ p {
     background-position: center;
     border-top: 5px double white;
     margin-bottom: -30px;
-    margin-top: 560px;
     background-color: rgba(245, 245, 245, 0.733) !important;
 }
 
@@ -1506,7 +1511,7 @@ p {
 }
 
 #private-sale p {
-   text-align:left;
+   text-align: left !important;
    background-color: teal;
    font-weight: 400;
    width: fit-content;
@@ -1517,6 +1522,7 @@ p {
    padding:4px !important;
    color:white;
    padding: 5px !important;
+   margin-left: 40px;
 }
 
 #private-sale i {

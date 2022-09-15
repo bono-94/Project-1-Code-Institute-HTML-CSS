@@ -106,3 +106,24 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+
+
+
+
+REFERENCES
+Code Learning Sources:
+Code institute (HTML Course, CSS Course, IDE Course, User Experience Course, “Coder’s Coffeehouse Constructed Project”, “Love Running Walkthrough Project”)
+
+External knowledge resources:
+W3school – additional elements, attributes and values
+Nicepage software for modelling the initial complex design
+
+Content:
+BSC Scan for how to send bnb, how to buy and convert, how to install binance
+
+Media References:
+- all those databases of content and/or google images
+
+You need to add: ownership disclosure of brand, personal knowledge, etc… readers can only see it for educative purposes
