@@ -78,6 +78,10 @@ p {
 .list-circle {
     list-style-type: circle;
  }
+
+.float-left {
+    text-align: left;
+}
 /* CONSTANT CLASSES - END */
 
 /* NAVIGATION */ 
@@ -313,7 +317,7 @@ p {
 
 #home-header-video video {
     width:100%;
-    height: 650px;
+    height: 432px;
 }
 
 #home-introduction {
@@ -358,7 +362,7 @@ p {
 }
 
 #about-box h3{
-    padding-left: 54px;
+    padding-left: 30px;
 }
 
 .about-boxes-content h4{
@@ -377,8 +381,8 @@ p {
 
 .about-boxes-content p {
     padding-left: 40px;
-    font-style: italic;
-    font-size: x-large;
+    font-size: large;
+    padding-right: 30px !important;
 }
 /* HOME - END */
 
@@ -679,10 +683,10 @@ p {
     background-image: url('../media/images/coins-3d-floating-white.png');
     background-size: 88%;
     background-repeat: no-repeat;
-    background-position: center;  
+    background-position: center; 
     animation-name: cover-media-zoom;
-    animation-duration:  3s;
-    animation-fill-mode: both;
+    animation-duration: 4s;
+    animation-fill-mode: both; 
     height: 700px;
     width: 100%;
     padding-top: 20px;   
@@ -692,6 +696,7 @@ p {
 
 #privsale-header-pic:hover {
     background-size: 90%;
+    background-color: lightcyan;
 }
 
 #private-sale {
@@ -871,7 +876,7 @@ p {
     background-color: teal;
     color: orange !important;
     margin-bottom: 8px;
-    padding: 2px;
+    padding: 5px;
     font-weight: 900;
 }
 
@@ -879,7 +884,7 @@ p {
     background-color: teal;
     color: orange !important;
     margin-bottom: 8px;
-    padding: 2px;
+    padding: 5px;
     font-weight: 900;
 }
 
@@ -1325,13 +1330,14 @@ p {
     background-color: teal !important;
     color:orange !important;
     border: 2px solid white;
-    width: 50%;
+    width: 38%;
     height: 50px;
     text-align: center;
     line-height: 5px;
     margin-bottom: 65px;
     margin-left: auto;
     margin-right: auto;
+    padding: 5px;
     font-weight: 900 !important;
     font-size: smaller;
 } 
@@ -1402,184 +1408,294 @@ p {
 /* JOURNEY - END */
 
 /* REGISTER */
-#header-media-register {
-    margin-top: 1px;
-    height: 498px;
-    width: 100%;
-    overflow: none;
-    position: absolute;
-    animation-name: cover-media-zoom;
-    animation-duration:  5s;
-    animation-fill-mode: both;
-    background-color: rgba(192, 192, 192, 0.71);
-    background-image: url('../media/images/coins-3d-floating-white.png');
+#register-header-video{
+    width: 100% !important;
+    height: 432px !important;
+    border-bottom: 3px solid teal;
 }
 
-#header-media-text-register {
-    float: left;
-    margin-left: 10px;
-    padding:10px;
-    letter-spacing: 2px;
-    z-index: 1;
-    background-color: purple;
-    font-weight: 600;
-    font-size: large;
-    color:white;
+#register-header-video video {
+    background-image: url('../media/images/underwater.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right; 
+    border-top: 1px solid teal;
+    height: 432px !important;
+    width: 100% !important;
+    padding-bottom: 60px;
+    padding-top: 20px;
 }
-
-#header-media-text-register button{
-    background-color: black;
-    font-weight: 800;
-    color:white;
-} 
-
-#header-media-text-register button:hover {
-    background-color: red;
-    color:white;
-}
-
-@keyframes cover-media-zoom {
-    from{
-        transform: scale(0.98);
-    }
-    to{
-        transform: scale(1);
-    }
-
-}
-/* HEADER - ABOUT */
-/* Navigational square for pre-sale from header-media*/
-#header-media-about-buttons {
-    float: right;
-    margin-right: 10px;
-    padding-left: 20px;
-    padding-right: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    background-color: rgba(0, 128, 128, 0.966);
-    z-index: 1;
-    color: orange;
-    font-weight: 600;
-    font-size: large;
-}
-
-#header-media-about-buttons button{
-    background-color: orange;
-    font-weight: 800;
-} 
-
-#header-media-about-buttons button:hover {
-    background-color: red;
-    color:white;
-}
-
-/* HEADER - ABOUT & JOURNEY - END*/
-
-/* HEADER - CAREER - TEAMNDCOMMUNITY */
-
-
-
-/* REGISTER */
 
 #register-box {
     width: 100%;
     height: fit-content;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    margin-top: 79px;
+
 }
 
-#register-form {
-    background-image: url('../media/images/sand-large.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center; 
+#register-box input {
+    height: 30px;
 }
 
 #register-box form:hover {
     box-shadow: 0px 0px 5px 10px white;
 }
 
-#register-header-video{
-    width: 100% !important;
-    height: 100% !important;
-}
-
-#register-header-video video {
-    height: 500px !important;
-    border-top: 3px solid teal;
-    width: 100% !important;
+#register-form {
     background-image: url('../media/images/sand-large.jpg');
-    background-size: 50%;
-    background-repeat: repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center; 
-    border: 10px double white;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
+form {
+	background-color: white;
+    border-radius: 8px;
+    width: 60%;
+	margin: 25px auto;
+    padding: 25px;
+}
+
+#register-form fieldset {
+    border: 2px solid teal;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+
+#register-form h3 {
+    color: teal;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+#register-form h4 {
+    color: teal;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-weight: 700 !important;
+    text-align: center;
+    font-size: x-large;
+}
+
+#register-form em {
+    font-size: large;
+}
+
+#register-form hr {
+    background-color:rgb(0, 128, 128);
+    height: 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#register-form legend {
+    background-color: teal;
+    color: white;
+    text-shadow: 0px 1px teal;
+    margin-left: 5px;
+    margin-top: 20px;
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: large;
+	text-transform: uppercase;
+}
+
+#register-swot {
+    margin-bottom: 40px;
+}
+
+#register-missions {
+    margin-bottom: 10px;
+}
+
+#personal-achievements {
+    margin-bottom: 30px;
+}
+
+.block-label {
+	display: block;
+}
+
+fieldset div {
+    margin-left: 15px;
+    margin-right: -35px;
+}
+
+fieldset label {
+    margin: 10px 15px 5px 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: large;
+    font-weight: 700;
+}
+
+#file-input input{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+	
+input[type=text], input[type=email] {
+    border: 2px solid orange;
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+    font-size: medium;
+  
+}
+input[type=date] {
+    border: 2px solid orange;
+    width: 30%;
+    height: 30px;
+    padding: 2px;
+    padding-left: 10px !important;
+    font-size: medium;    
+}
+
+input[type=file] {
+    padding: 8px;
+    font-size: medium;
+    border: 2px solid orange;
+}
+
+input[type=submit] {
+	background-color: teal;
+	color: orange;
+    border: none;
+	border-radius: 5px;
+    height: fit-content !important;
+    margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 13px;
+    font-weight: 900;
+}
+
+input[type=reset] {
+    background-color: white;
+    color: teal;
+    border: 1px solid orange;
+    border-radius: 5px;
+    float: right;
+    height: fit-content !important;
+	margin-top: 20px;
+    margin-right: 0.75rem;
+    padding: 12px;
+    font-weight: 900;    
+}
+
+input[type=submit]:hover {
+    box-shadow: 0px 0px 5px 3px orange;
+}
+
+input[type=reset]:hover {
+    background-color: orange;
+    box-shadow: 0px 0px 5px 3px teal;
+}
 /* REGISTER - END */
 
-
-
-
-
-
-/* REGISTRATION FORM */
-
-.form-section {
-    clear: left;
-    background: url("../media/images/cover-media.png");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
+/* FOOTER ELEMENTS */
+#footer ul:hover {
+    box-shadow: 0px 0px 5px 5px white inset;
 }
 
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-}
-
-.signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color: #f16c6b;
-}
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+.social-networks {
+    background-color: orange;
+    border-top:double teal 3px;
     text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
-    display: block;
+    margin-bottom: 50px;
+    font-weight: 1000;
 }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+.social-networks > li {
+    display: inline-block;
+    padding: 10px;
 }
 
+.social-networks > p {
+    color:teal;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    font-size: large;
+    font-weight: 400;
+    font-weight: 1000 !important;
+}
 
-/* Media queries */
+.social-networks i {
+    color: teal;
+    margin-bottom: 15px !important;
+    padding: 10px;
+    font-size:160%;
+}
 
+.social-networks i:hover {
+    box-shadow: 0px 0px 5px 2px white inset;
+    text-shadow: 0px 0px 10px white;
+    margin-bottom: 5px;
+}
+
+#direct-contact {
+    color:orange;
+    background-color: teal;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#direct-contact h6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: large;
+    font-weight: 1000 !important;
+}
+
+#direct-contact p {
+    margin-top: -40px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+    font-size: large;
+    text-decoration:underline;
+    font-weight: 500;
+}
+
+#direct-contact i {
+    margin-left: -10px;
+    padding: 10px !important;
+    font-size: 140%;
+}
+
+#direct-contact h6:hover {
+    box-shadow: 0px 0px 3px 3px whitesmoke;
+}
+
+#direct-contact p:hover {
+    box-shadow: 0px 0px 5px 3px whitesmoke;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    text-shadow: 0px 0px 3px rgb(6, 203, 203);
+}
+
+#copyright {
+    background-color: rgba(0, 0, 0, 0.808);
+    color: silver;
+    text-align: center;
+    margin-top: -19px;
+    margin-bottom: -20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 900;
+}
+/* FOOTER ELEMENTS - END */
+
+/* MEDIA QUERIES - TABLET */
 /* For larger to medium screens from 1200px width and under */
 
 @media screen and (max-width: 1200px) {
@@ -1660,254 +1776,4 @@ p {
     #photos {
         column-count: 3;
     }
-    }
-
-
-/* padding to allow for fixed footer */
-#contact {
-    margin-bottom: 50px;
 }
-
-.contact-boxes-container {
-    width: 66%;
-    margin: 0 auto;
-}
-
-.contact-box-left {
-    width: 250px;
-    margin-top: -20px;
-	float: left;
-}
-
-.contact-box-right {
-    width: 250px;
-    text-align: right;
-    margin-top: -20px;
-	float: right;
-}
-
-.spacer {
-    clear: both;
-}
-
-.contact-box-center {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-th,
-td {
-    border-bottom: 1px solid black;
-}
-
-ul {
-	padding: 0;
-}
-
-#reasons li {
-    margin-top: 5%;
-}
-fieldset {
-	border: none;
-	margin-top: 20px;
-}
-
-input[type=submit] {
-	margin-top: 20px;
-	margin-left: 0.75rem;
-	padding: 0.75rem;
-	background-color: #5e361b;
-	color: white;
-	border: none;
-	border-radius: 5px;
-}
-
-input[type=reset] {
-
-	margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: white;
-    color: #5e361b;
-    border: 1px solid #5e361b;
-    border-radius: 5px;
-}
-	
-
-input[type=text],
-input[type=email],
-input[list=coffees] {
-    height: 30px;
-    width: 90%;
-    padding-left: 10px;
-	margin: 0 auto;
-}
-
-/* overrides css above */
-input[list=coffees] {
-    width: 45%;
-}
-
-select {
-    height: 36px;
-    width: 100px;
-    padding-left: 10px;
-}
-
-form {
-	width: 700px;
-	padding: 25px;
-	border-radius: 8px;
-	margin: 25px auto;
-	background-color: white;
-}
-
-.block-label {
-	display: block;
-}
-
-legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 20px 0 10px 0;
-}
-
-
-label {
-    margin: 10px 15px 5px 0;
-}
-
-.checkboxes-box div {
-    margin-top: 15px;
-}
-
-#reasons li {
-    margin-top: 5%;
-}
-
-#terms {
-    height: 200px;
-    width: 90%;
-    padding: 0.5rem;
-    margin: 1.5rem 0 0 15px;
-    border: 1px solid grey;
-    overflow: scroll;
-}
-
-
-
-/* FOOTER ELEMENTS */
-
-#footer ul:hover {
-    box-shadow: 0px 0px 5px 5px white inset;
-}
-
-.social-networks {
-    background-color: orange;
-    text-align: center;
-    border-top:double teal 3px;
-    font-weight: 1000;
-    margin-bottom: 50px;
-}
-
-.social-networks > li {
-    display: inline-block;
-    padding: 10px;
-}
-
-.social-networks > p {
-    color:teal;
-    font-size: large;
-    font-weight: 400;
-    font-weight: 1000 !important;
-    padding-top: 15px;
-    padding-bottom: 3px;
-}
-
-.social-networks i {
-    font-size:160%;
-    padding: 5%;
-    color: teal;
-    padding: 10px;
-    margin-bottom: 15px !important;
-}
-
-.social-networks i:hover {
-    box-shadow: 0px 0px 5px 2px white inset;
-    margin-bottom: 5px;
-    text-shadow: 0px 0px 10px white;
-}
-
-#direct-contact {
-    margin-top: -50px;
-    margin-bottom: 20px;
-    text-align: center;
-    color:orange;
-    background-color: teal;
-}
-
-#direct-contact h6 {
-    font-size: large;
-    font-weight: 1000 !important;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#direct-contact p {
-    margin-top: -40px;
-    font-size: large;
-    text-decoration:underline;
-    font-weight: 500;
-    margin-bottom: 20px;
-    margin-left: -10px;
-    padding-bottom: 8px;
-    letter-spacing: 1px;
-}
-
-#direct-contact i {
-    padding: 10px !important;
-    margin-left: -10px;
-    font-size: 140%;
-}
-
-#direct-contact h6:hover {
-    box-shadow: 0px 0px 3px 3px whitesmoke;
-}
-
-#direct-contact p:hover {
-    box-shadow: 0px 0px 5px 3px whitesmoke;
-    padding-bottom: 8px;
-    padding-top: 5px;
-    text-shadow: 0px 0px 3px rgb(6, 203, 203);
-}
-
-#copyright {
-    background-color: rgba(0, 0, 0, 0.808);
-    color: silver;
-    text-align: center;
-    margin-top: -19px;
-    margin-bottom: -20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 900;
-
-}
-
-/* FOOTER ELEMENTS - END */
-
-
-
-/* unused */
-
-
-/* Gallery for mobile screens /
-
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
-    }
-}
-/* Gallery for mobile screens */
