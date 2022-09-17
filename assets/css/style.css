@@ -1843,22 +1843,6 @@ input[type=reset]:hover {
     /* TIMELINE 1 - END */
 
     /* TIMELINE 2 */
-    #timeline-two {
-        background-color: rgba(202, 234, 245, 0.301);
-        text-align: center;
-        margin-top: -20px;
-        padding-bottom: 30px;
-    }
-
-    #timeline-two h2 {
-        background-color: teal !important;
-        color: white;
-        border: orange 4px ridge;
-        margin-top: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        text-shadow: 0px 0px 2px black;
-    }
 
     .timeline-boxes-two {
         display: block;
@@ -1881,153 +1865,52 @@ input[type=reset]:hover {
 
     /* PRIVATE SALE */
     #privsale-header-title {
-        background-color: rgba(0, 128, 128, 0.966);
-        color: orange;
-        width: 100%;
-        float: left;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        font-weight: 600;
-        font-size: large;
-        text-transform: uppercase;
-        letter-spacing: 5px;
+        font-size: medium;
+        letter-spacing: 3px;
     }
 
     #privsale-header-title button {
         background-color: orange;
-        font-weight: 800;
     } 
 
     #privsale-header-title button:hover {
-        background-color: red;
-        color: white;
-        font-weight: 800;
+        background-color: black !important;
+        color: teal;
     }
 
     #privsale-header {
-        margin-top: 62px;
+        margin-top: 57px;
     }
 
     #privsale-header-pic{
-        background-color: black;
-        background-image: url('../media/images/coins-3d-floating-white.png');
-        background-size: 88%;
-        background-repeat: no-repeat;
-        background-position: center; 
-        animation-name: cover-media-zoom;
-        animation-duration: 4s;
-        animation-fill-mode: both; 
-        height: 700px;
-        width: 100%;
-        padding-top: 20px;   
-        padding-bottom: 20px; 
-        margin-bottom: 1px;
+        background-size: contain;
+        height: 350px;
     }
 
     #privsale-header-pic:hover {
-        background-size: 90%;
-        background-color: lightcyan;
+        background-size: contain;
     }
 
     #private-sale {
-        background: url('../media/images/universetwo.jpg');
-        background-size: cover no-repeat;
-        background-position: center;
-        border-top: 5px single white inset;
-        width: 100%;
-        margin-bottom: -30px;
-        padding-top: 20px;
+        background-size: contain no-repeat;
     }
 
     #private-sale-title h3 {
-        background-color: teal;
-        color: orange;
-        border-color: white;
-        border-style: ridge;
-        border-width: 3px;
-        width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-        padding-right: -5px !important;
-        padding: 10px !important;
-        text-align: center;
-        align-content: middle;
-        align-items: middle;
-        font-weight: 800;
-        font-size: xx-large;
-    }
-
-    #private-sale h3:hover {
-        text-shadow: 5px 5px 10px #3a3a3a;
+        font-size: x-large;
     }
 
     #private-sale h4 {
-        background-color: teal;
-        color: orange;
-        border-color: white;
-        border-style: ridge;
-        border-width: 3px;
-        width: fit-content;
-        margin-top: 30px;
-        margin-bottom: 30px;
         padding:8px !important;
-        font-size: x-large;
-        font-weight: 1000 !important;
-        text-align: left;
-        margin-left: 20px;   
-    }
-
-    #private-sale h4:hover {
-        text-shadow: 5px 5px 10px #3a3a3a;
+        font-size: large;
     }
 
     #private-sale p {
-        background-color: teal;
-        color: white;
-        border-color: white;
-        border-style: ridge;
-        border-width: 3px;
-        width: fit-content;
-        padding: 5px !important;
-        margin-left: 40px;
-        margin-right: 40px;
-        text-align: left !important;
-        font-weight: 400;   
-    }
-
-    #private-sale p:hover {
-        text-shadow: 0px 0px 3px orange !important;
-    }
-
-    #private-sale i {
-        color:orange;
-        padding-left: 3px;
-        padding-right: 3px;
+        padding: 8px !important;
+        font-size: small;
     }
 
     #private-sale strong {
         color:orange !important;
-    }
-
-    #private-sale strong:hover {
-        text-shadow: 0px 0px 1px black !important;
-    }
-
-    #private-sale hr {
-        margin-top: 40px !important;
-        margin-top: 40px !important;
-    }
-
-    #private-sale-wallets-info {
-        margin-top: 30px;
-        padding-bottom: 50px;
-    }
-
-    #private-sale-wallets-info p{
-        color:orange !important;
-        padding: 10px !important;
     }
     /* PRIVATE SALE - END */
 
