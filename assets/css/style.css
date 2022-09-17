@@ -117,7 +117,7 @@ p {
     background-color: orange;
     color: rgb(0, 85, 85);
     border-bottom: 1px solid #3a3a3a;
-    padding: 5px;
+    padding: 1px;
     font-weight: 1000;
     text-decoration: underline;
     box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
@@ -151,7 +151,7 @@ p {
     color:orange;
     border-bottom: 1px solid #3a3a3a;
     box-shadow: 0px 0px 10px 5px rgb(179, 231, 252);
-    padding: 5px;
+    padding: 1px;
 }
    
 .bottom-nav {
@@ -299,7 +299,7 @@ p {
 /* ALL HEADERS ANIMATION */
 @keyframes cover-media-zoom {
     from{
-        transform: scale(0.90);
+        transform: scale(0.97);
     }
     to{
         transform: scale(1);
@@ -346,7 +346,6 @@ p {
 }
 
 #about-box {
-    border-bottom: 5px solid teal !important;
     width: 100%;
     margin-top: -48px;
 }
@@ -362,11 +361,10 @@ p {
 }
 
 #about-box h3{
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
-.about-boxes-content h4{
-    
+.about-boxes-content h4{  
     background-color: teal;
     color:orange;
     border-bottom: 1px solid orange !important;
@@ -383,6 +381,12 @@ p {
     padding-left: 40px;
     font-size: large;
     padding-right: 30px !important;
+}
+
+#about-box i {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 44px;
 }
 /* HOME - END */
 
@@ -438,7 +442,6 @@ p {
     font-size: 80px;
     line-height: 300px;
     position: absolute;
-    left: 30px;
 }
 
 #features-title h2:hover {
@@ -1410,27 +1413,23 @@ p {
 /* REGISTER */
 #register-header-video{
     width: 100% !important;
-    height: 432px !important;
+    height: 435px !important;
     border-bottom: 3px solid teal;
 }
 
 #register-header-video video {
-    background-image: url('../media/images/underwater.jpg');
+    background-image: url('../media/images/sand-black-zoom-pc.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right; 
+    background-position: center; 
     border-top: 1px solid teal;
-    height: 432px !important;
+    height: 100% !important;
     width: 100% !important;
-    padding-bottom: 60px;
-    padding-top: 20px;
 }
 
 #register-box {
     width: 100%;
     height: fit-content;
-    margin-top: 79px;
-
 }
 
 #register-box input {
@@ -1442,9 +1441,9 @@ p {
 }
 
 #register-form {
-    background-image: url('../media/images/sand-large.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('../media/images/sand-black.jpg');
+    background-size: contain;
+    background-repeat:repeat;
     background-position: center; 
     padding-top: 80px;
     padding-bottom: 80px;
@@ -1560,9 +1559,7 @@ input[type=date] {
 }
 
 input[type=file] {
-    padding: 8px;
     font-size: medium;
-    border: 2px solid orange;
 }
 
 input[type=submit] {
@@ -1607,7 +1604,6 @@ input[type=reset]:hover {
 
 .social-networks {
     background-color: orange;
-    border-top:double teal 3px;
     text-align: center;
     margin-bottom: 50px;
     font-weight: 1000;
@@ -1678,9 +1674,9 @@ input[type=reset]:hover {
 
 #direct-contact p:hover {
     box-shadow: 0px 0px 5px 3px whitesmoke;
+    text-shadow: 0px 0px 3px rgb(6, 203, 203);
     padding-bottom: 8px;
     padding-top: 5px;
-    text-shadow: 0px 0px 3px rgb(6, 203, 203);
 }
 
 #copyright {
@@ -1696,84 +1692,1230 @@ input[type=reset]:hover {
 /* FOOTER ELEMENTS - END */
 
 /* MEDIA QUERIES - TABLET */
-/* For larger to medium screens from 1200px width and under */
 
-@media screen and (max-width: 1200px) {
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
+@media screen and (min-width: 600px) and (max-width: 1280px) {
 
-    #welcome {
-        padding: 30% 0;
-        margin: 0;
-    }
-
-    #left-about, #right-about {
+    /* NAVIGATION */ 
+    #nav-bar {
+        border-top: 1px solid teal;
         width: 100%;
-        float: left;
-        padding: 0;
     }
 
-    #center-about {
-        clear: both;
+    #nav-menu {
+        display: block;
+        text-align: center;
         width: 100%;
-        float: left;
-        padding: 0;
     }
 
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
+    #nav-menu a {
+        color: orange;
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+        float: none;
     }
 
-    hr {
-        display: none;
-    }
-}
-
-/* For larger to medium screens from 1200px width and under */
-
-/* For medium screens from 950px width and under */
-
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
+    #nav-sub-menu-container a {
+        display: block;
+        margin-top: 20px;
         margin-bottom: 20px;
-        line-height: 25px;
+        font-size: 1.0em !important; 
     }
 
-    #cover-text {
-        left: 0;
+    /* NAVIGATION - END */ 
+
+    /* TITLE LOGO */
+    #nav-logo {
+        margin-left: 5%;
+        margin-bottom: 10px;
+    }
+    /* TITLE LOGO - END */
+
+    /* TITLE TEXT "LIFE COIN" */
+    #nav-title {
+        margin-left: 30px;
+    }
+    /* TITLE TEXT "LIFE COIN" - END */
+
+    /* HOME */
+    #home-header-video video {
+        height: fit-content;
     }
 
-    #club-ethos {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
+    #home-introduction {
+        height: 300px;
     }
 
-    .left-about-heading, .right-about-heading {
-        width: inherit;
+    #home-introduction p {
+        top:12%;
+        font-size: x-large;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    #about-boxes-title h3 {
+        padding-bottom: 18px;
+        font-size: xx-large;
+    }
+
+    .about-boxes-content h4{
+        font-size: x-large;
+    }
+
+    .about-boxes-content p {
+        font-size: medium;
+        padding-right: 40px !important;
+    }
+
+    #about-box i {
+        padding-right: 5px;
+        font-size: 28px;
+    }
+    /* HOME - END */
+
+    /* FEATURES */
+    #features-header-pic{
+        background-size: contain;
+        height: 350px;
+        margin-bottom: -13px;
+    }
+
+    #features-header-pic:hover {
+        background-color: white;
+        background-size: contain;
+    }
+
+    #features {
+        padding-bottom: 20px;
+    }
+
+    #features-title {
+        background: url('../media/images/sun-best-version.jpg') center 60% / 220% no-repeat;
+        box-shadow: 0px 50px 50px 20px rgba(250, 221, 95, 0.603);
+        height: 220px; 
+        margin-top: -80px;
+        margin-bottom: -20px;
+    }
+
+    #features-title h2 {
+        font-size: 50px;
+        line-height: 140px;
+    }
+
+    #features-container div {
+        box-shadow: -10px -10px 58px 5px white;
+        text-shadow: 0px 0px 5px white;
+    }
+
+    #features h3 {
+        font-size: 20px;
+    }
+
+    
+    /* FEATURES - END*/
+
+    /* TIMELINE 1 */
+    #timeline-header-pic {
+        background-size: contain;
+        height: 350px;
+    }
+
+    #timeline-header-pic:hover {
+        background-size: contain;
+    }
+
+    .timeline-boxes {
+        display: block;
+        width: 55%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .timeline-boxes h3 {
+        padding-top: -10px;
+        font-size: x-large;
+    }
+
+    .timeline-boxes p {
+        font-size: small;
+    }
+    /* TIMELINE 1 - END */
+
+    /* TIMELINE 2 */
+    #timeline-two {
+        background-color: rgba(202, 234, 245, 0.301);
+        text-align: center;
+        margin-top: -20px;
+        padding-bottom: 30px;
+    }
+
+    #timeline-two h2 {
+        background-color: teal !important;
+        color: white;
+        border: orange 4px ridge;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-shadow: 0px 0px 2px black;
+    }
+
+    .timeline-boxes-two {
+        display: block;
+        width: 55%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .timeline-boxes-two h3 {
+        padding-top: -10px;
+        font-size: x-large;
+    }
+
+    .timeline-boxes-two p {
+        font-size: small;
+    }
+    /* TIMELINE 2 - END */
+
+    /* PRIVATE SALE */
+    #privsale-header-title {
+        background-color: rgba(0, 128, 128, 0.966);
+        color: orange;
         width: 100%;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-weight: 600;
+        font-size: large;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    #privsale-header-title button {
+        background-color: orange;
+        font-weight: 800;
+    } 
+
+    #privsale-header-title button:hover {
+        background-color: red;
+        color: white;
+        font-weight: 800;
+    }
+
+    #privsale-header {
+        margin-top: 62px;
+    }
+
+    #privsale-header-pic{
+        background-color: black;
+        background-image: url('../media/images/coins-3d-floating-white.png');
+        background-size: 88%;
+        background-repeat: no-repeat;
+        background-position: center; 
+        animation-name: cover-media-zoom;
+        animation-duration: 4s;
+        animation-fill-mode: both; 
+        height: 700px;
+        width: 100%;
+        padding-top: 20px;   
+        padding-bottom: 20px; 
+        margin-bottom: 1px;
+    }
+
+    #privsale-header-pic:hover {
+        background-size: 90%;
+        background-color: lightcyan;
+    }
+
+    #private-sale {
+        background: url('../media/images/universetwo.jpg');
+        background-size: cover no-repeat;
+        background-position: center;
+        border-top: 5px single white inset;
+        width: 100%;
+        margin-bottom: -30px;
+        padding-top: 20px;
+    }
+
+    #private-sale-title h3 {
+        background-color: teal;
+        color: orange;
+        border-color: white;
+        border-style: ridge;
+        border-width: 3px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        padding-right: -5px !important;
+        padding: 10px !important;
+        text-align: center;
+        align-content: middle;
+        align-items: middle;
+        font-weight: 800;
+        font-size: xx-large;
+    }
+
+    #private-sale h3:hover {
+        text-shadow: 5px 5px 10px #3a3a3a;
+    }
+
+    #private-sale h4 {
+        background-color: teal;
+        color: orange;
+        border-color: white;
+        border-style: ridge;
+        border-width: 3px;
+        width: fit-content;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding:8px !important;
+        font-size: x-large;
+        font-weight: 1000 !important;
+        text-align: left;
+        margin-left: 20px;   
+    }
+
+    #private-sale h4:hover {
+        text-shadow: 5px 5px 10px #3a3a3a;
+    }
+
+    #private-sale p {
+        background-color: teal;
+        color: white;
+        border-color: white;
+        border-style: ridge;
+        border-width: 3px;
+        width: fit-content;
+        padding: 5px !important;
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: left !important;
+        font-weight: 400;   
+    }
+
+    #private-sale p:hover {
+        text-shadow: 0px 0px 3px orange !important;
+    }
+
+    #private-sale i {
+        color:orange;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    #private-sale strong {
+        color:orange !important;
+    }
+
+    #private-sale strong:hover {
+        text-shadow: 0px 0px 1px black !important;
+    }
+
+    #private-sale hr {
+        margin-top: 40px !important;
+        margin-top: 40px !important;
+    }
+
+    #private-sale-wallets-info {
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    #private-sale-wallets-info p{
+        color:orange !important;
+        padding: 10px !important;
+    }
+    /* PRIVATE SALE - END */
+
+    /* RECRUITMENT */
+    #careers-header {
+        background-color: whitesmoke !important;
+        color: teal !important;
+        height: 650px;
+        margin-top: -30px;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
+    #header-media-careers-pic {
+        width: 50%;
+        height: 650px;
+        background: center 50% / cover no-repeat;
+        float: right;
+        overflow: none;
+        background-image: url('../media/images/coin-logo-3d-wide.png');
+        background-color: rgba(0, 128, 128, 0.325);
     }
 
-    #photos {
-        column-count: 3;
+    #header-media-careers-pic:hover {
+        background-size: 180%;
     }
+
+    #header-media-about-info {
+        width: 35%;
+        float: left;
+        margin-top: 35px;
+        margin-left: 90px;
+        text-align: center;
+    }
+
+    #header-media-about-info-title h2{
+        margin-bottom: 35px;
+        font-size: xx-large;
+        text-decoration: underline !important;
+        font-weight: 2000;
+    }
+
+    #header-media-about-info-one {
+        background-color: rgba(0, 128, 128, 0.325);
+        color: black;
+        border: 2px solid orange;
+        margin-bottom: 25px;
+        padding: 10px;
+    }
+
+    #header-media-about-info-two {
+        background-color: rgba(0, 128, 128, 0.325);
+        color: black;
+        border: 2px solid orange;
+        margin-bottom: 25px;
+        padding: 10px;  
+    }
+
+    #header-media-about-info-link {
+        background-color: rgba(0, 128, 128, 0.325);
+        border: 2px solid orange;
+        padding: 8px;
+    }
+
+    #header-media-about-info-link h4{
+        color: black;
+    }
+
+    #header-media-about-info-link button {
+        background-color: orange;
+        color: teal !important;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-weight: 900;
+    }
+
+    #header-media-about-info-one button {
+        background-color: teal;
+        color: orange !important;
+        margin-bottom: 8px;
+        padding: 5px;
+        font-weight: 900;
+    }
+
+    #header-media-about-info-two button {
+        background-color: teal;
+        color: orange !important;
+        margin-bottom: 8px;
+        padding: 5px;
+        font-weight: 900;
+    }
+
+    #header-media-about-info-one h4 {
+        color: black !important;
+        font-size: large;
+    }
+
+    #header-media-about-info-two h4 {
+        color: black !important;
+        font-size: large;
+    }
+
+    #header-media-about-info-link h4 {
+        font-size: large;
+        color: black;   
+    }
+
+    #header-media-about-info-one a {
+        color: orange !important;
+        padding: 2px;
+    }
+
+    #header-media-about-info-two a {
+        color: orange !important;
+        padding: 2px;
+    }
+
+    #header-media-about-info-link a {
+        color: teal;   
+        font-weight: 900;
+        
+    }
+
+    #header-media-about-info-one button:hover {
+        background: orange;
+        box-shadow: 0px 0px 5px 3px white;
+    }
+
+    #header-media-about-info-one a:hover {
+        color: teal!important;
+    }
+
+    #header-media-about-info-two button:hover {
+        background: orange;
+        box-shadow: 0px 0px 5px 3px white;
+    }
+
+    #header-media-about-info-two a:hover {
+        color: teal!important;
+    }
+
+
+    #header-media-about-info-link button:hover {
+        background: teal;
+        box-shadow: 0px 0px 10px 5px white;
+    }
+
+    #header-media-about-info-link a:hover {
+        color: orange!important;
+    }
+    /* RECRUITMENT - END */
+
+    /* RECRUITMENT - TEAM */
+    #recruitment-team-header div {
+        background-color: rgba(0, 128, 128, 0.325);
+        background-image: url('../media/images/coin-logo-3d-slim.png');
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position: 50% center;
+        height: 500px;
+        width: 100%;
+        margin-top: 1px;
+        margin-bottom: -63px;
+    }
+
+    #recruitment-team-header div:hover {
+        background-repeat: repeat;
+        background-size: 18.5%; 
+    }
+
+    #recruitment-team-box {
+        background-color: lightcyan;
+        margin-top: 6px;
+    }
+
+    #recruitment-team-title {
+        background-color: teal !important;
+        color: orange;
+        margin-bottom: -64px;
+        font-size: xxx-large;
+        font-weight: 1000;
+        text-align: center;
+    }
+
+    #recruitment-team-title h4 {
+        background-color: rgb(1, 152, 152) !important;
+        border-bottom: 1px solid orange;
+        border-top: 1px solid orange;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #recruitment-team-title i {
+        color: orange;
+        padding-left: 14px;
+    }
+
+    #recruitment-team-box h5 {
+        background-color: orange !important;
+        color: teal;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px teal;
+        max-width: fit-content;
+        padding: 7px;
+        font-size: x-large;
+        font-weight: 1000 !important;
+    }
+
+    #recruitment-team-concept {
+        border-top: 1px solid rgb(0, 128, 128);
+        border-bottom: 1px solid rgb(0, 128, 128);
+        padding-left: 21px;
+        padding-right: 21px;
+        padding-bottom: 15px;
+    }
+
+    #recruitment-team-concept p {
+        background-color: rgb(1, 152, 152) !important;
+        color:white !important;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px orange;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 14px;
+        font-weight: 300;
+        font-size: larger;
+    }
+
+    #recruitment-team-conditions{
+        border-bottom: 1px solid rgb(0, 128, 128);
+        padding-left: 21px;
+        padding-right: 21px;
+        padding-bottom: 20px;
+    }
+
+    #recruitment-team-conditions-box {
+        background-color: rgb(1, 152, 152) !important;
+        color:white !important;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px orange;
+        margin-bottom: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: 400;
+        font-size: large;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #recruitment-team-payment {
+        border-bottom: 1px solid rgb(0, 128, 128);
+        padding-left: 21px;
+        padding-right: 21px;
+        padding-bottom: 15px;
+    }
+
+    #recruitment-team-payment p {
+        background-color: rgb(1, 152, 152) !important;
+        color:white !important;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px orange;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 14px;
+        font-weight: 300;
+        font-size: larger;
+    }
+
+    #recruitment-team-positions {
+        border-bottom: 1px solid rgb(0, 128, 128);
+        padding-left: 21px;
+        padding-right: 21px;
+        padding-bottom: 35px;
+    }
+
+    #recruitment-team-positions-box {
+        background-color: rgb(1, 152, 152) !important;
+        color:white !important;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px orange;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: larger;
+        font-weight: 400;
+    }
+    /* RECRUITMENT - TEAM - END */
+
+    /* RECRUITMENT - COLLAB */
+
+    #recruitment-collab-header {
+        width: 100%;
+    }
+
+    #recruitment-collab-pic {
+        background-image: url('../media/images/coin-logo-3d-wide.png');
+        background-color: rgba(0, 128, 128, 0.325);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: 22.4%;
+        height: 500px;
+        width: 100%;
+        margin-bottom: -63px;
+    }
+
+    #recruitment-collab-pic:hover {
+        background-repeat: no-repeat;
+        background-size: 80%;
+    }
+
+    #recruitment-collab-box {
+        background-color: lightcyan !important;
+        margin-top: -62px;
+    }
+
+    #recruitment-collab-title {
+        background-color: teal !important;
+        color: orange;
+        font-size: xxx-large;
+        font-weight: 1000;
+        text-align: center;
+    }
+
+    #recruitment-collab-title h4 {
+        border-bottom: 1px solid orange;
+        border-top: 1px solid orange;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #recruitment-collab-title i {
+        color: orange;
+        padding-left: 14px;
+    }
+
+    #recruitment-collab-description {
+        background-color: rgb(1, 152, 152) !important;
+        color: whitesmoke;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px orange;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: xx-large;
+    }
+
+    #recruitment-collab-description h5 {
+        text-align: center;
+        font-weight: 1000;
+    }
+
+    #recruitment-collab-description h6 {
+        color: white;
+        padding-left: 15px;
+        font-weight: 800;
+    }
+
+    #recruitment-collab-description i {
+        color: orange;
+        padding-right: 18px;
+    
+    }
+
+    #recruitment-collab-concepts {
+        margin-bottom: 30px;
+        padding-left: 41px;
+        padding-right: 41px;
+        padding-bottom: 20px;    
+    }
+
+    #recruitment-collab-concepts-subtitle {
+        background-color: orange;
+        color: teal !important;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px teal;
+        text-align: center;
+        margin-top: -8px;
+        margin-bottom: 20px;
+    }   
+
+    #recruitment-collab-concepts-subtitle h5 {
+        margin-bottom: 5px !important;
+        margin-top: 5px !important;
+        font-size: xx-large;
+        font-weight: 2000 !important;
+    }
+
+    #recruitment-collab-concepts-investment {
+        border-bottom: 1px solid rgb(0, 128, 128);
+        margin-top: 70px;
+        padding-bottom: 35px;
+    } 
+
+    #recruitment-collab-concepts-investment h6 {
+        background-color: orange !important;
+        color: teal;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px teal;
+        max-width: fit-content;
+        padding: 7px;
+        font-size: x-large;
+        font-weight: 1000 !important;
+    } 
+
+    #recruitment-collab-concepts-investment p {
+        background-color: rgb(1, 152, 152) !important;
+        color:white !important;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px orange;
+        max-width: 90%;
+        font-weight: 300;
+        font-size: larger;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px !important;
+        padding: 14px;
+    
+    } 
+
+    #recruitment-collab-concepts-sponsorship {
+        border-bottom: 1px solid rgb(0, 128, 128);
+        padding-bottom: 35px;
+    }   
+
+    #recruitment-collab-concepts-sponsorship h6 {
+        background-color: orange !important;
+        color: teal;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px teal;
+        max-width: fit-content;
+        padding: 7px;
+        font-size: x-large;   
+    }   
+
+    #recruitment-collab-concepts-sponsorship p {
+        background-color: rgb(1, 152, 152) !important;
+        color:white !important;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px orange;
+        max-width: 90%;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 14px;
+        font-weight: 300;
+        font-size: larger;
+    }   
+
+    #recruitment-collab-concepts-collaboration {
+        border-bottom: 1px solid rgb(0, 128, 128);
+        margin-top: 60px;
+        padding-bottom: 35px;
+    }     
+
+    #recruitment-collab-concepts-collaboration h6 {
+        background-color: orange !important;
+        color: teal;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px teal;
+        max-width: fit-content;
+        padding: 7px;
+        font-size: x-large;
+        font-weight: 1000 !important;
+    }  
+
+    #recruitment-collab-concepts-collaboration p {
+        background-color: rgb(1, 152, 152) !important;
+        color:white !important;
+        border: 2px solid teal;
+        box-shadow: 0px 0px 2px 2px orange;
+        max-width: 90%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px !important;
+        padding: 14px;
+        font-weight: 300;
+        font-size: larger;
+    }  
+    /* RECRUITMENT - COLLAB - END */
+
+    /* JOURNEY */
+    #journey-header {
+        height: 500px;
+    }
+
+    #journey-header-picture {
+        background-color: black;
+        background-image: url('../media/images/lock-large.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 10%; 
+        float: left;
+        width: 40%;
+        height: 700px;
+    }
+
+    #journey-header-picture:hover {
+        background-size: 111%;
+    }
+
+    #journey-header-content {
+        background-color: orange;
+        float: right;
+        width: 60%;
+        height: 700px;
+    }
+
+    #journey-header-content-one {
+        background-color: teal !important;
+        color:white !important;
+        border: 2px solid white;
+        width: 70%;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: center;
+        font-weight: 900 !important;
+        font-size: large;
+    }
+
+    #journey-header-content-one h4 {
+        padding-right: -10px;
+        padding-left: -10px;
+    }
+    #journey-header-content-two {
+        background-color: teal !important;
+        color:orange !important;
+        border: 2px solid white;
+        width: 38%;
+        height: 50px;
+        text-align: center;
+        line-height: 5px;
+        margin-bottom: 65px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        font-weight: 900 !important;
+        font-size: smaller;
+    } 
+
+    #journey-header-content-two:hover {
+        background-color: white !important;
+        color:teal !important;
+        border: 2px solid whitesmoke;
+        box-shadow: 0 0 10px 3px white;
+        font-size: small;
+    }
+
+    #journey-header-content-three {
+        background-color: teal !important;
+        color:white !important;
+        border: 2px solid white;
+        width: 80%;
+        margin-bottom: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+        font-size: medium;
+    }
+
+    #journey-header-content-three p {
+        text-align: center;
+    }
+
+    #journey-header-content-three-space {
+        padding-bottom: 5px !important;
+    }
+
+    #journey-header-content-four {
+        background-color: teal !important;
+        color:white !important;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #journey-header-content-four button{
+        background-color: teal;
+        border: 2px solid white;
+        padding: 5px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        font-size: large;
+    } 
+
+    #journey-header-content-four a {
+        color:orange !important;
+        padding: 8px;
+        font-weight: 900;
+    }
+
+    #journey-header-content-four button:hover {
+        background-color: white !important;
+        color: teal !important;
+        box-shadow: 0 0 10px 3px white;
+    }
+
+    #journey-header-content-four a:hover {
+        color:teal !important;
+        font-weight: 900;
+    }
+    /* JOURNEY - END */
+
+    /* REGISTER */
+    #register-header-video{
+        width: 100% !important;
+        height: 435px !important;
+        border-bottom: 3px solid teal;
+    }
+
+    #register-header-video video {
+        background-image: url('../media/images/sand-black-zoom-pc.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        border-top: 1px solid teal;
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    #register-box {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #register-box input {
+        height: 30px;
+    }
+
+    #register-box form:hover {
+        box-shadow: 0px 0px 5px 10px white;
+    }
+
+    #register-form {
+        background-image: url('../media/images/sand-black.jpg');
+        background-size: contain;
+        background-repeat:repeat;
+        background-position: center; 
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    form {
+        background-color: white;
+        border-radius: 8px;
+        width: 60%;
+        margin: 25px auto;
+        padding: 25px;
+    }
+
+    #register-form fieldset {
+        border: 2px solid teal;
+        margin-top: 30px;
+        padding-bottom: 25px;
+    }
+
+    #register-form h3 {
+        color: teal;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: xx-large;
+        font-weight: 900;
+    }
+
+    #register-form h4 {
+        color: teal;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        font-weight: 700 !important;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    #register-form em {
+        font-size: large;
+    }
+
+    #register-form hr {
+        background-color:rgb(0, 128, 128);
+        height: 5px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    #register-form legend {
+        background-color: teal;
+        color: white;
+        text-shadow: 0px 1px teal;
+        margin-left: 5px;
+        margin-top: 20px;
+        padding-top: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 1px;
+        font-weight: 900;
+        font-family: 'Open Sans', sans-serif !important;
+        font-size: large;
+        text-transform: uppercase;
+    }
+
+    #register-swot {
+        margin-bottom: 40px;
+    }
+
+    #register-missions {
+        margin-bottom: 10px;
+    }
+
+    #personal-achievements {
+        margin-bottom: 30px;
+    }
+
+    .block-label {
+        display: block;
+    }
+
+    fieldset div {
+        margin-left: 15px;
+        margin-right: -35px;
+    }
+
+    fieldset label {
+        margin: 10px 15px 5px 0;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        font-size: large;
+        font-weight: 700;
+    }
+
+    #file-input input{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+        
+    input[type=text], input[type=email] {
+        border: 2px solid orange;
+        height: 30px;
+        width: 90%;
+        padding-left: 10px;
+        font-size: medium;
+    
+    }
+    input[type=date] {
+        border: 2px solid orange;
+        width: 30%;
+        height: 30px;
+        padding: 2px;
+        padding-left: 10px !important;
+        font-size: medium;    
+    }
+
+    input[type=file] {
+        font-size: medium;
+    }
+
+    input[type=submit] {
+        background-color: teal;
+        color: orange;
+        border: none;
+        border-radius: 5px;
+        height: fit-content !important;
+        margin-top: 20px;
+        margin-left: 0.75rem;
+        padding: 13px;
+        font-weight: 900;
+    }
+
+    input[type=reset] {
+        background-color: white;
+        color: teal;
+        border: 1px solid orange;
+        border-radius: 5px;
+        float: right;
+        height: fit-content !important;
+        margin-top: 20px;
+        margin-right: 0.75rem;
+        padding: 12px;
+        font-weight: 900;    
+    }
+
+    input[type=submit]:hover {
+        box-shadow: 0px 0px 5px 3px orange;
+    }
+
+    input[type=reset]:hover {
+        background-color: orange;
+        box-shadow: 0px 0px 5px 3px teal;
+    }
+    /* REGISTER - END */
+
+    /* FOOTER ELEMENTS */
+    #footer ul:hover {
+        box-shadow: 0px 0px 5px 5px white inset;
+    }
+
+    .social-networks {
+        background-color: orange;
+        text-align: center;
+        margin-bottom: 50px;
+        font-weight: 1000;
+    }
+
+    .social-networks > li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .social-networks > p {
+        color:teal;
+        padding-top: 15px;
+        padding-bottom: 3px;
+        font-size: large;
+        font-weight: 400;
+        font-weight: 1000 !important;
+    }
+
+    .social-networks i {
+        color: teal;
+        margin-bottom: 15px !important;
+        padding: 10px;
+        font-size:160%;
+    }
+
+    .social-networks i:hover {
+        box-shadow: 0px 0px 5px 2px white inset;
+        text-shadow: 0px 0px 10px white;
+        margin-bottom: 5px;
+    }
+
+    #direct-contact {
+        color:orange;
+        background-color: teal;
+        margin-top: -50px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #direct-contact h6 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: large;
+        font-weight: 1000 !important;
+    }
+
+    #direct-contact p {
+        margin-top: -40px;
+        margin-bottom: 20px;
+        margin-left: -10px;
+        padding-bottom: 8px;
+        letter-spacing: 1px;
+        font-size: large;
+        text-decoration:underline;
+        font-weight: 500;
+    }
+
+    #direct-contact i {
+        margin-left: -10px;
+        padding: 10px !important;
+        font-size: 140%;
+    }
+
+    #direct-contact h6:hover {
+        box-shadow: 0px 0px 3px 3px whitesmoke;
+    }
+
+    #direct-contact p:hover {
+        box-shadow: 0px 0px 5px 3px whitesmoke;
+        text-shadow: 0px 0px 3px rgb(6, 203, 203);
+        padding-bottom: 8px;
+        padding-top: 5px;
+    }
+
+    #copyright {
+        background-color: rgba(0, 0, 0, 0.808);
+        color: silver;
+        text-align: center;
+        margin-top: -19px;
+        margin-bottom: -20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: 900;
+    }
+    /* FOOTER ELEMENTS - END */
 }
