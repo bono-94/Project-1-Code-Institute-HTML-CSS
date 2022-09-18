@@ -1334,7 +1334,6 @@ p {
     color:orange !important;
     border: 2px solid white;
     width: 38%;
-    height: 50px;
     text-align: center;
     line-height: 5px;
     margin-bottom: 65px;
@@ -1342,7 +1341,7 @@ p {
     margin-right: auto;
     padding: 5px;
     font-weight: 900 !important;
-    font-size: smaller;
+    font-size: x-large;
 } 
 
 #journey-header-content-two:hover {
@@ -1829,6 +1828,9 @@ input[type=reset]:hover {
         margin-left: auto;
         margin-right: auto;
     }
+    #timeline h2 {
+        font-size: xx-large;
+    }
 
     .timeline-boxes h3 {
         padding-top: -10px;
@@ -1840,7 +1842,10 @@ input[type=reset]:hover {
     }
     /* TIMELINE 1 - END */
 
-    /* TIMELINE 2 */
+    /* TIMELINE 2 */    
+    #timeline-two h2 {
+        font-size: xx-large;
+    }
 
     .timeline-boxes-two {
         display: block;
@@ -1907,15 +1912,16 @@ input[type=reset]:hover {
         font-size: small;
     }
 
-    #private-sale strong {
-        color:orange !important;
+    #private-sale-wallets-info p {
+        color: white !important;
     }
+
+
     /* PRIVATE SALE - END */
 
     /* RECRUITMENT */
     #careers-header {
         margin-top: -10px;
-        text-align: center;
         width: 100%;
         height: 100%;
         text-align: center;
@@ -1923,9 +1929,7 @@ input[type=reset]:hover {
 
     #header-media-careers-pic {
         width: 100%;
-        background: center 50% / cover no-repeat;
-        overflow: none;
-        background-image: url('../media/images/coin-logo-3d-wide.png');
+        height: 500px;
         background-color: rgba(0, 128, 128, 0.325) !important;
         margin-bottom: -35px;
     }
@@ -1975,12 +1979,14 @@ input[type=reset]:hover {
 
     /* RECRUITMENT - TEAM */
     #recruitment-team-header div {
-        background-size: 30%;
-        height: 600px;
+        background-size: 44%;
+        height: 500px;
     }
 
     #recruitment-team-header div:hover {
-        background-size: 32.3%; 
+        background-size: 48%;
+        background-repeat: no-repeat;
+        background-color: transparent;
     }
 
     #recruitment-team-title {
@@ -1994,6 +2000,7 @@ input[type=reset]:hover {
 
     #recruitment-team-box h5 {
         font-size: large;
+        font: bolder;
     }
 
     #recruitment-team-concept {
@@ -2001,303 +2008,176 @@ input[type=reset]:hover {
     }
 
     #recruitment-team-concept p {
-        font-size: large;
+        font-size: medium;
     }
 
     #recruitment-team-conditions-box p {
-        font-size: large;
+        font-size: medium;
     }
 
     #recruitment-team-payment p {
-        font-size: large;
+        font-size: medium;
     }
 
     #recruitment-team-positions-box p {
-        font-size: large;
+        font-size: medium;
     }
     /* RECRUITMENT - TEAM - END */
 
     /* RECRUITMENT - COLLAB */
-
     #recruitment-collab-header {
         width: 100%;
     }
 
     #recruitment-collab-pic {
-        background-image: url('../media/images/coin-logo-3d-wide.png');
-        background-color: rgba(0, 128, 128, 0.325);
-        background-repeat: repeat;
-        background-position: center;
-        background-size: 22.4%;
+        background-repeat: no-repeat;
+        background-size: contain;
         height: 500px;
-        width: 100%;
-        margin-bottom: -63px;
     }
 
     #recruitment-collab-pic:hover {
+        background-size: 105%;
         background-repeat: no-repeat;
-        background-size: 80%;
-    }
-
-    #recruitment-collab-box {
-        background-color: lightcyan !important;
-        margin-top: -62px;
+        background-color: transparent;
     }
 
     #recruitment-collab-title {
-        background-color: teal !important;
-        color: orange;
-        font-size: xxx-large;
-        font-weight: 1000;
-        text-align: center;
-    }
-
-    #recruitment-collab-title h4 {
-        border-bottom: 1px solid orange;
-        border-top: 1px solid orange;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-
-    #recruitment-collab-title i {
-        color: orange;
-        padding-left: 14px;
-    }
-
-    #recruitment-collab-description {
-        background-color: rgb(1, 152, 152) !important;
-        color: whitesmoke;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px orange;
-        margin-left: 20px;
-        margin-right: 20px;
         font-size: xx-large;
     }
 
+    #recruitment-collab-description {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
     #recruitment-collab-description h5 {
-        text-align: center;
-        font-weight: 1000;
+        background-color: orange !important;
+        color: teal;
+        border: 2px solid rgb(1, 105, 105);
+        box-shadow: 0px 0px 2px 2px rgb(1, 105, 105);
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: 1000 !important;
+        font-size: large;
     }
 
     #recruitment-collab-description h6 {
         color: white;
         padding-left: 15px;
-        font-weight: 800;
+        font-weight: 400;
+        font-size: medium;
     }
 
     #recruitment-collab-description i {
-        color: orange;
-        padding-right: 18px;
-    
-    }
-
-    #recruitment-collab-concepts {
-        margin-bottom: 30px;
-        padding-left: 41px;
-        padding-right: 41px;
-        padding-bottom: 20px;    
+        padding-right: 10px;
+        padding-left: 5px;
     }
 
     #recruitment-collab-concepts-subtitle {
-        background-color: orange;
-        color: teal !important;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px teal;
-        text-align: center;
-        margin-top: -8px;
-        margin-bottom: 20px;
+        border: 2px solid rgb(1, 105, 105);
+        box-shadow: 0px 0px 2px 2px rgb(1, 105, 105);
     }   
 
     #recruitment-collab-concepts-subtitle h5 {
-        margin-bottom: 5px !important;
-        margin-top: 5px !important;
-        font-size: xx-large;
-        font-weight: 2000 !important;
+        font-size: x-large;
     }
 
     #recruitment-collab-concepts-investment {
-        border-bottom: 1px solid rgb(0, 128, 128);
-        margin-top: 70px;
-        padding-bottom: 35px;
+        margin-top: 50px;
     } 
 
     #recruitment-collab-concepts-investment h6 {
-        background-color: orange !important;
-        color: teal;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px teal;
-        max-width: fit-content;
-        padding: 7px;
-        font-size: x-large;
-        font-weight: 1000 !important;
+        font-size: large;
     } 
 
     #recruitment-collab-concepts-investment p {
-        background-color: rgb(1, 152, 152) !important;
-        color:white !important;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px orange;
-        max-width: 90%;
-        font-weight: 300;
-        font-size: larger;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 30px !important;
+        font-size: medium;
+        margin-top: 40px !important;
         padding: 14px;
-    
+        text-align: start;
     } 
 
-    #recruitment-collab-concepts-sponsorship {
-        border-bottom: 1px solid rgb(0, 128, 128);
-        padding-bottom: 35px;
-    }   
-
     #recruitment-collab-concepts-sponsorship h6 {
-        background-color: orange !important;
-        color: teal;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px teal;
-        max-width: fit-content;
-        padding: 7px;
-        font-size: x-large;   
+        font-size: large;   
     }   
 
     #recruitment-collab-concepts-sponsorship p {
-        background-color: rgb(1, 152, 152) !important;
-        color:white !important;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px orange;
-        max-width: 90%;
-        margin-left: 50px;
-        margin-right: 50px;
+        font-size: medium;
+        margin-top: 40px !important;
         padding: 14px;
-        font-weight: 300;
-        font-size: larger;
+        text-align: start;
     }   
 
-    #recruitment-collab-concepts-collaboration {
-        border-bottom: 1px solid rgb(0, 128, 128);
-        margin-top: 60px;
-        padding-bottom: 35px;
-    }     
-
     #recruitment-collab-concepts-collaboration h6 {
-        background-color: orange !important;
-        color: teal;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px teal;
-        max-width: fit-content;
-        padding: 7px;
-        font-size: x-large;
-        font-weight: 1000 !important;
+        font-size: large;
     }  
 
     #recruitment-collab-concepts-collaboration p {
-        background-color: rgb(1, 152, 152) !important;
-        color:white !important;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px orange;
-        max-width: 90%;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 20px !important;
+        font-size: medium;
+        margin-top: 40px !important;
         padding: 14px;
-        font-weight: 300;
-        font-size: larger;
+        text-align: start;
     }  
     /* RECRUITMENT - COLLAB - END */
 
     /* JOURNEY */
     #journey-header {
-        height: 500px;
+        height: fit-content;
     }
 
     #journey-header-picture {
-        background-color: black;
-        background-image: url('../media/images/lock-large.jpg');
         background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 10%; 
-        float: left;
-        width: 40%;
-        height: 700px;
+        background-position: center; 
+        float: none;
+        width: 100%;
+        height: 1000px;
+        margin-bottom: -64px;
     }
 
     #journey-header-picture:hover {
-        background-size: 111%;
+        background-size: 110%;
     }
 
     #journey-header-content {
         background-color: orange;
-        float: right;
-        width: 60%;
-        height: 700px;
+        float: none;
+        width: 100%;
+        height: fit-content;
+        padding-top: 5px;
+        padding-bottom: 55px;
     }
 
     #journey-header-content-one {
-        background-color: teal !important;
-        color:white !important;
-        border: 2px solid white;
-        width: 70%;
-        margin-top: 65px;
-        margin-bottom: 65px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-right: 15px;
-        padding-left: 15px;
-        text-align: center;
-        font-weight: 900 !important;
+        margin-top: 55px;
+        margin-bottom: 45px;
+        padding-right: 10px;
+        padding-left: 10px;
         font-size: large;
     }
 
-    #journey-header-content-one h4 {
-        padding-right: -10px;
-        padding-left: -10px;
-    }
     #journey-header-content-two {
-        background-color: teal !important;
-        color:orange !important;
-        border: 2px solid white;
-        width: 38%;
-        height: 50px;
         text-align: center;
-        line-height: 5px;
-        margin-bottom: 65px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 5px;
+        margin-bottom: 45px;
         font-weight: 900 !important;
-        font-size: smaller;
+        font-size: x-large;
+        width: fit-content;
+        padding-left: 10px;
+        padding-right: 8px;
+        text-decoration: underline;
+
     } 
 
     #journey-header-content-two:hover {
-        background-color: white !important;
-        color:teal !important;
         border: 2px solid whitesmoke;
         box-shadow: 0 0 10px 3px white;
-        font-size: small;
+        font-size: xx-large;
     }
 
     #journey-header-content-three {
-        background-color: teal !important;
-        color:white !important;
-        border: 2px solid white;
-        width: 80%;
-        margin-bottom: 55px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-right: 10px;
-        padding-left: 10px;
-        text-align: center;
-        font-size: medium;
-    }
-
-    #journey-header-content-three p {
-        text-align: center;
-    }
-
-    #journey-header-content-three-space {
-        padding-bottom: 5px !important;
+        margin-bottom: 45px;
+        font-size: small;
     }
 
     #journey-header-content-four {
