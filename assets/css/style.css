@@ -1703,17 +1703,17 @@ input[type=reset]:hover {
 
     #nav-menu {
         display: block;
-        text-align: center;
         width: 100%;
+        text-align: center;
     }
 
     #nav-menu a {
         color: orange;
         display: block;
+        float: none;
         margin-left: 15px;
         margin-right: 15px;
         text-align: center;
-        float: none;
     }
 
     #nav-sub-menu-container a {
@@ -1762,8 +1762,8 @@ input[type=reset]:hover {
     }
 
     .about-boxes-content p {
-        font-size: medium;
         padding-right: 40px !important;
+        font-size: medium;
     }
 
     #about-box i {
@@ -1797,8 +1797,8 @@ input[type=reset]:hover {
     }
 
     #features-title h2 {
-        font-size: 50px;
         line-height: 140px;
+        font-size: 50px;
     }
 
     #features-container div {
@@ -1809,8 +1809,6 @@ input[type=reset]:hover {
     #features h3 {
         font-size: 20px;
     }
-
-    
     /* FEATURES - END*/
 
     /* TIMELINE 1 */
@@ -1916,190 +1914,77 @@ input[type=reset]:hover {
 
     /* RECRUITMENT */
     #careers-header {
-        background-color: whitesmoke !important;
-        color: teal !important;
-        height: 650px;
-        margin-top: -30px;
+        margin-top: -10px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
         text-align: center;
     }
 
     #header-media-careers-pic {
-        width: 50%;
-        height: 650px;
+        width: 100%;
         background: center 50% / cover no-repeat;
-        float: right;
         overflow: none;
         background-image: url('../media/images/coin-logo-3d-wide.png');
-        background-color: rgba(0, 128, 128, 0.325);
+        background-color: rgba(0, 128, 128, 0.325) !important;
+        margin-bottom: -35px;
     }
 
     #header-media-careers-pic:hover {
-        background-size: 180%;
+        background-size: 110%;
     }
 
     #header-media-about-info {
-        width: 35%;
-        float: left;
-        margin-top: 35px;
-        margin-left: 90px;
+        background-color: whitesmoke !important;
         text-align: center;
+        margin-bottom: 50px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: -20px;
     }
 
     #header-media-about-info-title h2{
-        margin-bottom: 35px;
+        margin-top: 45px;
+        margin-bottom: 55px;
         font-size: xx-large;
-        text-decoration: underline !important;
-        font-weight: 2000;
+        width: 100%;
     }
 
     #header-media-about-info-one {
-        background-color: rgba(0, 128, 128, 0.325);
-        color: black;
-        border: 2px solid orange;
         margin-bottom: 25px;
-        padding: 10px;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #header-media-about-info-two {
-        background-color: rgba(0, 128, 128, 0.325);
-        color: black;
-        border: 2px solid orange;
         margin-bottom: 25px;
-        padding: 10px;  
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #header-media-about-info-link {
-        background-color: rgba(0, 128, 128, 0.325);
-        border: 2px solid orange;
-        padding: 8px;
-    }
-
-    #header-media-about-info-link h4{
-        color: black;
-    }
-
-    #header-media-about-info-link button {
-        background-color: orange;
-        color: teal !important;
-        margin-bottom: 10px;
-        padding: 5px;
-        font-weight: 900;
-    }
-
-    #header-media-about-info-one button {
-        background-color: teal;
-        color: orange !important;
-        margin-bottom: 8px;
-        padding: 5px;
-        font-weight: 900;
-    }
-
-    #header-media-about-info-two button {
-        background-color: teal;
-        color: orange !important;
-        margin-bottom: 8px;
-        padding: 5px;
-        font-weight: 900;
-    }
-
-    #header-media-about-info-one h4 {
-        color: black !important;
-        font-size: large;
-    }
-
-    #header-media-about-info-two h4 {
-        color: black !important;
-        font-size: large;
-    }
-
-    #header-media-about-info-link h4 {
-        font-size: large;
-        color: black;   
-    }
-
-    #header-media-about-info-one a {
-        color: orange !important;
-        padding: 2px;
-    }
-
-    #header-media-about-info-two a {
-        color: orange !important;
-        padding: 2px;
-    }
-
-    #header-media-about-info-link a {
-        color: teal;   
-        font-weight: 900;
-        
-    }
-
-    #header-media-about-info-one button:hover {
-        background: orange;
-        box-shadow: 0px 0px 5px 3px white;
-    }
-
-    #header-media-about-info-one a:hover {
-        color: teal!important;
-    }
-
-    #header-media-about-info-two button:hover {
-        background: orange;
-        box-shadow: 0px 0px 5px 3px white;
-    }
-
-    #header-media-about-info-two a:hover {
-        color: teal!important;
-    }
-
-
-    #header-media-about-info-link button:hover {
-        background: teal;
-        box-shadow: 0px 0px 10px 5px white;
-    }
-
-    #header-media-about-info-link a:hover {
-        color: orange!important;
+        width: 40%;
+        margin-bottom: 80px;
+        margin-left: auto;
+        margin-right: auto;
     }
     /* RECRUITMENT - END */
 
     /* RECRUITMENT - TEAM */
     #recruitment-team-header div {
-        background-color: rgba(0, 128, 128, 0.325);
-        background-image: url('../media/images/coin-logo-3d-slim.png');
         background-size: 30%;
-        background-repeat: no-repeat;
-        background-position: 50% center;
-        height: 500px;
-        width: 100%;
-        margin-top: 1px;
-        margin-bottom: -63px;
+        height: 600px;
     }
 
     #recruitment-team-header div:hover {
-        background-repeat: repeat;
-        background-size: 18.5%; 
-    }
-
-    #recruitment-team-box {
-        background-color: lightcyan;
-        margin-top: 6px;
+        background-size: 32.3%; 
     }
 
     #recruitment-team-title {
-        background-color: teal !important;
-        color: orange;
-        margin-bottom: -64px;
-        font-size: xxx-large;
-        font-weight: 1000;
-        text-align: center;
-    }
-
-    #recruitment-team-title h4 {
-        background-color: rgb(1, 152, 152) !important;
-        border-bottom: 1px solid orange;
-        border-top: 1px solid orange;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        font-size: xx-large;
     }
 
     #recruitment-team-title i {
@@ -2108,98 +1993,27 @@ input[type=reset]:hover {
     }
 
     #recruitment-team-box h5 {
-        background-color: orange !important;
-        color: teal;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px teal;
-        max-width: fit-content;
-        padding: 7px;
-        font-size: x-large;
-        font-weight: 1000 !important;
+        font-size: large;
     }
 
     #recruitment-team-concept {
-        border-top: 1px solid rgb(0, 128, 128);
-        border-bottom: 1px solid rgb(0, 128, 128);
-        padding-left: 21px;
-        padding-right: 21px;
-        padding-bottom: 15px;
+        margin-top: 65px;
     }
 
     #recruitment-team-concept p {
-        background-color: rgb(1, 152, 152) !important;
-        color:white !important;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px orange;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 14px;
-        font-weight: 300;
-        font-size: larger;
-    }
-
-    #recruitment-team-conditions{
-        border-bottom: 1px solid rgb(0, 128, 128);
-        padding-left: 21px;
-        padding-right: 21px;
-        padding-bottom: 20px;
-    }
-
-    #recruitment-team-conditions-box {
-        background-color: rgb(1, 152, 152) !important;
-        color:white !important;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px orange;
-        margin-bottom: 14px;
-        margin-left: 20px;
-        margin-right: 20px;
-        font-weight: 400;
         font-size: large;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
-    #recruitment-team-payment {
-        border-bottom: 1px solid rgb(0, 128, 128);
-        padding-left: 21px;
-        padding-right: 21px;
-        padding-bottom: 15px;
+    #recruitment-team-conditions-box p {
+        font-size: large;
     }
 
     #recruitment-team-payment p {
-        background-color: rgb(1, 152, 152) !important;
-        color:white !important;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px orange;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 14px;
-        font-weight: 300;
-        font-size: larger;
+        font-size: large;
     }
 
-    #recruitment-team-positions {
-        border-bottom: 1px solid rgb(0, 128, 128);
-        padding-left: 21px;
-        padding-right: 21px;
-        padding-bottom: 35px;
-    }
-
-    #recruitment-team-positions-box {
-        background-color: rgb(1, 152, 152) !important;
-        color:white !important;
-        border: 2px solid teal;
-        box-shadow: 0px 0px 2px 2px orange;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: larger;
-        font-weight: 400;
+    #recruitment-team-positions-box p {
+        font-size: large;
     }
     /* RECRUITMENT - TEAM - END */
 
