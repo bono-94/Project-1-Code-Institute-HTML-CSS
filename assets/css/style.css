@@ -1921,16 +1921,16 @@ input[type=reset]:hover {
 
     /* RECRUITMENT */
     #careers-header {
-        margin-top: -10px;
         width: 100%;
         height: 100%;
+        margin-top: -10px;
         text-align: center;
     }
 
     #header-media-careers-pic {
+        background-color: rgba(0, 128, 128, 0.325) !important;
         width: 100%;
         height: 500px;
-        background-color: rgba(0, 128, 128, 0.325) !important;
         margin-bottom: -35px;
     }
 
@@ -1940,31 +1940,31 @@ input[type=reset]:hover {
 
     #header-media-about-info {
         background-color: whitesmoke !important;
-        text-align: center;
-        margin-bottom: 50px;
         width: 100%;
+        margin-bottom: 50px;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: -20px;
+        text-align: center;
     }
 
     #header-media-about-info-title h2{
+        width: 100%;
         margin-top: 45px;
         margin-bottom: 55px;
         font-size: xx-large;
-        width: 100%;
     }
 
     #header-media-about-info-one {
-        margin-bottom: 25px;
         width: 40%;
+        margin-bottom: 25px;
         margin-left: auto;
         margin-right: auto;
     }
 
     #header-media-about-info-two {
-        margin-bottom: 25px;
         width: 40%;
+        margin-bottom: 25px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -2093,10 +2093,10 @@ input[type=reset]:hover {
     } 
 
     #recruitment-collab-concepts-investment p {
-        font-size: medium;
         margin-top: 40px !important;
         padding: 14px;
         text-align: start;
+        font-size: medium;
     } 
 
     #recruitment-collab-concepts-sponsorship h6 {
@@ -2104,10 +2104,10 @@ input[type=reset]:hover {
     }   
 
     #recruitment-collab-concepts-sponsorship p {
-        font-size: medium;
         margin-top: 40px !important;
         padding: 14px;
         text-align: start;
+        font-size: medium;
     }   
 
     #recruitment-collab-concepts-collaboration h6 {
@@ -2115,10 +2115,10 @@ input[type=reset]:hover {
     }  
 
     #recruitment-collab-concepts-collaboration p {
-        font-size: medium;
         margin-top: 40px !important;
         padding: 14px;
         text-align: start;
+        font-size: medium;
     }  
     /* RECRUITMENT - COLLAB - END */
 
@@ -2158,20 +2158,17 @@ input[type=reset]:hover {
     }
 
     #journey-header-content-two {
-        text-align: center;
-        margin-bottom: 45px;
-        font-weight: 900 !important;
-        font-size: x-large;
         width: fit-content;
+        margin-bottom: 45px;
         padding-left: 10px;
         padding-right: 8px;
+        font-weight: 900 !important;
+        font-size: x-large;
+        text-align: center;
         text-decoration: underline;
-
     } 
 
     #journey-header-content-two:hover {
-        border: 2px solid whitesmoke;
-        box-shadow: 0 0 10px 3px white;
         font-size: xx-large;
     }
 
@@ -2180,319 +2177,141 @@ input[type=reset]:hover {
         font-size: small;
     }
 
-    #journey-header-content-four {
-        background-color: teal !important;
-        color:white !important;
-        width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     #journey-header-content-four button{
-        background-color: teal;
-        border: 2px solid white;
-        padding: 5px;
-        font-weight: 900;
-        letter-spacing: 1px;
-        font-size: large;
-    } 
-
-    #journey-header-content-four a {
-        color:orange !important;
-        padding: 8px;
-        font-weight: 900;
-    }
-
-    #journey-header-content-four button:hover {
-        background-color: white !important;
-        color: teal !important;
-        box-shadow: 0 0 10px 3px white;
-    }
-
-    #journey-header-content-four a:hover {
-        color:teal !important;
-        font-weight: 900;
+        font-size: small;
     }
     /* JOURNEY - END */
 
     /* REGISTER */
     #register-header-video{
-        width: 100% !important;
-        height: 435px !important;
-        border-bottom: 3px solid teal;
+        height: 100% !important;
     }
 
     #register-header-video video {
-        background-image: url('../media/images/sand-black-zoom-pc.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center; 
-        border-top: 1px solid teal;
-        height: 100% !important;
-        width: 100% !important;
-    }
-
-    #register-box {
-        width: 100%;
-        height: fit-content;
-    }
-
-    #register-box input {
-        height: 30px;
-    }
-
-    #register-box form:hover {
-        box-shadow: 0px 0px 5px 10px white;
-    }
-
-    #register-form {
-        background-image: url('../media/images/sand-black.jpg');
-        background-size: contain;
-        background-repeat:repeat;
-        background-position: center; 
-        padding-top: 80px;
-        padding-bottom: 80px;
+        border-top: 3px solid teal;
+        border-bottom: 3px solid teal;
+        margin-bottom: -6px;
     }
 
     form {
-        background-color: white;
-        border-radius: 8px;
-        width: 60%;
-        margin: 25px auto;
-        padding: 25px;
+        padding-bottom: 100px;
     }
 
-    #register-form fieldset {
-        border: 2px solid teal;
-        margin-top: 30px;
-        padding-bottom: 25px;
+    #register-box input {
+        height: 24px;
+        width: 82%;
+        font-size: small;
     }
 
     #register-form h3 {
-        color: teal;
-        padding-bottom: 10px;
-        text-align: center;
         font-size: xx-large;
-        font-weight: 900;
+        text-shadow: 0px 0px 1px black;
+    }
+
+    #form-intro p {
+        font-size: medium;
     }
 
     #register-form h4 {
-        color: teal;
-        padding-bottom: 10px;
-        padding-top: 5px;
-        font-weight: 700 !important;
-        text-align: center;
+        text-shadow: 0px 0px 1px black;
         font-size: x-large;
     }
 
-    #register-form em {
-        font-size: large;
-    }
-
     #register-form hr {
-        background-color:rgb(0, 128, 128);
-        height: 5px;
-        margin-left: -10px;
-        margin-right: -10px;
+        height: 3px;
+        margin-left: -5px;
+        margin-right: -5px;
     }
 
     #register-form legend {
-        background-color: teal;
-        color: white;
-        text-shadow: 0px 1px teal;
-        margin-left: 5px;
-        margin-top: 20px;
-        padding-top: 1px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 1px;
-        font-weight: 900;
-        font-family: 'Open Sans', sans-serif !important;
-        font-size: large;
-        text-transform: uppercase;
-    }
-
-    #register-swot {
-        margin-bottom: 40px;
-    }
-
-    #register-missions {
-        margin-bottom: 10px;
-    }
-
-    #personal-achievements {
-        margin-bottom: 30px;
-    }
-
-    .block-label {
-        display: block;
-    }
-
-    fieldset div {
-        margin-left: 15px;
-        margin-right: -35px;
+        color: orange;
+        text-shadow: 0px 0px 1px black;
+        font-size: medium;
     }
 
     fieldset label {
-        margin: 10px 15px 5px 0;
-        padding-top: 10px;
-        padding-bottom: 5px;
-        font-size: large;
+        font-size: small;
         font-weight: 700;
-    }
-
-    #file-input input{
-        margin-left: 10px;
-        margin-top: 5px;
-    }
-        
-    input[type=text], input[type=email] {
-        border: 2px solid orange;
-        height: 30px;
-        width: 90%;
-        padding-left: 10px;
-        font-size: medium;
-    
-    }
-    input[type=date] {
-        border: 2px solid orange;
-        width: 30%;
-        height: 30px;
-        padding: 2px;
-        padding-left: 10px !important;
-        font-size: medium;    
-    }
-
-    input[type=file] {
-        font-size: medium;
+        font-family: 'Open Sans', sans-serif;
     }
 
     input[type=submit] {
-        background-color: teal;
-        color: orange;
-        border: none;
-        border-radius: 5px;
         height: fit-content !important;
+        width: 20% !important;
         margin-top: 20px;
-        margin-left: 0.75rem;
-        padding: 13px;
+        padding: 5px;
         font-weight: 900;
+        float: left;
     }
 
     input[type=reset] {
-        background-color: white;
-        color: teal;
-        border: 1px solid orange;
-        border-radius: 5px;
-        float: right;
         height: fit-content !important;
-        margin-top: 20px;
-        margin-right: 0.75rem;
-        padding: 12px;
-        font-weight: 900;    
+        width: 20% !important;
+        padding: 5px;
+        font-weight: 900;   
+        float: right;
     }
 
-    input[type=submit]:hover {
-        box-shadow: 0px 0px 5px 3px orange;
-    }
-
-    input[type=reset]:hover {
-        background-color: orange;
-        box-shadow: 0px 0px 5px 3px teal;
+    input::placeholder {
+        color: transparent;
     }
     /* REGISTER - END */
 
     /* FOOTER ELEMENTS */
-    #footer ul:hover {
-        box-shadow: 0px 0px 5px 5px white inset;
-    }
-
-    .social-networks {
-        background-color: orange;
-        text-align: center;
-        margin-bottom: 50px;
-        font-weight: 1000;
+    #footer {
+        margin-top: -2px;
     }
 
     .social-networks > li {
         display: inline-block;
-        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 40px;    
     }
 
     .social-networks > p {
-        color:teal;
-        padding-top: 15px;
-        padding-bottom: 3px;
+        padding-top: 25px;
+        padding-right: 30px;
+        padding-bottom: 20px;
         font-size: large;
-        font-weight: 400;
-        font-weight: 1000 !important;
-    }
-
-    .social-networks i {
-        color: teal;
-        margin-bottom: 15px !important;
-        padding: 10px;
-        font-size:160%;
-    }
-
-    .social-networks i:hover {
-        box-shadow: 0px 0px 5px 2px white inset;
-        text-shadow: 0px 0px 10px white;
-        margin-bottom: 5px;
+        text-align: center;
     }
 
     #direct-contact {
-        color:orange;
-        background-color: teal;
         margin-top: -50px;
         margin-bottom: 20px;
         text-align: center;
     }
 
     #direct-contact h6 {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         font-size: large;
-        font-weight: 1000 !important;
+        padding-right: -20px;
     }
 
     #direct-contact p {
-        margin-top: -40px;
-        margin-bottom: 20px;
-        margin-left: -10px;
-        padding-bottom: 8px;
-        letter-spacing: 1px;
-        font-size: large;
-        text-decoration:underline;
-        font-weight: 500;
-    }
-
-    #direct-contact i {
-        margin-left: -10px;
-        padding: 10px !important;
-        font-size: 140%;
-    }
-
-    #direct-contact h6:hover {
-        box-shadow: 0px 0px 3px 3px whitesmoke;
-    }
-
-    #direct-contact p:hover {
-        box-shadow: 0px 0px 5px 3px whitesmoke;
-        text-shadow: 0px 0px 3px rgb(6, 203, 203);
-        padding-bottom: 8px;
-        padding-top: 5px;
+        padding-right: -20px;
+        padding-bottom: 20px;
     }
 
     #copyright {
-        background-color: rgba(0, 0, 0, 0.808);
-        color: silver;
-        text-align: center;
-        margin-top: -19px;
+        margin-top: -21px;
         margin-bottom: -20px;
         padding-top: 5px;
         padding-bottom: 5px;
         font-weight: 900;
     }
     /* FOOTER ELEMENTS - END */
+}
+/* MEDIA QUERIES - TABLET - END */
+
+/* MEDIA QUERIES - PHONE */
+@media screen and (min-width: 280px) and (max-width: 600px) {
+    /* NAVIGATION */ 
+    #nav-bar {
+        border-top: 1px solid teal;
+        width: 100%;
+    }
 }
