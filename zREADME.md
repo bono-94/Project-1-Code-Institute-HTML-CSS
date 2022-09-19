@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CI logo](./assets/media/images/coin-logo-2d-slim.png)
 
 The last update to this file was: **September 1, 2021**
 bold

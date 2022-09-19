@@ -1,142 +1,155 @@
 # Life Coin
 
-Life Coin site is a digital representation of interaction platform powering an alternative and independent new economy system. Reason for development of this site is to slowly introduce to the public this innovative and collaborative environment for purposes of financial education, poverty reduction and improvement of lifestyles while achieving life-long goals. This site is for every human's personal and business use no matter unique life experiences.
+Life Coin site is a digital representation of an interaction platform powering an alternative and independent new economy system. The reason for the development of this site is to slowly introduce to the public this innovative and collaborative environment for purposes of financial education, poverty reduction, and improvement of lifestyles while achieving life-long goals. This site is for every human's personal and business use no matter their unique life experiences.
 
- In our live public area, all humans are encouraged to contribute and grow together towards better tomorrow. Users will be able to join our public workspace where they can increase and store their wealth through various missions offers and financial tools. All efforts are additionally rewarded with infinite options to purchases from real world service providers with extremely large discounts. Our focus will always remain in only supporting sustainable products and services. While covering one of the key aspects of life, users are also paying unnoticeable taxation that transparently funds the charity and business missions.
+ In our live public area, all humans are encouraged to contribute and grow together towards a better tomorrow. Users will be able to join our public workspace where they can increase and store their wealth through various missions offers and financial tools. All efforts are additionally rewarded with infinite options to purchase from real-world service providers with extremely large discounts. Our focus will always remain on only supporting sustainable products and services. While covering one of the key aspects of life, users are also paying unnoticeable taxation that transparently funds the charity and business missions.
 
-devices view
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Multi-devices Views](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ------
 
 ## Features 
 
-In the first demonstrative version, minimum features have been disclosed in order to create rich experience for users over longer periods of time. Also,  for initial attention from investors, large amount of information has been summarized to cover main topics and categories before planned full disclosure. We will continue to improve consistently while strategically releasing new content and features according to our planned agenda.
+In the first demonstrative version, minimum features have been disclosed in order to create a rich experience for users over longer periods of time. Also,  for initial attention from investors, a large amount of information has been summarized to cover main topics and categories before planned full disclosure. We will continue to improve consistently while strategically releasing new content and features according to our planned agenda.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  Consistently repeating on all nine pages, fully responsive navigation bar includes Title area, main menu and sub-menu. Main background is a very light blue background instead of plain white adding some life to an unknown concept while fitting well and discreetly between main site's colors orange and teal.
+  Consistently repeating on all nine pages, a fully responsive navigation bar includes the Title area, main menu, and sub-menu. The main background is a very light blue background instead of plain white adding some life to an unknown concept while fitting well and discreetly between the main site's colors orange and teal.
   
-  - Title is created out of professional custom made unique logo next to products name stlyed in css to match the colors of logo and all Earth's elements since it is a Life Coin. Both are linked back to the home page across all pages
+  - Title is created out of a professional custom-made unique logo next to the products name styled in CSS to match the colors of the logo and all Earth's elements since it is a Life Coin. Both are linked back to the home page across all pages
 
-  - Main teal menu is leading user to the main four categories of the page: Home, Recruitment, Journey and Register. Active page indication coloring in orange is included. Page is shown in PC screen sizes next to the main Title while in tablet and phone sizes is placed under the title stretching across the entire screen
+  - The main teal menu is leading users to the main four categories of the page: Home, Recruitment, Journey, and Register. Active page indication coloring in orange is included. Page is shown in PC screen sizes next to the main title while in tablet and phone sizes are placed under the title stretching across the entire screen
 
-  - Sub-menu in the black background color serves the purpose of dividing content according to the main categories of the page. Teal font coloring is included for smoother transition and better connection to the main menu bar's visually for users. Sizing is smaller in comparison to the main menu in order to emphasize importance. Active sub-menu coloring has been included as well as proper functioning  links on each navigational button. Positioning is under the main menu for phones and tablets users while for PC users, it is found under the both title and main menu stretching across the screen dividing area between headers and navigation on each page
+  - Sub-menu in the black background color serves the purpose of dividing content according to the main categories of the page. Teal font coloring is included for a smoother transition and better connection to the main menu bar's visually for users. Sizing is smaller in comparison to the main menu in order to emphasize its importance. Active sub-menu coloring has been included as well as proper functioning links on each navigational button. Positioning is under the main menu for phones and tablets users while for PC users, it is found under the both title and main menu stretching across the screen dividing area between headers and navigation on each page
   
-  - Stretegical and categorical division allows users to easily navigate from page to page across all devices without having to return back to the previous page via the ‘back’ button in browser. This is extremely helpful when getting to know a new service or a web site
+  - Strategical and categorical division allows users to easily navigate from page to page across all devices without having to return back to the previous page via the ‘back’ button in the browser. This is extremely helpful when getting to know a new service or a website
 
-![Navigation Bar](../assets/media/images/coin-logo-2d-wided.png)
+  ![Navigation Bar - Slim](./assets/media/images/Readme/nav_small.jpg)
+  
+  ![Navigation Bar - Wide](./assets/media/images/Readme/nav_large.jpg)
+
+  
 
 - __Landing Video__
 
-  - The landing includes a professional custom-made promotional video that features main Earth's elements hinting on the overall team of this brand
+  - The landing includes a professional custom-made promotional video that features main Earth's elements hinting at the overall team of this brand
 
-  - This section introduces the user to Life Coin with an eye catching sharp and creative animation to grab their attention and increase chanches for great first impression
+  - This section introduces the user to Life Coin with an eye-catching sharp and creative animation to grab their attention and increase the chances for a great first impression
 
-  - This video is autoplayed but not looped so it does not distract users reading the bottom content with active autoplay sound. User is given a control bar to give full control on replaying the missed content in any circumstance of user distraction, internal or external. Video is larger for phones and tablets websites while for PC is not too large to guide user to the next section easier. Due to control bar user is in full control of his ultimate first experience with the site
+  - This video is auto-played but not looped so it does not distract users from reading the bottom content with active autoplay sound. The user is given a control bar to give full control on replaying the missed content in any circumstance of user distraction, internal or external. Video is larger for phones and tablets websites while for PC is not too large to guide users to the next section easier. Due to the control bar user is in full control of his ultimate first experience with the site
 
-![Landing Page Video](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  ![Landing Page Video](./assets/media/images/Readme/landing_video.jpg)
 
 - __Landing Quotation__
 
-  - Calming effect of sunset background is allowing user to gradually enter the feeling of reflecting back on life and planning future during natural sun's cycles and impact on a human mind and body. This is where users can be shortly debriefed how besides these visuals, service can bring an utility value to them and allow more sunsets in more comfortable situation for them and the close ones. Being one of the hints of solution for users' problems or ideas font is given subtle effect of glowing as it seems to be an answer falling from the sky. Colors have been picked from top division of colors focusing on purple and black as their location on the page is also on the top. This also builds subliminal users' natural ability to further digest and separate high quantity of quality content
+  - Calming effect of the sunset background is allowing users to gradually enter the feeling of reflecting back on life and planning the future during the natural sun's cycles and impact on the human mind and body. This is where users can be shortly debriefed on how besides these visuals, service can bring utility value to them and allow more sunsets in a more comfortable situation for them and the close ones. Being one of the hints of solutions for users' problems or ideas font is given the subtle effect of glowing as it seems to be an answer falling from the sky. Colors have been picked from the top division of colors focusing on purple and black as their location on the page is also on the top. This also builds subliminal users' natural ability to further digest and separate high quantities of quality content
 
-![Londing Quotation](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  ![Londing Quotation](./assets/media/images/Readme/info.jpg)
 
 - __About Section__
 
-  - Once users' attention is present from landing elements, some highly important and new summarized information is given following the graphic media and captivating quotation. Here main business aspects, values and predicted journey is disclosed to the user as an about section or personal introduction for users to understand our positive intentions better and earlier
+  - Once users' attention is present from landing elements, some highly important and new summarized information is given following the graphic media and captivating quotation. Here, the main business aspects, values, and predicted journey is disclosed to the user as an about section or personal introduction for users to understand our positive intentions better and earlier
 
-  - Styling has been add to emphasize horizontal division with black background such as sub-menu's role. Orange color brings deliberate high contrast to guide user from first-impression stage over the smooth bridge to actual content. Again, teal background indicates a boxed divider such as nav-menu to break down areas in familiar patterns for users
+  - Styling has been added to emphasize horizontal division with a black background such as the sub-menu's role. Orange color brings deliberate high contrast to guide users from the first-impression stage over the smooth bridge to the actual content. Again, the teal background indicates a boxed divider such as nav-menu to break down areas in familiar patterns for users
 
-![About Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  ![About Section](./assets/media/images/Readme/about.jpg)
 
 - __Home Headers__
 
-  - The similar pattern landing image media includes an interactive photograph custom made for this website with color alternation to demonstrate the main topics and sections of the predominately informative home page. Headers with blue and white colors are representing the following features section where blue skies and white sun and clouds are main visuals. Orange and teal headers are the main colors and therefore subliminally indicating this is the most important area that contains full agenda and timeline of the Life Coin. This is the site's business strategy and priority highest priority next to the private sale. For private sale, header is black to create a full stop and divide important region and upon interaction also transparent showing through true body color as a deep methaphor or creating feeling of "transparency" when dealing with our financial service and project now or in the future
+  - The similar pattern landing image media includes an interactive photograph custom made for this website with color alternation to demonstrate the main topics and sections of the predominately informative home page. Headers with blue and white colors are representing the following features section where blue skies and white sun and clouds are the main visuals. Orange and teal headers are the main colors and therefore subliminally indicate this is the most important area that contains the full agenda and timeline of the Life Coin. This is the site's business strategy and priority highest priority next to the private sale. For a private sale, the header is black to create a full stop and divide the important region and upon interaction also transparent showing through true body color as a deep metaphor or creating a feeling of "transparency" when dealing with our financial service and project now or in the future
   
-  
-![3x Home Header Pictures](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  ![3x Home Header Pictures](./assets/media/images/Readme/header_blue.jpg)
+
+  ![3x Home Header Pictures](./assets/media/images/Readme/header_teal.jpg)
+
+  ![3x Home Header Pictures](./assets/media/images/Readme/header_black.jpg)
 
 - __Features Section__
 
-  - First main sections of the home page has been done with the best background visuals in order to step-by-step bring user from stage of introduction to content with basic background and font to the full-scale first-hand experience participating in our life reality and services
+  - First main sections of the home page has been done with the best background visuals in order to step-by-step bring users from stage of introduction to content with basic background and font to the full-scale first-hand experience of participating in our life reality and services
 
-  - Having bright yellow color in the middle of logo has been an inspiration to use sun background as the title rising over the fixed blue skies on scroll separating all Life Coin's serice features. This section is one of the most important one for potential investors and has been done to a special design in order to always remind them when they look up in the sky
+  - Having bright yellow color in the middle of the logo has been an inspiration to use a sun background as the title rises over the fixed blue skies on the scroll separating all Life Coin's service features. This section is one of the most important ones for potential investors and has been done with a special design in order to always remind them when they look up at the sky
 
-![Features Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  ![Features Section Sun](./assets/media/images/Readme/features_sun.jpg)
+
+  ![Features Section Clouds](./assets/media/images/Readme/features_cloud.jpg)
+
 
 - __Timeline Section__
 
-  - Another home page main section that through main colors of the site and sleek clean and sharp text-shadow backgrounds creates categorized easy to digest process for users going through both agendas. Short-term and long-term have been clearly divided with horizontal teal box while main content has been ordered through yearly quarters and plans for users. This is also of high importance to investors but this time even for the team and community to know which periods and products are upcoming next
+  - Another home page main section that through the main colors of the site and sleek clean and sharp text-shadow backgrounds creates a categorized easy-to-digest process for users going through both agendas. Short-term and long-term have been clearly divided with the horizontal teal box while main content has been ordered through yearly quarters and plans for users. This is also of high importance to investors but this time even for the team and community to know which periods and products are upcoming next
 
-![Timeline Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  ![Timeline Section](./assets/media/images/Readme/timeline.jpg)
 
 - __Private Sale Section__
 
-  - Being an unique coin in the entire universe that develops in a direction of universal physical and digital currency for whole Earth and beyond, stars backround has been added to the pre-sale section. Teal boxes for content are fitting well with background image of stars and orange coloring is used for emphasis of the most important segments: tile, subtitle, network, crypto addresses, contact, registration form link and a launch date. There is an additional thin top banner with a button indicating the private sale is live while viewing the header without need to scroll down to be able to jump right in
+  - Being a unique coin in the entire universe that develops in a direction of universal physical and digital currency for the whole Earth and beyond, the star background has been added to the pre-sale section. Teal boxes for content are fitting well with a background image of stars and orange coloring is used to emphasize the most important segments: tile, subtitle, network, crypto addresses, contact, registration form link, and a launch date. There is an additional thin top banner with a button indicating the private sale is live while viewing the header without the need to scroll down to be able to jump right in
 
-![Private Sale Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  ![Private Sale Section](./assets/media/images/Readme/private_sale.jpg)
+
+  ![Private Sale Section](./assets/media/images/Readme/private_sale_addresses.jpg)
 
 - __Recruitment__
 
-  - Following the home page, second largest out of 4 sub-pages of Life Coin site is oriented in building relationship with the user after all values and solutions have been presented. Landing recrutiment page allows users to explore and determine if they would like to join our business team, build a relationship with our business or register as an actual consumer and community member. Those three categories of user have been each assigned a button to follow to the belonging page where further and detailed information is disclosed. Each button has descriptive sentence to indicate the next destination through formal pallete of colors shades on teal with sharp orange emphasis color. Header is of complimenting colors and coin design on it contracts within itself as a hovering effect such as pressing a button, subliminally telling the user he needs to select his one single button. As the screen size drops below PC size, header picture is not anymore floating left of the content boxes, but stretching full width above the content boxes
+  - Following the home page, the second largest out of 4 sub-pages of the Life Coin site is oriented towards building relationships with the users after all values and solutions have been presented. The landing recruitment page allows users to explore and determine if they would like to join our business team, build a relationship with our business, or register as actual consumers and community members. Those three categories of users have been each assigned a button to follow to the belonging page where further and detailed information is disclosed. Each button has a descriptive sentence to indicate the next destination through a formal palette of colors shades on teal with sharp orange emphasis color. The header is of complimenting colors and coin design on it contracts within itself as a hovering effect such as pressing a button, subliminally telling the user he needs to select his one single button. As the screen size drops below PC size, the header picture is not anymore floating left of the content boxes, but stretching full width above the content boxes
 
-![Recruitment](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  ![Recruitment](./assets/media/images/Readme/recruiting.jpg)
 
 - __Team Recruitment__
 
-  - Since the brand's associated products and services are based on education and business progress, main font background and coloring for employees and contractors recruitment is designed inspired by a traditional chalkboard. Information that is written there for everyone will stay permanent as the chalk and all the promises will be kept what user can benefit from on this section. In addition, presented list of all urgent positions sought opens real-life opportunities for all users. Main sections such as title for the careers and subtitle per job advertising segment are again colored with main colors of the page teal and orange. This time, another icon is introduced in order to add some variety between visuals. Background color to hovering over floating coin and all content has been matched with the body color and navigational menu light blue color to add the natural spacing instead of using white color to sloppy cut through smooth water/green experience offered to user through including various shades of teal
+  - Since the brand's associated products and services are based on education and business progress, the main font background and coloring for employees and contractors recruitment is designed inspired by a traditional chalkboard. Information that is written there for everyone will stay as permanent as the chalk and all the promises will be kept that user can benefit from in this section. In addition, the presented list of all urgent positions sought opens real-life opportunities for all users. Main sections such as the title for the careers and subtitle per job advertising segment are again colored with the main colors of the page teal and orange. This time, another icon is introduced in order to add some variety to the visuals. Background color to hovering over the floating coin and all content has been matched with the body color and navigational menu light blue color to add the natural spacing instead of using white color to sloppy cut through smooth water/green experience offered to users through including various shades of teal
 
-![Team Recruitment](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  ![Team Recruitment](./assets/media/images/Readme/team_one.jpg)
 
 - __Business Recruitment__
 
-  - Almost identical concept to the Team Recruitment features. The only difference is that different type of users browses and uses this part of the site growing business relationships, while another user follows other pathways such as joining community as a consumer or Team as an employee or contractor. Styling difference to give some distinction is in the main board with explanation of title Business Symbiosis. Since user could make many assumptions or give up not knowing, informative block has been added with sleek modern styling division between concepts and board advertisement. In contrast to Team page where user automatically understands concept almost intuitively by seeing many job postings that page with employment environment description, conditions, payment, open positions, and similar. Here user needs to be given a small explanation banner. Boxes on the business relationship page are slightly more distanced for better division between concepts emphasizing different models and possibilities for users with capitalization and font-increasement of the key words of each single box
+  - Almost identical concept to the Team Recruitment features. The only difference is that different type of users browses and uses this part of the site to grow business relationships, while another user follows other pathways such as joining the community as a consumer or Team as an employee or contractor. Styling difference to give some distinction is in the main board with an explanation of the title Business Symbiosis. Since the user could make many assumptions or give up not knowing, an informative block has been added with a sleek modern styling division between concepts and board advertisement. In contrast to the Team page where the user automatically understands the concept almost intuitively by seeing many job postings that page with employment environment description, conditions, payment, open positions, and similar. Here user needs to be given a small explanation banner. Boxes on the business relationship page are slightly more distanced for better division between concepts emphasizing different models and possibilities for users with capitalization and font-increase of the keywords of each single box
 
-![Business Recruitment](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  ![Business Recruitment](./assets/media/images/Readme/collab.jpg)
 
 - __Journey__
 
-  - Usually when an user stumbles on the page with a big orange cone with a wording construction and that page is not built yet.This user rarely comes back bumping into a brick wall without any time frame for "construction works". What is trying to be achieved for our users in this part of the site is to disclose to the user that there are more features and plans in making or that we even completed the next version without losing the  excitement and smooth navigation. Instead we are informing the user that one of our completed sections cannot be open due to certain agenda milestones and already planned dates for launch. This converts any disappointing energy into the pure enthusiasm about the version update date. User gains another advantage of constanly positively looking forward to the next release while still being briefly introduced to the concept of the new page. Having gifts locked instead them being build in a "boring" factory, makes a child brain want them even more 
+  - Usually when users stumble on the page with a big orange cone with a wording construction and that page is not built yet. This user rarely comes back bumping into a brick wall without any time frame for "construction works". What is trying to be achieved for our users in this part of the site is to disclose to the user that there are more features and plans in making or that we even completed the next version without losing the excitement and smooth navigation. Instead, we are informing the user that one of our completed sections cannot be open due to certain agenda milestones and already planned dates for launch. This converts any disappointing energy into pure enthusiasm about the version update date. The user gains another advantage of constantly positively looking forward to the next release while still being briefly introduced to the concept of the new page. Having gifts locked instead of them being built in a "boring" factory, makes a child's brain want them even more 
 
-  - Once the target date reaches, this segment will allow the user to see exactly when the public meetings will happen, in which online or offline room and how long they will last next to the disclosure of the main topic or topics. Full site will eventually turn into full-scale progress collaboration software and a social network. Orange color dominates here as a subtle informing of construction progress which is usally associated with orange not teal color. However, user is primarily being guided to think it is locked and ready to launch for better long-term experience with strategic releasement of versions previously discussed
+  - Once the target date reaches, this segment will allow the user to see exactly when the public meetings will happen, in which online or offline room, and how long they will last next to the disclosure of the main topic or topics. The full site will eventually turn into full-scale progress collaboration software and a social network. Orange color dominates here as subtle information of construction progress which is usually associated with orange, not teal color. However, a user is primarily being guided to think it is locked and ready to launch for a better long-term experience with strategic releasement of versions previously discussed
 
-![Journey](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  ![Journey](./assets/media/images/Readme/journey.jpg)
 
 - __Registration__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The registration form will allow the user to fully integrate into the community, as well as the benefits to customize upcoming life experiences based on personal preferences or past. By completing this short online form, users' life will significantly change their daily schedule towards the life they always dreamed about without hurting others. Healthy habits and services will be introduced immediately to users. Once that new versions of this site will be released, they will be able to specify which exact tasks they want to create for themselves or others or even join already posted global tasks and missions. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  ![Registration 1](./assets/media/images/Readme/register_one.jpg)
 
-- __The Sign Up Page__
+  ![Registration 2](./assets/media/images/Readme/register_two.jpg)
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+  ![Registration 3](./assets/media/images/Readme/register_three.jpg)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the selected few social media sites for Life Coin. The links will open to a new tab to allow easy navigation for the user and to keep our site always open. Footer is very important to the users since it gives further options to visit that expand to other widely used sites, connect with the Team, and even directly contact with any requests or problems. Footer is broken down into two parts, both made up of the main site's colors orange and teal. The first one consists of strictly recognized social platforms, while the second part offers direct contact information of the site and brand. Main inspiration for the background was black volcanic sand which gets very hot with the sun (light) reaching it. In full PC mode, users can see the video as if they are holding the phone above the sand standing up. And the form has zoomed-in background to the sand, as if user has already looked down in the sand and found a form while watching a video
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  ![Footer](./assets/media/images/Readme/footer.jpg)
 
+### Upcoming Features
 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
+  - __The Footer__ 
 
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
-
+  Grammarly
 ---
 
 ## Testing 
@@ -172,7 +185,7 @@ This section should describe the process you went through to deploy the project 
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
-
+---
 ## Credits 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
@@ -190,7 +203,11 @@ You can break the credits section up into Content and Media, depending on what y
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
 
+### Tools
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- Grammarly.com
 
-## Other General Project Advice
+---
+Thank you for READING ME!
+
+
