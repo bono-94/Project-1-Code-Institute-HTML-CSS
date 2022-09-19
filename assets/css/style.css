@@ -212,8 +212,8 @@ p {
 }
 
 #nav-logo img {
-    height:100%;
-    width:80px;
+    height: 100%;
+    width: 80px;
     border-radius: 100%;
     vertical-align: middle;
     margin: 12px;
@@ -939,7 +939,6 @@ p {
 #header-media-about-info-two a:hover {
     color: teal!important;
 }
-
 
 #header-media-about-info-link button:hover {
     background: teal;
@@ -1698,7 +1697,7 @@ footer {
 
 /* MEDIA QUERIES - TABLET */
 
-@media screen and (min-width: 600px) and (max-width: 1280px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) {
     /* NAVIGATION */ 
     #nav-bar {
         border-top: 1px solid teal;
