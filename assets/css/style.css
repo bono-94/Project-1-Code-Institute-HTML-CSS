@@ -1349,7 +1349,7 @@ p {
     color:teal !important;
     border: 2px solid whitesmoke;
     box-shadow: 0 0 10px 3px white;
-    font-size: small;
+    font-size: large;
 }
 
 #journey-header-content-three {
@@ -1601,6 +1601,10 @@ input[type=reset]:hover {
     box-shadow: 0px 0px 5px 5px white inset;
 }
 
+footer {
+    margin-top: -2px;
+}
+
 .social-networks {
     background-color: orange;
     text-align: center;
@@ -1644,6 +1648,7 @@ input[type=reset]:hover {
 }
 
 #direct-contact h6 {
+    padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: large;
@@ -1655,6 +1660,7 @@ input[type=reset]:hover {
     margin-bottom: 20px;
     margin-left: -10px;
     padding-bottom: 8px;
+    padding-left: 40px;
     letter-spacing: 1px;
     font-size: large;
     text-decoration:underline;
@@ -2821,7 +2827,7 @@ input[type=reset]:hover {
    } 
 
    #journey-header-content-two:hover {
-       font-size: xx-large;
+       font-size: small;
    }
 
    #journey-header-content-three {
@@ -2851,34 +2857,36 @@ input[type=reset]:hover {
 
    #register-box input {
        height: 24px;
-       width: 82%;
+       width: 77%;
        font-size: small;
    }
 
    #register-form h3 {
-       font-size: xx-large;
+       font-size: x-large;
        text-shadow: 0px 0px 1px black;
    }
 
    #form-intro p {
-       font-size: medium;
+       font-size: small !important;
    }
 
    #register-form h4 {
        text-shadow: 0px 0px 1px black;
-       font-size: x-large;
+       font-size: large;
    }
 
    #register-form hr {
        height: 3px;
-       margin-left: -5px;
-       margin-right: -5px;
+       margin-left: -15px;
+       margin-right: -10px;
    }
 
    #register-form legend {
        color: orange;
        text-shadow: 0px 0px 1px black;
-       font-size: medium;
+       font-size: small;
+       width: fit-content;
+       margin-left: 1px;
    }
 
    fieldset label {
@@ -2889,7 +2897,7 @@ input[type=reset]:hover {
 
    input[type=submit] {
        height: fit-content !important;
-       width: 20% !important;
+       width: 30% !important;
        margin-top: 20px;
        padding: 5px;
        font-weight: 900;
@@ -2898,7 +2906,7 @@ input[type=reset]:hover {
 
    input[type=reset] {
        height: fit-content !important;
-       width: 20% !important;
+       width: 30% !important;
        padding: 5px;
        font-weight: 900;   
        float: right;
@@ -2980,6 +2988,25 @@ input[type=reset]:hover {
 
     #recruitment-team-title {
         font-size: medium;
+    }
+
+    form {
+        width: 77%;
+    }
+
+    fieldset label {
+        margin: 10px 2px 2px 0;
+        font-size: medium;
+    }
+
+    form input {
+        margin-left: -10px;
+        margin-top: 5px;
+    }
+
+    form label {
+        margin-left: -10px;
+        font-size: small;
     }
 
     .social-networks > p {
