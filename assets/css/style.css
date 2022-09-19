@@ -430,7 +430,7 @@ p {
     width: 100%;
     height: 450px; 
     text-align: center;
-    margin-bottom:130px;
+    margin-bottom: 130px;
     margin-top: -90px;
 }
 
@@ -1693,7 +1693,6 @@ input[type=reset]:hover {
 /* MEDIA QUERIES - TABLET */
 
 @media screen and (min-width: 600px) and (max-width: 1280px) {
-
     /* NAVIGATION */ 
     #nav-bar {
         border-top: 1px solid teal;
@@ -1747,7 +1746,7 @@ input[type=reset]:hover {
     }
 
     #home-introduction p {
-        top:12%;
+        top: 17% !important;
         font-size: x-large;
     }
 
@@ -2308,10 +2307,759 @@ input[type=reset]:hover {
 /* MEDIA QUERIES - TABLET - END */
 
 /* MEDIA QUERIES - PHONE */
-@media screen and (min-width: 280px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     /* NAVIGATION */ 
     #nav-bar {
-        border-top: 1px solid teal;
-        width: 100%;
+       border-top: 1px solid teal;
+       width: 100%;
+       height: fit-content;
+   }
+
+   #nav-menu {
+       display: block;
+       width: 100%;
+       text-align: center;
+   }
+
+   #nav-menu a {
+       color: orange;
+       display: block;
+       float: none;
+       margin-left: 15px;
+       margin-right: 15px;
+       text-align: center;
+   }
+
+   #nav-sub-menu-container a {
+       display: block;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       font-size: 1.0em !important; 
+   }
+
+   /* NAVIGATION - END */ 
+
+   /* TITLE LOGO */
+   #nav-logo {
+       margin-left: 2px;
+       margin-bottom: 10px;
+   }
+
+   #nav-logo img {
+        height: 100%;
+        width: 44px;
+        margin-top: 15px !important;
+   }
+   /* TITLE LOGO - END */
+
+   /* TITLE TEXT "LIFE COIN" */
+   #nav-title {
+       margin-left: 30px;
+       height: fit-content;
+       margin-left: 1px !important;
+       line-height: 40px;
+   }
+
+   #nav-title {
+    font-size: xx-large;
+   }
+   /* TITLE TEXT "LIFE COIN" - END */
+
+   /* HOME */
+   #home-header-video video {
+       height: fit-content;
+   }
+
+   #home-introduction {
+       height: 300px;
+   }
+
+   #home-introduction p {
+       top:1%;
+       font-size: x-large;
+   }
+
+   #about-boxes-title h3 {
+       padding-bottom: 18px;
+       font-size: xx-large;
+   }
+
+   .about-boxes-content h4{
+       font-size: x-large;
+   }
+
+   .about-boxes-content p {
+       padding-right: 40px !important;
+       font-size: medium;
+   }
+
+   #about-box i {
+       padding-right: 5px;
+       font-size: 28px;
+   }
+   /* HOME - END */
+
+   /* FEATURES */
+   #features-header-pic{
+       background-size: contain;
+       height: 150px;
+       margin-bottom: -13px;
+   }
+
+   #features-header-pic:hover {
+       background-color: white;
+       background-size: contain;
+   }
+
+   #features {
+       padding-bottom: 20px;
+   }
+
+   #features-title {
+       background: url('../media/images/sun-best-version.jpg') center 60% / 220% no-repeat;
+       box-shadow: 0px 50px 50px 20px rgba(250, 221, 95, 0.603);
+       height: 180px; 
+       margin-bottom: -80px !important;
+   }
+
+   #features-title h2 {
+       line-height: 100px;
+       font-size: 40px;
+   }
+
+   #features-container div {
+       box-shadow: -10px -10px 58px 5px white;
+       text-shadow: 0px 0px 5px white;
+   }
+
+   #features h3 {
+       font-size: 20px;
+   }
+
+   #features-box-one {
+    width: 70%;
+    font-size: small;
+    margin-top: 10px !important;
+    }
+
+    #features-box-two {
+        width: 70%;
+        font-size: small;
+    }
+   /* FEATURES - END*/
+
+   /* TIMELINE 1 */
+   #timeline-header-pic {
+       background-size: contain;
+       height: 150px;
+   }
+
+   #timeline-header-pic:hover {
+       background-size: contain;
+   }
+
+   .timeline-boxes {
+       display: block;
+       width: 55%;
+       margin-bottom: 10px;
+       margin-top: 50px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   #timeline h2 {
+       font-size: x-large;
+   }
+
+   .timeline-boxes h3 {
+       padding-top: -10px;
+       font-size: x-large;
+   }
+
+   .timeline-boxes p {
+       font-size: small;
+   }
+   /* TIMELINE 1 - END */
+
+   /* TIMELINE 2 */    
+   #timeline-two h2 {
+       font-size: x-large;
+   }
+
+   .timeline-boxes-two {
+       display: block;
+       width: 55%;
+       margin-bottom: 50px;
+       margin-top: 50px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+   .timeline-boxes-two h3 {
+       padding-top: -10px;
+       font-size: x-large;
+   }
+
+   .timeline-boxes-two p {
+       font-size: small;
+   }
+   /* TIMELINE 2 - END */
+
+   /* PRIVATE SALE */
+   #privsale-header-title {
+       font-size: medium;
+       letter-spacing: 3px;
+   }
+
+   #privsale-header-title button {
+       background-color: orange;
+   } 
+
+   #privsale-header-title button:hover {
+       background-color: black !important;
+       color: teal;
+   }
+
+   #privsale-header {
+       margin-top: 57px;
+   }
+
+   #privsale-header-pic{
+       background-size: contain;
+       height:150px;
+   }
+
+   #privsale-header-pic:hover {
+       background-size: contain;
+   }
+
+   #private-sale {
+       background-size: contain no-repeat;
+   }
+
+   #private-sale-title h3 {
+       font-size: large;
+   }
+
+   #private-sale h4 {
+       padding:8px !important;
+       font-size: medium;
+   }
+
+   #private-sale p {
+       padding: 8px !important;
+       font-size: small;
+   }
+
+   #private-sale-wallets-info p {
+       color: white !important;
+   }
+
+
+   /* PRIVATE SALE - END */
+
+   /* RECRUITMENT */
+   #careers-header {
+       width: 100%;
+       height: 100%;
+       margin-top: -10px;
+       text-align: center;
+   }
+
+   #header-media-careers-pic {
+       background-color: rgba(0, 128, 128, 0.325) !important;
+       width: 100%;
+       height: 300px;
+       margin-bottom: -35px;
+   }
+
+   #header-media-careers-pic:hover {
+       background-size: 110%;
+   }
+
+   #header-media-about-info {
+       background-color: whitesmoke !important;
+       width: 100%;
+       margin-bottom: 50px;
+       margin-left: 0;
+       margin-right: 0;
+       margin-bottom: -20px;
+       text-align: center;
+   }
+
+   #header-media-about-info-title h2{
+       width: 100%;
+       margin-top: 45px;
+       margin-bottom: 55px;
+       font-size: x-large;
+   }
+
+   #header-media-about-info-one {
+       width: 40%;
+       margin-bottom: 25px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+   #header-media-about-info-two {
+       width: 40%;
+       margin-bottom: 25px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+   #header-media-about-info-link {
+       width: 40%;
+       margin-bottom: 80px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+   #header-media-about-info-one h4 {
+        font-size: medium;
+    }
+
+    #header-media-about-info-two h4 {
+        font-size: medium;
+    }
+
+    #header-media-about-info-link h4 {
+        font-size: medium;   
+    }
+   /* RECRUITMENT - END */
+
+   /* RECRUITMENT - TEAM */
+   #recruitment-team-header div {
+       background-size: 44%;
+       height: 300px;
+   }
+
+   #recruitment-team-header div:hover {
+       background-size: 46%;
+       background-repeat: no-repeat;
+       background-color: transparent;
+   }
+
+   #recruitment-team-title {
+       font-size: x-large !important;
+   }
+
+   #recruitment-team-title i {
+       color: orange;
+       padding-left: 14px;
+   }
+
+   #recruitment-team-box h5 {
+       font-size: medium;
+       font: bolder;
+   }
+
+   #recruitment-team-concept {
+       margin-top: 65px;
+   }
+
+   #recruitment-team-concept p {
+       font-size: small;
+   }
+
+   #recruitment-team-conditions-box p {
+       font-size: small;
+   }
+
+   #recruitment-team-payment p {
+       font-size: small;
+   }
+
+   #recruitment-team-positions-box p {
+       font-size: small;
+   }
+   /* RECRUITMENT - TEAM - END */
+
+   /* RECRUITMENT - COLLAB */
+   #recruitment-collab-header {
+       width: 100%;
+   }
+
+   #recruitment-collab-pic {
+       background-repeat: no-repeat;
+       background-size: contain;
+       height: 300px;
+   }
+
+   #recruitment-collab-pic:hover {
+       background-size: 105%;
+       background-repeat: no-repeat;
+       background-color: transparent;
+   }
+
+   #recruitment-collab-title {
+       font-size: x-large;
+   }
+
+   #recruitment-collab-description {
+       margin-left: 30px;
+       margin-right: 30px;
+   }
+
+   #recruitment-collab-description h5 {
+        font-size: large !important;
+    }
+   #recruitment-collab-description h6 {
+       font-size: small !important;
+       
+   }
+
+   #recruitment-collab-description i {
+       padding-right: 10px;
+       padding-left: 5px;
+   }
+
+   #recruitment-collab-concepts-subtitle {
+       border: 2px solid rgb(1, 105, 105);
+       box-shadow: 0px 0px 2px 2px rgb(1, 105, 105);
+   }   
+
+   #recruitment-collab-concepts-subtitle h5 {
+       font-size: large;
+   }
+
+   #recruitment-collab-concepts-investment {
+       margin-top: 50px;
+       margin-left: 2px;
+       margin-right: 2px;
+   } 
+
+   #recruitment-collab-concepts-investment h6 {
+       font-size: medium;
+   } 
+
+   #recruitment-collab-concepts-investment p {
+       margin-top: 40px !important;
+       padding: 14px;
+       text-align: center;
+       font-size: small;
+       width: 95% !important;
+       margin-left: 0px;
+       margin-right: 0px;
+   } 
+
+   #recruitment-collab-concepts-sponsorship h6 {
+       font-size: medium;   
+   }   
+
+   #recruitment-collab-concepts-sponsorship p {
+       margin-top: 40px !important;
+       padding: 14px;
+       text-align: center;
+       font-size: small;
+       width: 95% !important;
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 95% !important;
+       margin-left: 0px;
+       margin-right: 0px;
+   }   
+
+   #recruitment-collab-concepts-collaboration h6 {
+       font-size: medium;
+   }  
+
+   #recruitment-collab-concepts-collaboration p {
+       margin-top: 40px !important;
+       padding: 14px;
+       text-align: center;
+       font-size: small;
+       width: 95% !important;
+       margin-left: 0px;
+       margin-right: 0px;
+   }  
+   /* RECRUITMENT - COLLAB - END */
+
+   /* JOURNEY */
+   #journey-header {
+       height: fit-content;
+   }
+
+   #journey-header-picture {
+       background-size: cover;
+       background-position: center; 
+       float: none;
+       width: 100%;
+       height: 1000px;
+       margin-bottom: -64px;
+   }
+
+   #journey-header-picture:hover {
+       background-size: 110%;
+   }
+
+   #journey-header-content {
+       background-color: orange;
+       float: none;
+       width: 100%;
+       height: fit-content;
+       padding-top: 5px;
+       padding-bottom: 55px;
+   }
+
+   #journey-header-content-one {
+       margin-top: 55px;
+       margin-bottom: 45px;
+       padding-right: 10px;
+       padding-left: 10px;
+       font-size: large;
+   }
+
+   #journey-header-content-two {
+       width: fit-content;
+       margin-bottom: 45px;
+       padding-left: 10px;
+       padding-right: 8px;
+       font-weight: 900 !important;
+       font-size: x-large;
+       text-align: center;
+       text-decoration: underline;
+   } 
+
+   #journey-header-content-two:hover {
+       font-size: xx-large;
+   }
+
+   #journey-header-content-three {
+       margin-bottom: 45px;
+       font-size: small;
+   }
+
+   #journey-header-content-four button{
+       font-size: small;
+   }
+   /* JOURNEY - END */
+
+   /* REGISTER */
+   #register-header-video{
+       height: 100% !important;
+   }
+
+   #register-header-video video {
+       border-top: 3px solid teal;
+       border-bottom: 3px solid teal;
+       margin-bottom: -6px;
+   }
+
+   form {
+       padding-bottom: 100px;
+   }
+
+   #register-box input {
+       height: 24px;
+       width: 82%;
+       font-size: small;
+   }
+
+   #register-form h3 {
+       font-size: xx-large;
+       text-shadow: 0px 0px 1px black;
+   }
+
+   #form-intro p {
+       font-size: medium;
+   }
+
+   #register-form h4 {
+       text-shadow: 0px 0px 1px black;
+       font-size: x-large;
+   }
+
+   #register-form hr {
+       height: 3px;
+       margin-left: -5px;
+       margin-right: -5px;
+   }
+
+   #register-form legend {
+       color: orange;
+       text-shadow: 0px 0px 1px black;
+       font-size: medium;
+   }
+
+   fieldset label {
+       font-size: small;
+       font-weight: 700;
+       font-family: 'Open Sans', sans-serif;
+   }
+
+   input[type=submit] {
+       height: fit-content !important;
+       width: 20% !important;
+       margin-top: 20px;
+       padding: 5px;
+       font-weight: 900;
+       float: left;
+   }
+
+   input[type=reset] {
+       height: fit-content !important;
+       width: 20% !important;
+       padding: 5px;
+       font-weight: 900;   
+       float: right;
+   }
+
+   input::placeholder {
+       color: transparent;
+   }
+   /* REGISTER - END */
+
+   /* FOOTER ELEMENTS */
+   #footer {
+       margin-top: -2px;
+   }
+
+   .social-networks > li {
+       display: block;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 20px;
+       padding-right: 40px;
+       font-size: 120%;    
+   }
+
+   .social-networks > p {
+        margin-top: -5px;
+       padding-top: 25px;
+       padding-right: 30px;
+       padding-bottom: 20px;
+       font-size: x-large;
+       text-align: center;
+   }
+
+   #direct-contact {
+       margin-top: -50px;
+       margin-bottom: 20px;
+       text-align: center;
+   }
+
+   #direct-contact h6 {
+       padding-top: 30px;
+       padding-bottom: 30px;
+       font-size: large;
+       padding-right: -20px;
+   }
+
+   #direct-contact p {
+       padding-right: -20px;
+       padding-bottom: 20px;
+   }
+
+   #copyright {
+       margin-top: -21px;
+       margin-bottom: -20px;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       font-weight: 900;
+   }
+   /* FOOTER ELEMENTS - END */
+}
+
+@media screen and (max-width: 400px) {
+    
+    #nav-sub-menu-container a {
+        font-size: 0.8em !important;
+    }
+    
+    #home-introduction p {
+        top: 15%;
+        font-size: large;
+    }
+
+    #private-sale p {
+        padding: 8px !important;
+        font-size: x-small;
+        margin-left: 20px !important;
+    }
+
+    #recruitment-team-title {
+        font-size: medium;
+    }
+
+    .social-networks > p {
+        font-size: x-large;
+        margin-top: -5px;
+    }
+
+    .social-networks > li {
+        display: block;
+        font-size: 120%;
+    }
+
+    #nav-menu a {
+       font-size: 1.0em;
     }
 }
+
+@media screen and (max-width: 324px) {
+    /* NAVIGATION */ 
+    #nav-title {
+        font-size: x-large;
+    }
+
+    #home-introduction p {
+        top: 5%;
+        font-size: large;
+    }
+
+    #about-boxes-title h3 {
+        font-size: x-large;
+    }
+
+    .about-boxes-content h4 { 
+        font-size: large;
+    }
+
+    .about-boxes-content p {
+        font-size: small !important;
+    }
+
+    #features-title h2 {
+        line-height: 120px;
+        font-size: 35px;
+    }
+
+    #private-sale strong {
+        font-size: xx-small;
+    }
+
+    #direct-contact p {
+        font-size: medium;
+    }
+    
+    #direct-contact i {
+        font-size: 110%;
+    }
+    
+}
+
+@media screen and (max-width: 279px) {
+    /* NAVIGATION */ 
+    #nav-title {
+        font-size: 30px;
+    }
+
+    #home-introduction p {
+        top: 1%;
+        font-size: large;
+    }
+
+    #features-title h2 {
+        line-height: 120px;
+        font-size: 30px;
+    }
+
+    #direct-contact p {
+        font-size: x-small;
+    }
+    
+    #direct-contact i {
+        font-size: 70%;
+        padding-left: 5px;
+    }
+}  
