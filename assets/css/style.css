@@ -775,7 +775,6 @@ p {
     color:orange;
     padding-left: 3px;
     padding-right: 3px;
-    margin-top: 30px;
 }
 
 #private-sale strong {
@@ -1592,7 +1591,7 @@ input[type=reset]:hover {
 /* FOOTER ELEMENTS */
 
 footer {
-    margin-top: -29px !important;
+    margin-top: -29px;
 }
 
 #social-networks {
@@ -1600,7 +1599,7 @@ footer {
     text-align: center;
     margin-bottom: 1px;
     font-weight: 1000;
-    margin-top: 38px;
+    margin-top: 43px;
     padding-top: 10px;
 }
 
@@ -1634,11 +1633,10 @@ footer {
 }
 
 .social-networks i:hover {
-    box-shadow: 0px 0px 5px white inset;
+    box-shadow: 0px 0px 5px 2px white inset;
     text-shadow: 0px 0px 10px white;
     margin-bottom: 5px;
 }
-
 
 #direct-contact {
     color:orange;
