@@ -1900,7 +1900,7 @@ footer {
     }
 
     #private-sale {
-        background-size: contain; 
+        background-size: cover; 
         background-repeat: no-repeat;
     }
 
@@ -2524,7 +2524,7 @@ footer {
    }
 
    #private-sale {
-    background-size: contain; 
+    background-size: cover; 
     background-repeat: no-repeat;
    }
 
@@ -3029,6 +3029,26 @@ footer {
         font-size: xx-small;
     }
 
+    #header-media-about-info-link a {
+        font-size: xx-small !important;
+    }
+    
+    #header-media-about-info-one a {
+        font-size: xx-small !important;
+    }
+
+    #header-media-about-info-two a {
+        font-size: xx-small !important;
+    }
+
+    #journey-header-content-three {
+        font-size: xx-small !important;
+    }
+
+    #direct-contact p {
+        font-size: xx-small !important;
+    }
+
     #journey-header-picture {
         background-size: cover;
     } 
@@ -3038,7 +3058,7 @@ footer {
     }
 
     #direct-contact p {
-        font-size: small;
+        font-size: medium;
     }
     
     #direct-contact i {
@@ -3065,17 +3085,13 @@ footer {
         line-height: 120px;
         font-size: 30px;
     }
-
-    #journey-header-content-three {
-        font-size: x-small !important;
-    }
-
-    #direct-contact p {
-        font-size: x-small;
-    }
     
     #direct-contact i {
         font-size: 70%;
         padding-left: 5px;
+    }
+    
+    #direct-contact p {
+        font-size: medium;
     }
 }  

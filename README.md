@@ -10,7 +10,7 @@ Life Coin site is a digital representation of an interaction platform powering a
 
 ## Features 
 
-In the first demonstrative version, minimum features have been disclosed in order to create a rich experience for users over longer periods of time. Also,  for initial attention from investors, a large amount of information has been summarized to cover main topics and categories before planned full disclosure. We will continue to improve consistently while strategically releasing new content and features according to our planned agenda.
+In the first demonstrative version, minimum features have been disclosed in order to create a rich experience for users over longer periods of time. Also,  for initial attention from investors, a large amount of information has been summarized to cover main topics and categories before planned full disclosure. We will continue to improve consistently while strategically releasing new content and features according to our planned agenda. This site is made fully responsive across variety of devices with lowest guaranteed width of 280px for new age foldeable screens. Next size is normal phones, tablet portrait, landscape, laptop, PC and larger.
 
 ### Existing Features
 
@@ -156,35 +156,34 @@ In the first demonstrative version, minimum features have been disclosed in orde
   - __Business partners page__ 
   - __Refferals__ 
   
-
-  Grammarly
 ---
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- I have conducted enough hours of testing across all screen sizes and different browsers to conclude that now site works well and all discussed features included. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- Only bug that has not been addressed is sun background image on the features site used as a subtitle. Due to only beginning to code, developer needs to cover next topics in order to create proper animation of sun and clouds.
 
 ### Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
+- Accessibility
+  - This test confirms that colors and fonts chosen are easy to read and accessible. All scores are satisfactory besides perfomance since site uses complex visuals and large media which will be solved with the next update
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+  ![Lighthouse Results](./assets/media/images/Readme/results_lighthouse.jpg)
+
+### Bugs
+
+Since all code is running smoothly and has been verified from the first attempt, there was no bugs to solve.
+
+---
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -194,6 +193,7 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
 ---
+
 ## Credits 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
@@ -206,10 +206,14 @@ You can break the credits section up into Content and Media, depending on what y
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
+Code Institute lesson materials HTML + CSS
+
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
+
+Pexels
 
 ### Tools
 
