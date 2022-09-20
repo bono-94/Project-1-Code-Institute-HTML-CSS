@@ -124,7 +124,7 @@ p {
     text-shadow: 0px 0px 4px white;
 }
 
-#nav-sub-menu {
+.nav-sub-menu {
     background-color: black;
     border-top: 3px solid teal;
     display: inline-block;
@@ -134,7 +134,7 @@ p {
     text-align: center;
 }
 
-#nav-sub-menu-container a {
+.nav-sub-menu-container a {
     color: rgb(2, 160, 160);
     display: inline-block;
     margin-left: 70px !important;
@@ -146,7 +146,7 @@ p {
     font-weight: 1000;  
 }
 
-#nav-sub-menu-container a:hover {
+.nav-sub-menu-container a:hover {
     background-color: teal;
     color:orange;
     border-bottom: 1px solid #3a3a3a;
@@ -1601,7 +1601,16 @@ input[type=reset]:hover {
 }
 
 footer {
-    margin-top: -2px;
+    margin-top: -25px;
+}
+
+#social-networks {
+    background-color: orange;
+    text-align: center;
+    margin-bottom: 1px;
+    font-weight: 1000;
+    margin-top: 43px;
+    padding-top: 10px;
 }
 
 .social-networks {
@@ -1616,10 +1625,11 @@ footer {
     padding: 10px;
 }
 
-.social-networks > p {
+#social-networks > h6 {
     color:teal;
-    padding-top: 15px;
+    padding-top: 35px;
     padding-bottom: 3px;
+    padding-left: 35px;
     font-size: large;
     font-weight: 400;
     font-weight: 1000 !important;
@@ -1629,7 +1639,7 @@ footer {
     color: teal;
     margin-bottom: 15px !important;
     padding: 10px;
-    font-size:160%;
+    font-size:180%;
 }
 
 .social-networks i:hover {
@@ -1719,7 +1729,7 @@ footer {
         text-align: center;
     }
 
-    #nav-sub-menu-container a {
+    .nav-sub-menu-container a {
         display: block;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -2263,7 +2273,7 @@ footer {
 
     /* FOOTER ELEMENTS */
     #footer {
-        margin-top: -2px;
+        margin-top: -26px;
     }
 
     .social-networks > li {
@@ -2272,14 +2282,6 @@ footer {
         padding-bottom: 10px;
         padding-left: 20px;
         padding-right: 40px;    
-    }
-
-    .social-networks > p {
-        padding-top: 25px;
-        padding-right: 30px;
-        padding-bottom: 20px;
-        font-size: large;
-        text-align: center;
     }
 
     #direct-contact {
@@ -2335,7 +2337,7 @@ footer {
        text-align: center;
    }
 
-   #nav-sub-menu-container a {
+   .nav-sub-menu-container a {
        display: block;
        margin-top: 20px;
        margin-bottom: 20px;
@@ -2890,8 +2892,6 @@ footer {
 
    fieldset label {
        font-size: small;
-       font-weight: 700;
-       font-family: 'Open Sans', sans-serif;
    }
 
    input[type=submit] {
@@ -2930,13 +2930,9 @@ footer {
        font-size: 120%;    
    }
 
-   .social-networks > p {
-        margin-top: -5px;
-       padding-top: 25px;
-       padding-right: 30px;
-       padding-bottom: 20px;
-       font-size: x-large;
-       text-align: center;
+   #social-networks {
+        margin-top: 10px;
+        padding-top: 30px
    }
 
    #direct-contact {
@@ -2970,7 +2966,7 @@ footer {
 
 @media screen and (max-width: 400px) {
     
-    #nav-sub-menu-container a {
+    .nav-sub-menu-container a {
         font-size: 0.8em !important;
     }
     
@@ -3008,9 +3004,8 @@ footer {
         font-size: small;
     }
 
-    .social-networks > p {
-        font-size: large;
-        margin-top: -5px;
+    #social-networks {
+        margin-top: -25px !important;
     }
 
     .social-networks > li {
