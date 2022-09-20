@@ -135,19 +135,27 @@ In the first demonstrative version, minimum features have been disclosed in orde
 
 ### Upcoming Features
 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
-  - __The Footer__ 
+  - __Projects and missions collaboration page__ 
+  - __Personal wishlist for users__ 
+  - __Navigation title links per color in each letter__ 
+  - __Gallery__ 
+  - __Two factor authetification__ 
+  - __Secure log-in system__ 
+  - __Form data receiving page__ 
+  - __Sponsors footer__ 
+  - __Partnerships footer__ 
+  - __Testimonials__ 
+  - __Map__ 
+  - __Countdown__ 
+  - __Traffic monitor__ 
+  - __Users count__ 
+  - __Whitepaper__ 
+  - __Legal protection__ 
+  - __Community Voting__ 
+  - __Team Page__ 
+  - __Business partners page__ 
+  - __Refferals__ 
+  
 
   Grammarly
 ---
@@ -206,6 +214,31 @@ You can break the credits section up into Content and Media, depending on what y
 ### Tools
 
 - Grammarly.com
+
+
+
+REFERENCES
+Code Learning Sources:
+Code institute (HTML Course, CSS Course, IDE Course, User Experience Course, “Coder’s Coffeehouse Constructed Project”, “Love Running Walkthrough Project”)
+
+External knowledge resources:
+W3school – additional elements, attributes and values
+Nicepage software for modelling the initial complex design
+
+Content:
+BSC Scan for how to send bnb, how to buy and convert, how to install binance
+
+Media References:
+- all those databases of content and/or google images
+
+You need to add: ownership disclosure of brand, personal knowledge, etc… readers can only see it for educative purposes
+
+
+
+
+
+
+
 
 ---
 Thank you for READING ME!
