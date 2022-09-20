@@ -775,6 +775,7 @@ p {
     color:orange;
     padding-left: 3px;
     padding-right: 3px;
+    margin-top: 30px;
 }
 
 #private-sale strong {
@@ -1589,12 +1590,9 @@ input[type=reset]:hover {
 /* REGISTER - END */
 
 /* FOOTER ELEMENTS */
-#footer ul:hover {
-    box-shadow: 0px 0px 5px 5px white inset;
-}
 
 footer {
-    margin-top: -25px;
+    margin-top: -29px !important;
 }
 
 #social-networks {
@@ -1602,7 +1600,7 @@ footer {
     text-align: center;
     margin-bottom: 1px;
     font-weight: 1000;
-    margin-top: 43px;
+    margin-top: 38px;
     padding-top: 10px;
 }
 
@@ -1636,10 +1634,11 @@ footer {
 }
 
 .social-networks i:hover {
-    box-shadow: 0px 0px 5px 2px white inset;
+    box-shadow: 0px 0px 5px white inset;
     text-shadow: 0px 0px 10px white;
     margin-bottom: 5px;
 }
+
 
 #direct-contact {
     color:orange;
@@ -1673,10 +1672,6 @@ footer {
     margin-left: -10px;
     padding: 10px !important;
     font-size: 140%;
-}
-
-#direct-contact h6:hover {
-    box-shadow: 0px 0px 3px 3px whitesmoke;
 }
 
 #direct-contact p:hover {
