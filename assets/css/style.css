@@ -235,7 +235,7 @@ p {
     margin-left: 20px;
     margin-bottom: -10px;
     font-family: 'Rubik Moonrocks', cursive;
-    font-size: xxxx-large;
+    font-size: 60px;
 }
 
 #nav-title span {
@@ -283,7 +283,6 @@ p {
 .nav-logo-title-group h1:hover {
     box-shadow: 0px 0px 8px 5px rgb(1, 138, 138);
     background-color: rgb(1, 138, 138) !important;
-    padding: -1px !important;
 }
 
 .nav-logo-title-group h1:hover > span {
@@ -413,7 +412,8 @@ p {
 
 #features {
 	background: url('../media/images/features-skies.jpg') center center / cover no-repeat fixed;
-    background-size: cover no-repeat;
+    background-size: cover ;
+    background-repeat: no-repeat;
     width: 100%;
     margin-bottom: -21px;
     padding-bottom: 50px;
@@ -438,7 +438,7 @@ p {
     color: gray;
     text-shadow: 1px 1px 2px rgb(0, 64, 255);
     width: 100%;
-    font-weight: 1200;
+    font-weight: 1000;
     font-size: 80px;
     line-height: 300px;
     position: absolute;
@@ -458,7 +458,7 @@ p {
     text-shadow: 0px 0px 10px white;
 }
 
-#features-box-one {
+.features-box-one {
 	background-color: rgba(252, 250, 124, 0.95);
     color:darkblue;
     border: 5px solid white;
@@ -473,7 +473,7 @@ p {
     font-size: small;
 }
 
-#features-box-two {
+.features-box-two {
     background-color: rgba(44, 44, 252, 0.877);
     color: yellow !important;
     border: 5px solid white;
@@ -499,12 +499,12 @@ p {
     text-align: center !important;
 }
 
-#features-box-one p {
+.features-box-one p {
     padding-left: 30px;
     padding-right: 30px;
 } 
 
-#features-box-two p {
+.features-box-two p {
     padding-left: 30px;
     padding-right: 30px;
 } 
@@ -704,9 +704,10 @@ p {
 
 #private-sale {
     background: url('../media/images/universetwo.jpg');
-    background-size: cover no-repeat;
+    background-size: cover; 
+    background-repeat: no-repeat;
     background-position: center;
-    border-top: 5px single white inset;
+    border-top: 5px white inset;
     width: 100%;
     margin-bottom: -30px;
     padding-top: 20px;
@@ -722,11 +723,8 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    padding-right: -5px !important;
     padding: 10px !important;
     text-align: center;
-    align-content: middle;
-    align-items: middle;
     font-weight: 800;
     font-size: xx-large;
 }
@@ -817,7 +815,6 @@ p {
     height: 650px;
     background: center 50% / cover no-repeat;
     float: right;
-    overflow: none;
     background-image: url('../media/images/coin-logo-3d-wide.png');
     background-color: rgba(0, 128, 128, 0.325);
 }
@@ -838,7 +835,7 @@ p {
     margin-bottom: 35px;
     font-size: xx-large;
     text-decoration: underline !important;
-    font-weight: 2000;
+    font-weight: 1000;
 }
 
 #header-media-about-info-one {
@@ -867,7 +864,7 @@ p {
     color: black;
 }
 
-#header-media-about-info-link button {
+#header-media-about-info-link a {
     background-color: orange;
     color: teal !important;
     margin-bottom: 10px;
@@ -875,19 +872,19 @@ p {
     font-weight: 900;
 }
 
-#header-media-about-info-one button {
+#header-media-about-info-one a {
     background-color: teal;
     color: orange !important;
     margin-bottom: 8px;
-    padding: 5px;
+    padding: 5px !important;
     font-weight: 900;
 }
 
-#header-media-about-info-two button {
+#header-media-about-info-two a {
     background-color: teal;
     color: orange !important;
     margin-bottom: 8px;
-    padding: 5px;
+    padding: 5px !important;
     font-weight: 900;
 }
 
@@ -922,7 +919,7 @@ p {
     
 }
 
-#header-media-about-info-one button:hover {
+#header-media-about-info-one a:hover {
     background: orange;
     box-shadow: 0px 0px 5px 3px white;
 }
@@ -931,7 +928,7 @@ p {
     color: teal!important;
 }
 
-#header-media-about-info-two button:hover {
+#header-media-about-info-two a:hover {
     background: orange;
     box-shadow: 0px 0px 5px 3px white;
 }
@@ -940,7 +937,7 @@ p {
     color: teal!important;
 }
 
-#header-media-about-info-link button:hover {
+#header-media-about-info-link a:hover {
     background: teal;
     box-shadow: 0px 0px 10px 5px white;
 }
@@ -1186,7 +1183,7 @@ p {
     margin-bottom: 5px !important;
     margin-top: 5px !important;
     font-size: xx-large;
-    font-weight: 2000 !important;
+    font-weight: 1000 !important;
 }
 
 #recruitment-collab-concepts-investment {
@@ -1324,10 +1321,6 @@ p {
     font-size: large;
 }
 
-#journey-header-content-one h4 {
-    padding-right: -10px;
-    padding-left: -10px;
-}
 #journey-header-content-two {
     background-color: teal !important;
     color:orange !important;
@@ -1381,7 +1374,7 @@ p {
     margin-right: auto;
 }
 
-#journey-header-content-four button{
+#journey-header-content-four a{
     background-color: teal;
     border: 2px solid white;
     padding: 5px;
@@ -1396,7 +1389,7 @@ p {
     font-weight: 900;
 }
 
-#journey-header-content-four button:hover {
+#journey-header-content-four a:hover {
     background-color: white !important;
     color: teal !important;
     box-shadow: 0 0 10px 3px white;
@@ -1847,7 +1840,6 @@ footer {
     }
 
     .timeline-boxes h3 {
-        padding-top: -10px;
         font-size: x-large;
     }
 
@@ -1871,7 +1863,6 @@ footer {
     }
 
     .timeline-boxes-two h3 {
-        padding-top: -10px;
         font-size: x-large;
     }
 
@@ -1909,7 +1900,8 @@ footer {
     }
 
     #private-sale {
-        background-size: contain no-repeat;
+        background-size: contain; 
+        background-repeat: no-repeat;
     }
 
     #private-sale-title h3 {
@@ -2191,7 +2183,7 @@ footer {
         font-size: small;
     }
 
-    #journey-header-content-four button{
+    #journey-header-content-four a {
         font-size: small;
     }
     /* JOURNEY - END */
@@ -2294,12 +2286,6 @@ footer {
         padding-top: 30px;
         padding-bottom: 30px;
         font-size: large;
-        padding-right: -20px;
-    }
-
-    #direct-contact p {
-        padding-right: -20px;
-        padding-bottom: 20px;
     }
 
     #copyright {
@@ -2443,13 +2429,13 @@ footer {
        font-size: 20px;
    }
 
-   #features-box-one {
+   .features-box-one {
     width: 70%;
     font-size: small;
     margin-top: 10px !important;
     }
 
-    #features-box-two {
+    .features-box-two {
         width: 70%;
         font-size: small;
     }
@@ -2478,7 +2464,6 @@ footer {
    }
 
    .timeline-boxes h3 {
-       padding-top: -10px;
        font-size: x-large;
    }
 
@@ -2502,7 +2487,6 @@ footer {
    }
 
    .timeline-boxes-two h3 {
-       padding-top: -10px;
        font-size: x-large;
    }
 
@@ -2540,7 +2524,8 @@ footer {
    }
 
    #private-sale {
-       background-size: contain no-repeat;
+    background-size: contain; 
+    background-repeat: no-repeat;
    }
 
    #private-sale-title h3 {
@@ -2836,8 +2821,8 @@ footer {
        font-size: small;
    }
 
-   #journey-header-content-four button{
-       font-size: small;
+   #journey-header-content-four a {
+       font-size: medium;
    }
    /* JOURNEY - END */
 
@@ -2945,12 +2930,6 @@ footer {
        padding-top: 30px;
        padding-bottom: 30px;
        font-size: large;
-       padding-right: -20px;
-   }
-
-   #direct-contact p {
-       padding-right: -20px;
-       padding-bottom: 20px;
    }
 
    #copyright {
