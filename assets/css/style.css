@@ -842,22 +842,25 @@ p {
     background-color: rgba(0, 128, 128, 0.325);
     color: black;
     border: 2px solid orange;
+    box-shadow: 0px 0px 5px 2px orange;
     margin-bottom: 25px;
-    padding: 10px;
+    padding-bottom: 20px;
 }
 
 #header-media-about-info-two {
     background-color: rgba(0, 128, 128, 0.325);
     color: black;
     border: 2px solid orange;
+    box-shadow: 0px 0px 5px 2px orange;
     margin-bottom: 25px;
-    padding: 10px;  
+    padding-bottom: 20px; 
 }
 
 #header-media-about-info-link {
     background-color: rgba(0, 128, 128, 0.325);
     border: 2px solid orange;
-    padding: 8px;
+    box-shadow: 0px 0px 5px 2px orange;
+    padding-bottom: 20px;
 }
 
 #header-media-about-info-link h4{
@@ -867,6 +870,8 @@ p {
 #header-media-about-info-link a {
     background-color: orange;
     color: teal !important;
+    border: 1px solid orange;
+    box-shadow: 0px 0px 5px 2px teal;
     margin-bottom: 10px;
     padding: 5px;
     font-weight: 900;
@@ -875,6 +880,8 @@ p {
 #header-media-about-info-one a {
     background-color: teal;
     color: orange !important;
+    border: 1px solid orange;
+    box-shadow: 0px 0px 5px 1px orange;
     margin-bottom: 8px;
     padding: 5px !important;
     font-weight: 900;
@@ -883,6 +890,8 @@ p {
 #header-media-about-info-two a {
     background-color: teal;
     color: orange !important;
+    border: 1px solid orange;
+    box-shadow: 0px 0px 5px 1px orange;
     margin-bottom: 8px;
     padding: 5px !important;
     font-weight: 900;
@@ -2177,7 +2186,7 @@ footer {
     }
 
     #journey-header-content-four a {
-        font-size: small;
+        font-size: medium;
     }
     /* JOURNEY - END */
 
@@ -2923,6 +2932,7 @@ footer {
        padding-top: 30px;
        padding-bottom: 30px;
        font-size: large;
+       margin-left: 0;
    }
 
    #copyright {
@@ -2951,6 +2961,30 @@ footer {
         padding: 8px !important;
         font-size: x-small;
         margin-left: 20px !important;
+    }
+
+    #header-media-about-info-link a {
+        font-size: xx-small !important;
+    }
+    
+    #header-media-about-info-one a {
+        font-size: xx-small !important;
+    }
+
+    #header-media-about-info-two a {
+        font-size: xx-small !important;
+    }
+
+    #header-media-about-info-link h4 {
+        font-size: small !important;
+    }
+    
+    #header-media-about-info-one h4 {
+        font-size: small !important;
+    }
+
+    #header-media-about-info-two h4 {
+        font-size: small !important;
     }
 
     #recruitment-team-title {
@@ -2988,6 +3022,11 @@ footer {
     #nav-menu a {
        font-size: 1.0em;
     }
+
+    #direct-contact h6 {
+        font-size: medium;
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 324px) {
@@ -3022,16 +3061,8 @@ footer {
         font-size: xx-small;
     }
 
-    #header-media-about-info-link a {
-        font-size: xx-small !important;
-    }
-    
-    #header-media-about-info-one a {
-        font-size: xx-small !important;
-    }
-
-    #header-media-about-info-two a {
-        font-size: xx-small !important;
+    #privsale-header-title button {
+        font-size: small;
     }
 
     #journey-header-content-three {
@@ -3051,11 +3082,11 @@ footer {
     }
 
     #direct-contact p {
-        font-size: medium;
+        font-size: 13px !important;
     }
     
     #direct-contact i {
-        font-size: 90%;
+        font-size: 80%;
     }
     
     #copyright {
@@ -3066,7 +3097,8 @@ footer {
 @media screen and (max-width: 279px) {
     /* NAVIGATION */ 
     #nav-title {
-        font-size: 30px;
+        font-size: large;
+        margin-right: 20px;
     }
 
     #home-introduction p {
@@ -3085,6 +3117,6 @@ footer {
     }
     
     #direct-contact p {
-        font-size: medium;
+        font-size: large;
     }
 }  
