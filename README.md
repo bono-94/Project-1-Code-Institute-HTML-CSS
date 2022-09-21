@@ -4,7 +4,7 @@ Life Coin site is a digital representation of an interaction platform powering a
 
  In our live public area, all humans are encouraged to contribute and grow together towards a better tomorrow. Users will be able to join our public workspace where they can increase and store their wealth through various missions offers and financial tools. All efforts are additionally rewarded with infinite options to purchase from real-world service providers with extremely large discounts. Our focus will always remain on only supporting sustainable products and services. While covering one of the key aspects of life, users are also paying unnoticeable taxation that transparently funds the charity and business missions.
 
-![Multi-devices Views](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Multi-devices Views](./assets/media/images/Readme/multi_devices_view.jpg)
 
 ------
 
@@ -151,8 +151,8 @@ In the first demonstrative version, minimum features have been disclosed in orde
   - __Users count__ 
   - __Whitepaper__ 
   - __Legal protection__ 
-  - __Community Voting__ 
-  - __Team Page__ 
+  - __Community voting__ 
+  - __Team page and profiles__ 
   - __Business partners page__ 
   - __Refferals__ 
   
@@ -160,26 +160,26 @@ In the first demonstrative version, minimum features have been disclosed in orde
 
 ## Testing 
 
-- I have conducted enough hours of testing across all screen sizes and different browsers to conclude that now site works well and all discussed features included. 
+- I have conducted enough hours of testing across all screen sizes and different browsers to conclude that now site works well and all discussed features included. Internet Explorer, Google Chrome, Safari, Firefox on large PC monitor, average laptop, tablet and various mobile devices.
 
 - Only bug that has not been addressed is sun background image on the features site used as a subtitle. Due to only beginning to code, developer needs to cover next topics in order to create proper animation of sun and clouds.
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator)
 
 - Accessibility
-  - This test confirms that colors and fonts chosen are easy to read and accessible. All scores are satisfactory besides perfomance since site uses complex visuals and large media which will be solved with the next update
+  - This test confirms that the colors and fonts chosen are easy to read and accessible. All scores are satisfactory besides performance since the site uses complex visuals and large media which will be solved with the next update. All common practices and SEO levels have passed with a full percentage
 
   ![Lighthouse Results](./assets/media/images/Readme/results_lighthouse.jpg)
 
 ### Bugs
 
-Since all code is running smoothly and has been verified from the first attempt, there was no bugs to solve.
+Since all code is running smoothly and has been verified from the first attempt, there were no bugs left to solve.
 
 ---
 
@@ -190,59 +190,50 @@ Since all code is running smoothly and has been verified from the first attempt,
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://bono-94.github.io/Project-1-Code-Institute-HTML-CSS/ 
 
 ---
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
+  
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+  - All content and code are 100% unique and custom-made per request for a client in order to prevent any legal issues in the future
 
-Code Institute lesson materials HTML + CSS
+  - All content, concept, and visuals have been exclusively written for this site
+
+  - Code structure is also 100% original and completely created by a developer. A developer has followed HTML and CSS course at Code Institute where theory on building blocks has been taught. After reading through knowledge materials to see what are possibilities of creating this site, general blocks have been put together to create original work. Given completed examples have not been plagiarized but served as a general guide from a client for a developer. Finally, the README structure has been used from Code Institute in this project in order to be created under the industry standards and expectations. A general repository created for students before commencing their project for convenience has been imported before the first coding lines. Project requirements have been used as secondary rough guidelines for the content structure
+
+  - All debugging and problem-solving has been done strictly by trying different combinations with known and unknown elements and attributes. No external sources and no professional help 
+ 
+  - Instructions on how to use various unexplored elements and attributes were consulted with [W3 Schools](https://www.w3schools.com/)
+
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+  - Every photo and both videos featuring coins or logos are all original works created specially for this site
 
-Pexels
+  - The background photos on all pages that represent nature have been all downloaded from only 2 external sources:
+  
+    - [Pexels](https://www.pexels.com/)
+
+    - [Unsplash](https://unsplash.com/)
+
+  - All 3 external fonts have been imported from:
+  
+    - [Google Fonts](https://fonts.google.com/)\
+  
+  - All 3 external icons have been imported from:
+  
+    - [Font Awesome](https://fontawesome.com/)
 
 ### Tools
 
-- Grammarly.com
+- Grammarly software has been used to verify grammar on the site and this README file
 
-
-
-REFERENCES
-Code Learning Sources:
-Code institute (HTML Course, CSS Course, IDE Course, User Experience Course, “Coder’s Coffeehouse Constructed Project”, “Love Running Walkthrough Project”)
-
-External knowledge resources:
-W3school – additional elements, attributes and values
-Nicepage software for modelling the initial complex design
-
-Content:
-BSC Scan for how to send bnb, how to buy and convert, how to install binance
-
-Media References:
-- all those databases of content and/or google images
-
-You need to add: ownership disclosure of brand, personal knowledge, etc… readers can only see it for educative purposes
-
-
-
-
-
-
-
+- Nicepage software has been used for initial concept modelling of different potential designs
 
 ---
 Thank you for READING ME!
